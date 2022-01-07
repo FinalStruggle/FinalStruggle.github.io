@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html id="html">
+<head>
+	<meta charset="utf-8">
+	<title>Final Struggle</title>
+
+<!--
+Code by Francisco Silva, 2021/2022
+Feel free to alter this code to your liking, but please do not host it, do not share it, do not profit from it and do not present it as your own.
+-->
+
+	<link rel="stylesheet" href="css.css">
+	<link rel="icon" href="img/smologo.png">
+</head>
+
+<body onload="titleTransition()">
+	<div id="sky" onclick="expandInv(false);" class="tech-slideshow">
+		<div class="mover-1" id="skying"></div>
+	</div>
+	<div id="overlay"></div>
+	<div id="backgroundcontent" onclick="expandInv(false);"></div>
+		<div id="triggers">
+			<div id="n0Trigger" onmouseover="directionPreview(1);" onmouseout="stopPreview(1)">
+			</div>
+		
+			<div id="n1Trigger" onmouseover="directionPreview(2);" onmouseout="stopPreview(2)">
+			</div>
+		
+			<div id="n2Trigger" onmouseover="directionPreview(3);" onmouseout="stopPreview(3)">
+			</div>
+		
+			<div id="n3Trigger" onmouseover="directionPreview(4);" onmouseout="stopPreview(4)">
+			</div>
+		</div>
+		
+	
+		<div id="hud">
+			<p id="hp">HP: 100</p>
+			<p id="hunger">Hunger: 80 | Thirst: 80</p>
+			<p id="time">Time: 06:00</p>
+			<p id="days">Day 1</p>
+		</div>
+	
+		<div id="titlescreen">
+			<img src="img/logo.png" id="title" draggable="false">
+			<p id="version">Indev 1.40</p>
+			<p id="note">Please note that this is a development build and everything is <br>subject to changes</p>
+			<p id="startbutton" onclick="startGame()">Start Game!</p>
+			<p id="credits">Francisco Silva - Ricardo Fernandes - Francisco Lamelas</p>
+		</div>
+	
+		<div id="previewdiv">
+			<p id="previewtxt"></p>
+		</div>
+	
+		<div id="textbox" onclick="expandInv(false);">
+			<p id="dialogue"></p>
+		</div>
+	
+		<div id="items">
+			<img src="" id="item0" draggable="false" onclick="addInventory(0)">
+			<img src="" id="item1" draggable="false" onclick="addInventory(1)">
+			<img src="" id="item2" draggable="false" onclick="addInventory(2)">
+			<img src="" id="item3" draggable="false" onclick="addInventory(3)">
+			<img src="" id="item4" draggable="false" onclick="addInventory(4)">
+		</div>
+	
+		<div id="newday">
+			<p id="newdaytxt">Day 1</p>
+			<p id="reload" onClick="window.location.reload();">Retry!</p>
+		</div>
+
+		<div id="bedprompt">
+			<p id="bedtitle">Sleep and end the Day?</p>
+			<p id="bedyes" onclick="sleep('yes');">Yes</p>
+			<p id="bedno" onclick="sleep('no');">No</p>
+		</div>
+
+	<div id="inventory">
+		<img src="img/items/item0.png" id="inv0" draggable="false" onclick="askItem(0)">
+		<img src="img/items/item0.png" id="inv1" draggable="false" onclick="askItem(1)">
+		<img src="img/items/item0.png" id="inv2" draggable="false" onclick="askItem(2)">
+		<img src="" id="backpackico" draggable="false" onclick="expandInv(true)">
+		<div id="extrainventory">
+			<img src="img/items/item0.png" id="inv3" draggable="false" onclick="askItem(3)">
+			<img src="img/items/item0.png" id="inv4" draggable="false" onclick="askItem(4)">
+			<img src="img/items/item0.png" id="inv5" draggable="false" onclick="askItem(5)">
+			<img src="img/items/item0.png" id="inv6" draggable="false" onclick="askItem(6)">
+			<img src="img/items/item0.png" id="inv7" draggable="false" onclick="askItem(7)">
+			<img src="img/items/item0.png" id="inv8" draggable="false" onclick="askItem(8)">
+			<img src="img/items/item0.png" id="inv9" draggable="false" onclick="askItem(9)">
+			<img src="img/items/item0.png" id="inv10" draggable="false" onclick="askItem(10)">
+			<img src="img/items/item0.png" id="inv11" draggable="false" onclick="askItem(11)">
+			<img src="img/items/item0.png" id="inv12" draggable="false" onclick="askItem(12)">
+			<img src="img/items/item0.png" id="inv13" draggable="false" onclick="askItem(13)">
+			<img src="img/items/item0.png" id="inv14" draggable="false" onclick="askItem(14)">	
+			<p id="carryweight">0 / 20 KG</p>
+		</div>
+		<div id="storage">
+			<img src="img/items/item0.png" id="inv15" draggable="false" onclick="askItem(15)">
+			<img src="img/items/item0.png" id="inv16" draggable="false" onclick="askItem(16)">
+			<img src="img/items/item0.png" id="inv17" draggable="false" onclick="askItem(17)">
+			<img src="img/items/item0.png" id="inv18" draggable="false" onclick="askItem(18)">
+			<img src="img/items/item0.png" id="inv19" draggable="false" onclick="askItem(19)">
+			<img src="img/items/item0.png" id="inv20" draggable="false" onclick="askItem(20)">
+			<img src="img/items/item0.png" id="inv21" draggable="false" onclick="askItem(21)">
+			<img src="img/items/item0.png" id="inv22" draggable="false" onclick="askItem(22)">
+			<img src="img/items/item0.png" id="inv23" draggable="false" onclick="askItem(23)">
+			<img src="img/items/item0.png" id="inv24" draggable="false" onclick="askItem(24)">
+			<img src="img/items/item0.png" id="inv25" draggable="false" onclick="askItem(25)">
+			<img src="img/items/item0.png" id="inv26" draggable="false" onclick="askItem(26)">
+		</div>
+	</div>
+
+	<div>
+		<img src="" id="npc" draggable="false" onclick="talkNPC(0,0);" class="textanime">
+	</div>
+
+	<div id="npcbox" onclick="talkNPC(0,0);" class="textanime">
+		<p id="npcname"></p>
+		<p id="npcpara"></p>
+	</div>
+
+	<div id="cutscene" class="textanime" onclick="introCutscene();">
+		<p id="cuttext"></p>
+	</div>
+
+	<p id="skipscene" onclick="introCutscene(true);">Skip>></p>
+
+	<div>
+		<img src="" id="badguy" draggable="false" onclick="attack();" class="textanime">
+	</div>
+
+	<div>
+		<img src="img/stabbing.gif" id="fps" draggable="false">
+	</div>
+
+	<div id="dodgeme">
+		<span id="circle" class="dodgecircle" onclick="expandClick();"></span>
+	</div>
+
+	<div id="objects">
+		<div id="objselt">
+			<img src="" id="obj0" draggable="false" onclick="objInteract(0)">
+			<img src="" id="obj1" draggable="false" onclick="objInteract(1)">
+			<img src="" id="obj2" draggable="false" onclick="objInteract(2)">
+			<img src="" id="obj3" draggable="false" onclick="objInteract(3)">
+			<img src="" id="obj4" draggable="false" onclick="objInteract(4)">
+		</div>
+	</div>
+
+</body>
+</html>
+
+<script src="js/js.js"></script> 
+<script src="js/data.js"></script><!--No Secrets Here either! ;)-->
