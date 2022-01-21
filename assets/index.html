@@ -148,9 +148,38 @@ Feel free to alter this code to your liking, but please do not host it, do not s
 			<img src="" id="obj4" draggable="false" onclick="objInteract(4)">
 		</div>
 	</div>
+	
+
+	<div id="debug">
+		<p id="roomiddebug">roomId = </p>
+		<p id="npcchapterdebug">npcChapter[npcid] = </p>
+		<p id="scriptdebug">script = </p>
+		<p id="badguyiddebug">badGuyId = </p>
+		<p id="badguyhpdebug">badGuyHp = </p>
+		<p id="healthdebug">health = </p>
+		<p id="hungerdebug">hunger = </p>
+		<p id="thirstdebug">thirst = </p>
+		<p id="timeleftdebug">timeLeft = </p>
+		<p id="weightdebug">0.0 / 20 KG</p>
+		<p id="fueldebug">genFuel[1][0] = </p>
+		<input type="number" id="inputroomid"></input>
+		<input type="submit" value="roomId" onclick="debugChangeLocal();"></input>
+		<br>
+		<input type="number" id="inputinventory"></input>
+		<input type="submit" value="addInventory" onclick="debugAddInventory();"></input>
+		<br>
+		<input type="number" id="inputhealth"></input>
+		<input type="submit" value="health" onclick="debugHealth();"></input>
+		<br>
+		<input type="number" id="inputtimeleft"></input>
+		<input type="submit" value="timeLeft" onclick="debugTimeLeft();"></input>
+		<br>
+		<input type="submit" value="Hide" onclick="debugDisplay();"></input>
+	</div>
 
 </body>
 </html>
 
 <script src="js/js.js"></script> 
-<script src="js/data.js"></script><!--No Secrets Here either! ;)-->
+<script src="js/data.js"></script>
+</script><!--No Secrets Here either! ;)-->

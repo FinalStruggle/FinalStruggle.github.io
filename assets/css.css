@@ -43,7 +43,6 @@ html,#backgroundcontent,#sky,#overlay {
 
 #skying{
 	transition: opacity 0.6s ease-in-out, 0.5s filter linear;
-	display: none;
 }
 
 .tech-slideshow {
