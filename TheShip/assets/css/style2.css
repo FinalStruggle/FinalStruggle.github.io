@@ -1,0 +1,611 @@
+#goto2door,#gotoleft,#gotoright,#Jumpscare,#face,#stars,#textDEMO,#textDEMO2,#textDEMO3,#door2,#door3,#block2,#block3,#gotozoom,#gotoroom3,#door4,
+#keypad2,#keypad2_q,#keypad2_p,#keypad2_g,#keypad2_n,#keypad2_o,#keypad2_t,#keypad2_r,#keypad2_c,#keypad2_u,#keypad2_m,#keypad2_10,#keypad2_11,
+#block4,#gotoroom4,#sun,#mercury,#venus,#earth,#mars,#jupiter,#saturn,#uranus,#neptune,#scrollright,#scrollleft,#frame,#letterg,#lettero,#letterp,
+#letterq,#lettern,#lettert,#letterc,#letterp2,#letteru,#overlay,#consolee,#doorleft,#console_big,#buttonreact,#switchoff,#switchoff2,#switchoff3,
+#switchoff4,#gotodie,#gotovent,#crowbar,#gotoleft2,#gotoright2,#vent,#door5,#door6,#gotoventing,#block5,#gotofurthervent,#gotofriend,#gotoflashbad,
+#friend,#textfriend,#textfriend2,#textfriend3,#gotoeletrical,#lever,#block6,#gotocock,#door7,#gobackreactor,#keyhole,#electricvent,#gotoventdie,
+#gotofurthervent2,#gotojumpscare,#face2{
+	display: none;
+}
+
+#face2{
+	top: 55%;
+	left: 25%;
+	width: 20%;
+}
+
+#gotoventdie{
+	z-index: 4;
+	transform: rotate(-90deg);
+	top: 18%;
+	left: 21%;
+}
+
+#electricvent{
+	top: 21%;
+	left: 24%;
+	width: 9%;
+}
+
+#keyhole{
+	top: 60.5%;
+	left: 65%;
+	width: 2%;
+}
+
+#gobackreactor{
+	z-index: 4;
+	transform: rotate(90deg);
+	top: 87%;
+	left: 45%;
+}
+
+#gotocock{
+	z-index: 4;
+	transform: rotate(-90deg);
+	top: 55%;
+	left: 7%;
+}
+
+#door7{
+	z-index: 2;
+	cursor: none;
+	top: 50%;
+  left: 10.5%;
+  width: 16%;
+}
+
+#lever{
+	top: 36%;
+	left: 78%;
+	width: 10%;
+}
+
+#block6{
+	z-index: 4;
+	cursor: none;
+	top: 20%;
+  left: 10%;
+  width: 19%;
+}
+
+#gotoeletrical{
+	z-index: 4;
+	transform: rotate(-90deg);
+	top: 65%;
+	left: 45%;
+}
+
+#textfriend,#textfriend2,#textfriend3{
+	z-index: 101;
+	top: 76%;
+	left: 11%;
+}
+
+.callmemaybe2{
+	cursor: pointer;
+  position: absolute;
+  z-index: 5;
+  color: white;
+  font-size: 6.3vh;
+  font-family: 'Permanent Marker', cursive;
+  margin:0px;
+  white-space:nowrap;
+  overflow:hidden;
+  animation:typing 6s steps(220,end) forwards;
+}
+
+.noanime2{
+	cursor: pointer;
+  position: absolute;
+  z-index: 5;
+  color: white;
+  font-size: 6.3vh;
+  font-family: 'Permanent Marker', cursive;
+  margin:0px;
+  white-space:nowrap;
+  overflow:hidden;
+}
+
+#friend{
+	cursor: none;
+	z-index: 3;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+}
+
+.friendanim{
+	animation: fadeOut ease 3s;
+}
+
+#gotoflashbad{
+	z-index: 4;
+	transform: rotate(-90deg);
+	top: 65%;
+	left: 45%;
+}
+
+#block5{
+	z-index: 4;
+	cursor: none;
+	top: 29%;
+  left: 12%;
+  width: 17%;
+}
+
+#gotofriend,#gotojumpscare{
+	z-index: 4;
+	transform: rotate(-90deg);
+	top: 51%;
+	left: 49%;
+}
+
+#gotofurthervent,#gotofurthervent2{
+	z-index: 4;
+	transform: rotate(90deg);
+	top: 42%;
+	left: 45%;
+}
+
+#gotoventing{
+	z-index: 4;
+	transform: rotate(-90deg);
+	top: 62%;
+	left: 47%;
+}
+
+#vent{
+	top: 62%;
+	left: 50%;
+	width: 9%;
+}
+
+#crowbar{
+	z-index: 98;
+	top: 71%;
+  	left: 31%;
+  	width: 4%;
+}
+
+#gotodie{
+	z-index: 10;
+	transform: scaleX(-1);
+	  top: 68%;
+  left: 13%;
+}
+
+#gotovent{
+	transform: rotate(-90deg);
+	  top: 62%;
+  left: 62%;
+}
+
+#console_big{
+	z-index: 99;
+	top: 50%;
+	left: 50%;
+	width: 70%;
+}
+
+#buttonreact{
+	z-index: 100;
+	top: 43%;
+	left: 32%;
+	width: 7%;
+}
+
+#switchoff{
+	z-index: 100;
+	top: 43%;
+	left: 42%;
+	width: 3%;
+}
+
+#switchoff2{
+	z-index: 100;
+	top: 43%;
+	left: 46%;
+	width: 3%;
+}
+
+#switchoff3{
+	z-index: 100;
+	top: 43%;
+	left: 50%;
+	width: 3%;
+}
+
+#switchoff4{
+	z-index: 100;
+	top: 43%;
+	left: 54%;
+	width: 3%;
+}
+
+#consolee{
+	top: 81%;
+	left: 50%;
+	width: 15%;
+}
+
+#doorleft{
+	cursor: none;
+	top: 67%;
+	left: 13%;
+	width: 11%;
+}
+
+#overlay{
+	cursor: none;
+	z-index: 200;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	animation: blinkme 1s;
+    animation-iteration-count: infinite;
+}
+
+#letteru{
+	filter: invert(1);
+	top: 12%;
+	left: 27%;
+	width: 8%;
+}
+
+#letterg{
+	filter: invert(1);
+	top: 12%;
+	left: 32%;
+	width: 8%;
+}
+
+#letterp{
+	filter: invert(1);
+	top: 12%;
+	left: 37%;
+	width: 8%;
+}
+
+#letterq{
+	filter: invert(1);
+	top: 12%;
+	left: 42%;
+	width: 8%;
+}
+
+#lettero{
+	filter: invert(1);
+	top: 12%;
+	left: 47%;
+	width: 8%;
+}
+
+#letterp2{
+	filter: invert(1);
+	top: 12%;
+	left: 52%;
+	width: 8%;
+}
+
+#letterc{
+	filter: invert(1);
+	top: 12%;
+	left: 57%;
+	width: 8%;
+}
+
+#lettert{
+	filter: invert(1);
+	top: 12%;
+	left: 62%;
+	width: 8%;
+}
+
+#lettern{
+	filter: invert(1);
+	top: 12%;
+	left: 67%;
+	width: 8%;
+}
+
+
+#scrollright{
+	z-index: 50;
+	filter: invert(1);
+	  top: 83%;
+  left: 63%;
+}
+#scrollleft{
+	z-index: 50;
+	filter: invert(1);
+	transform: scaleX(-1);
+	  top: 78%;
+  left: 29%;
+}
+
+#frame{
+	z-index: 50;
+	top: 31%;
+	left: 48%;
+	width: 68%;
+}
+
+#jupiter{
+	top: 81%;
+	left: 57%;
+	width: 8%;
+}
+
+#sun{
+	top: 88%;
+	left: 40%;
+	width: 10%;
+}
+
+#mercury{
+	top: 94%;
+	left: 50%;
+	width: 1%;
+}
+
+#venus{
+	top: 78%;
+	left: 33%;
+	width: 3%;
+}
+
+#earth{
+	top: 80%;
+	left: 47%;
+	width: 4%;
+}
+
+#mars{
+	top: 90%;
+	left: 46%;
+	width: 2%;
+}
+
+#neptune{
+	top: 79%;
+	left: 40%;
+	width: 5%;
+}
+
+#uranus{
+	top: 81%;
+	left: 56%;
+	width: 6%;
+}
+
+#saturn{
+	top: 90%;
+	left: 52%;
+	width: 7%;
+}
+
+#keypad2{
+	z-index: 98;
+	top: 56%;
+  left: 30%;
+  width: 2%;
+}
+
+#goto2door{
+	transform: rotate(-90deg);
+	  top: 65%;
+  left: 50%;
+}
+
+#gotoleft{
+	z-index: 3;
+	transform: rotate(-90deg);
+	  top: 60%;
+  left: 26%;
+}
+
+#gotoright{
+	z-index: 3;
+	transform: rotate(-90deg);
+	  top: 60%;
+  left: 70%;
+}
+
+#gotoleft2{
+	z-index: 3;
+	transform: rotate(-90deg);
+	  top: 60%;
+  left: 26%;
+}
+
+#gotoright2{
+	z-index: 3;
+	transform: rotate(-90deg);
+	  top: 60%;
+  left: 70%;
+}
+
+#gotozoom{
+	z-index: 3;
+	transform: rotate(-90deg);
+	  top: 65%;
+  left: 60%;
+}
+
+#gotoroom3{
+	z-index: 3;
+	transform: scaleX(-1);
+	  top: 85%;
+  left: 10%;
+}
+
+#Jumpscare{
+	cursor: none;
+	top: 50%;
+	left: 50%;
+	width: 80%;
+}
+
+#textDEMO{
+	z-index: 101;
+	top: 30%;
+	left: 20%;
+}
+
+#textDEMO2{
+	z-index: 101;
+	top: 50%;
+	left: 30%;
+}
+
+#textDEMO3{
+	z-index: 101;
+	top: 80%;
+	left: 20%;
+}
+
+
+#face{
+	cursor: none;
+	top: 50%;
+	left: 50%;
+	animation: zoomin 40s;
+}
+
+#door2,#door5{
+	z-index: 2;
+	cursor: none;
+	top: 53%;
+  left: 29.5%;
+  width: 16%;
+}
+
+#door3,#door6{
+	z-index: 2;
+	cursor: none;
+	top: 54%;
+  left: 73.5%;
+  width: 16%;
+}
+
+#door4{
+	z-index: 2;
+	cursor: none;
+	top: 56.5%;
+  left: 40%;
+  width: 16%;
+}
+
+#block2{
+	z-index: 4;
+	cursor: none;
+	top: 22%;
+  left: 28.5%;
+  width: 23%;
+}
+
+#block3{
+	z-index: 4;
+	cursor: none;
+	top: 22%;
+  left: 72.5%;
+  width: 23%;
+}
+
+#block4{
+	z-index: 4;
+	cursor: none;
+	top: 24.4%;
+  left: 38.7%;
+  width: 23%;
+}
+
+#gotoroom4{
+	z-index: 3;
+	transform: rotate(-90deg);
+	  top: 64%;
+  left: 36%;
+}
+
+@keyframes blinkme {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomin {
+    0% {
+        width: 1%;
+    }
+    100% {
+        width: 40%;
+    }
+}
+
+#stars{
+  z-index: 0;
+  position: absolute;
+  width: 150%;
+  left: -50%;
+  top: -100%;
+  animation: spin 100s infinite linear;
+}
+
+
+@keyframes spin { 0% { transform: rotate(0deg);}
+100% { transform: rotate(360deg);} }
+
+.opendoor2{
+	position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+	animation: opening2 12s  normal ease-out;
+}
+
+.opendoor3{
+	position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+	animation: opening3 12s  normal ease-out;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@keyframes opening2 {
+   0% {
+        top:53%;
+    }
+    100% {
+        top: 0%;
+    }
+}
+@keyframes opening3 {
+   0% {
+        top:54%;
+    }
+    100% {
+        top: 0%;
+    }
+}

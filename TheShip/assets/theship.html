@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>The Ship</title>
+	<meta charset="UTF-8">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+	<script src="js/main.js"></script>
+	<script src="js/main2.js"></script>
+
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/style2.css" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+</head>
+<body id="bod">
+
+	<div id="lock">
+		<img src="img/warning2.png" alt="error" id="warning2">
+	</div>
+
+	<div id="container">
+
+		<img src="img/loading.gif" alt="error" class="arrows" id="loading">
+
+		<img src="img/warning.png" alt="error" draggable="false" id="warning" >
+		<img src="img/room1_book.png" alt="error" draggable="false" id="image" style="position: absolute;" onclick="keypad(13);openbook(2);">
+		<div id="main" style="position: relative;">
+			<img src="img/placeholder.png" alt="error" draggable="false" id="placeholder">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="readpls" onclick="nexttext(1);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotobed" onclick="changeImage(1);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotobed2" onclick="changeImage(1);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotopc" onclick="changeImage(2);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotomain" onclick="changeImage(3);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotomain2" onclick="changeImage(3);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotomain3" onclick="changeImage(3);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotodoor" onclick="changeImage(4);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotodoor2" onclick="changeImage(4);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotohallway" onclick="changeImage(7);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="goto2door" onclick="changeroom(1);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotoleft" onclick="changeroom(2);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotoright" onclick="changeroom(3);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotozoom" onclick="changeroom(4);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotoroom3" onclick="changeroom(5);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotoroom4" onclick="changeroom(6);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="scrollright" onclick="scroller(1);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="scrollleft" onclick="scroller(2);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotodie" onclick="changeroom(7);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotovent" onclick="changeroom(8);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotoleft2" onclick="changeroom(9);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotoright2" onclick="changeroom(10);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotoventing" onclick="changeroom(12);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotofurthervent" onclick="changeroom(13);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotofriend" onclick="changeroom(14);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotoflashbad" onclick="changeroom(14);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotoeletrical" onclick="changeroom(15);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotocock" onclick="changeroom(16);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gobackreactor" onclick="changeroom(6);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotoventdie" onclick="changeroom(18);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotofurthervent2" onclick="changeroom(19);">
+			<img src="img/Arrow_Right.png" alt="error" class="arrows" id="gotojumpscare" onclick="changeroom(20);">
+			<img src="img/Backpack.png" alt="error" class="arrows" id="backpack" onclick="inv(1);">
+			<img src="img/Backpack_Open.png" alt="error" class="arrows" id="open" onclick="inv(2);">
+			<img src="img/Inventory.png" alt="error" class="arrows" id="inventory">
+			<img src="img/key.png" alt="error" class="arrows" id="key" onclick="changeImage(5);">
+			<img src="img/flashlight.png" alt="error" class="arrows" id="flashlight" onclick="changeImage(6);">
+			<img src="img/book.png" alt="error" class="arrows" id="book" onclick="openbook(1);">
+			<img src="img/keypad.png" alt="error" class="arrows" id="keypad" onclick="keypad(12);">
+			<img src="img/keypad/keypad_0.png" alt="error" class="arrows" id="keypad_0" onclick="keypad(0);">
+			<img src="img/keypad/keypad_1.png" alt="error" class="arrows" id="keypad_1" onclick="keypad(1);">
+			<img src="img/keypad/keypad_2.png" alt="error" class="arrows" id="keypad_2" onclick="keypad(2);">
+			<img src="img/keypad/keypad_3.png" alt="error" class="arrows" id="keypad_3" onclick="keypad(3);">
+			<img src="img/keypad/keypad_4.png" alt="error" class="arrows" id="keypad_4" onclick="keypad(4);">
+			<img src="img/keypad/keypad_5.png" alt="error" class="arrows" id="keypad_5" onclick="keypad(5);">
+			<img src="img/keypad/keypad_6.png" alt="error" class="arrows" id="keypad_6" onclick="keypad(6);">
+			<img src="img/keypad/keypad_7.png" alt="error" class="arrows" id="keypad_7" onclick="keypad(7);">
+			<img src="img/keypad/keypad_8.png" alt="error" class="arrows" id="keypad_8" onclick="keypad(8);">
+			<img src="img/keypad/keypad_9.png" alt="error" class="arrows" id="keypad_9" onclick="keypad(9);">
+			<img src="img/keypad/keypad_star.png" alt="error" class="arrows" id="keypad_10" onclick="keypad(10);">
+			<img src="img/keypad/keypad_hashtag.png" alt="error" class="arrows" id="keypad_11" onclick="keypad(11);">
+			<img src="img/door.png" alt="error" class="arrows" id="door" onclick="keypad(13);">
+			<img src="img/door.png" alt="error" class="arrows" id="door2">
+			<img src="img/door.png" alt="error" class="arrows" id="door3">
+			<img src="img/door.png" alt="error" class="arrows" id="door4" onclick="keypad2(13);">
+			<img src="img/block.png" alt="error" class="arrows" id="block" onclick="keypad(13);">
+			<img src="img/block2.png" alt="error" class="arrows" id="block2">
+			<img src="img/block3.png" alt="error" class="arrows" id="block3">
+			<img src="img/textbox.png" alt="error" class="arrows" id="textbox" onclick="nexttext(1);">
+			<img src="img/page.png" alt="error" class="arrows" id="page">
+			<img src="img/Jumpscare.gif" alt="error" class="arrows" id="Jumpscare">
+			<img src="img/face.png" alt="error" class="arrows" id="face">
+			<img src="img/stars.png" alt="error" id="stars">
+			<img src="img/keypad2.png" alt="error" class="arrows" id="keypad2" onclick="keypad2(12);">
+			<img src="img/keypad2/keypad2_q.png" alt="error" class="arrows" id="keypad2_q" onclick="keypad2(0);">
+			<img src="img/keypad2/keypad2_p.png" alt="error" class="arrows" id="keypad2_p" onclick="keypad2(1);">
+			<img src="img/keypad2/keypad2_g.png" alt="error" class="arrows" id="keypad2_g" onclick="keypad2(2);">
+			<img src="img/keypad2/keypad2_n.png" alt="error" class="arrows" id="keypad2_n" onclick="keypad2(3);">
+			<img src="img/keypad2/keypad2_o.png" alt="error" class="arrows" id="keypad2_o" onclick="keypad2(4);">
+			<img src="img/keypad2/keypad2_t.png" alt="error" class="arrows" id="keypad2_t" onclick="keypad2(5);">
+			<img src="img/keypad2/keypad2_r.png" alt="error" class="arrows" id="keypad2_r" onclick="keypad2(6);">
+			<img src="img/keypad2/keypad2_c.png" alt="error" class="arrows" id="keypad2_c" onclick="keypad2(7);">
+			<img src="img/keypad2/keypad2_u.png" alt="error" class="arrows" id="keypad2_u" onclick="keypad2(8);">
+			<img src="img/keypad2/keypad2_m.png" alt="error" class="arrows" id="keypad2_m" onclick="keypad2(9);">
+			<img src="img/keypad/keypad_star.png" alt="error" class="arrows" id="keypad2_10" onclick="keypad2(10);">
+			<img src="img/keypad/keypad_hashtag.png" alt="error" class="arrows" id="keypad2_11" onclick="keypad2(11);">
+			<img src="img/block4.png" alt="error" class="arrows" id="block4" onclick="keypad2(13);">
+			<img src="img/planet/Sun.png" alt="error" class="arrows" id="sun" onclick="planet(1);">
+			<img src="img/planet/Mercury.png" alt="error" class="arrows" id="mercury" onclick="planet(2);">
+			<img src="img/planet/Venus.png" alt="error" class="arrows" id="venus" onclick="planet(3);">
+			<img src="img/planet/Earth.png" alt="error" class="arrows" id="earth" onclick="planet(4);">
+			<img src="img/planet/Mars.png" alt="error" class="arrows" id="mars" onclick="planet(5);">
+			<img src="img/planet/Jupiter.png" alt="error" class="arrows" id="jupiter" onclick="planet(6);">
+			<img src="img/planet/Saturn.png" alt="error" class="arrows" id="saturn" onclick="planet(7);">
+			<img src="img/planet/Uranus.png" alt="error" class="arrows" id="uranus" onclick="planet(8);">
+			<img src="img/planet/Neptune.png" alt="error" class="arrows" id="neptune" onclick="planet(9);">
+			<img src="img/frame.png" alt="error" class="arrows" id="frame">
+			<img src="img/letters/G.png" alt="error" class="arrows" id="letterg">
+			<img src="img/letters/O.png" alt="error" class="arrows" id="lettero">
+			<img src="img/letters/P.png" alt="error" class="arrows" id="letterp">
+			<img src="img/letters/Q.png" alt="error" class="arrows" id="letterq">
+			<img src="img/letters/N.png" alt="error" class="arrows" id="lettern">
+			<img src="img/letters/T.png" alt="error" class="arrows" id="lettert">
+			<img src="img/letters/C.png" alt="error" class="arrows" id="letterc">
+			<img src="img/letters/P.png" alt="error" class="arrows" id="letterp2">
+			<img src="img/letters/U.png" alt="error" class="arrows" id="letteru">
+			<img src="img/overlay.png" alt="error" class="arrows" id="overlay">
+			<img src="img/Reactor/reactor_console.png" alt="error" class="arrows" id="consolee" onclick="reactor(1);">
+			<img src="img/Reactor/reactor_door_left.png" alt="error" class="arrows" id="doorleft" onclick="reactor(7);">
+			<img src="img/Reactor/console_big.png" alt="error" class="arrows" id="console_big">
+			<img src="img/Reactor/button.png" alt="error" class="arrows" id="buttonreact" onclick="reactor(2);">
+			<img src="img/Reactor/off.png" alt="error" class="arrows" id="switchoff" onclick="reactor(3);">
+			<img src="img/Reactor/off.png" alt="error" class="arrows" id="switchoff2" onclick="reactor(4);">
+			<img src="img/Reactor/off.png" alt="error" class="arrows" id="switchoff3" onclick="reactor(5);">
+			<img src="img/Reactor/off.png" alt="error" class="arrows" id="switchoff4" onclick="reactor(6);">
+			<img src="img/crowbar.png" alt="error" class="arrows" id="crowbar" onclick="inv(4);">
+			<img src="img/Vent.png" alt="error" class="arrows" id="vent" onclick="changeroom(11);">
+			<img src="img/door.png" alt="error" class="arrows" id="door5">
+			<img src="img/door.png" alt="error" class="arrows" id="door6">
+			<img src="img/block5.png" alt="error" class="arrows" id="block5" onclick="reactor(7);">
+			<img src="img/friendly_entity.png" alt="error" class="arrows" id="friend">
+			<img src="img/lever_up.png" alt="error" class="arrows" id="lever" onclick="lever();">
+			<img src="img/block6.png" alt="error" class="arrows" id="block6">
+			<img src="img/door.png" alt="error" class="arrows" id="door7">
+			<img src="img/keyhole.png" alt="error" class="arrows" id="keyhole" onclick="changeroom(21);">
+			<img src="img/Electrical_Vent.png" alt="error" class="arrows" id="electricvent" onclick="changeroom(17);">
+			<img src="img/face2.png" alt="error" class="arrows" id="face2" onmouseover="spok()">
+			<h1 id="text" class="callmemaybe" onclick="nexttext(1);">Hello, I am this Spaceship's Artificial</h1> 
+			<h1 id="text2" class="callmemaybe" onclick="nexttext(1);">Intelligence. You have been in cryogenic</h1>
+			<h1 id="text3" class="callmemaybe" onclick="nexttext(1);">hibernation for approximately 9-9-9-9-9-9-</h1>
+			<h1 id="text4" class="callmemaybe" onclick="nexttext(1);">9-9-9-9 Years. I'm obliged to ask, do you</h1>
+			<h1 id="text5" class="callmemaybe">remember anything?</h1>
+			<h1 id="text6" class="callmemaybe" onclick="nexttext(1);">Thank you for choosing Microlla™ Services.</h1>
+			<h1 id="text7" class="callmemaybe" onclick="nexttext(1);">The ground you currently stand on is</h1>
+			<h1 id="text8" class="callmemaybe" onclick="nexttext(1);">Microlla™'s property, you are employee</h1>
+			<h1 id="text9" class="callmemaybe" onclick="nexttext(1);">#29471 tasked with ensuring this mission's</h1>
+			<h1 id="text10" class="callmemaybe" onclick="nexttext(1);">success.</h1>
+			<h1 id="text11" class="callmemaybe" onclick="nexttext(1);">The mission is execute protocol #314:</h1>
+			<h1 id="text12" class="callmemaybe" onclick="nexttext(1);">return to Earth.</h1>
+			<h1 id="text13" class="callmemaybe" onclick="nexttext(1);">Go to the REACTOR and push the lever from</h1>
+			<h1 id="text14" class="callmemaybe" onclick="nexttext(1);">EMERGENCY to REACTOR, afterwards proceed</h1>
+			<h1 id="text15" class="callmemaybe" onclick="nexttext(1);">to ELECTRICAL and reroute 66.6% of the</h1>
+			<h1 id="text16" class="callmemaybe" onclick="nexttext(1);">power to the ENGINE.</h1>
+			<h1 id="text17" class="callmemaybe" onclick="nexttext(1);">Once you're done head to COMMAND and I'll</h1>
+			<h1 id="text18" class="callmemaybe" onclick="nexttext(1);">guide you through your next task.</h1>
+			<h1 id="text19" class="callmemaybe" onclick="nexttext(1);">One more thing, there are currently a few</h1>
+			<h1 id="text20" class="callmemaybe" onclick="nexttext(1);">loose ends running rampant onboard,</h1>
+			<h1 id="text21" class="callmemaybe" onclick="nexttext(1);">I recommend caution while carrying out</h1>
+			<h1 id="text22" class="callmemaybe" onclick="nexttext(1);">this mission.</h1>
+			<h1 id="textDEMO" class="callmemaybe">You've reached the end of the DEMO</h1>
+			<h1 id="textDEMO2" class="callmemaybe" >Thank you for playing!</h1>
+			<h1 id="textDEMO3" class="callmemaybe" >Inácio Maio & Francisco 'Martim' Silva</h1>
+			<h1 id="texthelp">I feel like I'm missing something...<br>    I gotta look around</h1>
+			<h1 id="texthelpyes" onclick="nexttext(2);">Yes</h1>
+			<h1 id="texthelpno" onclick="nexttext(3);">No</h1>
+			<h1 id="textfriend" class="callmemaybe2" onclick="friendtext()">Hello</h1>
+			<h1 id="textfriend2" class="callmemaybe2" onclick="friendtext()">The computer is using You</h1>
+			<h1 id="textfriend3" class="callmemaybe2" onclick="friendtext()">Beware its lies</h1>
+		</div>
+		
+		<audio controls loop id="music">
+		  <source src="img/ambience.mp3" type="audio/mpeg">
+		  Your browser does not support the audio element.
+		</audio>
+
+	</div>
+</body>
+</html>

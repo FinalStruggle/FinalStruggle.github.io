@@ -1,0 +1,503 @@
+::-webkit-scrollbar {
+	display: none;
+}
+
+#lock{ 
+	display:none; 
+	z-index: 4;
+}
+
+#warning2{
+	object-fit: cover;
+	width: 100%;
+}
+    @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  #lock{ display:none; }
+  #container{ display:block; }
+
+}
+ @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+   #lock{ display:block; }
+  #container{ display:none; }
+}
+
+body {
+  background-color: black;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+
+}
+img{
+	z-index: 1;
+	-webkit-user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+#image,#warning,#placeholder{
+  	width: 99%;
+}
+
+audio,#image,#placeholder,#backpack,#open,#inventory,#key,#flashlight,#keypad,#keypad_0,#keypad_1,#keypad_2,#keypad_3,#keypad_4,#keypad_5,#keypad_6,#keypad_7,#keypad_8,#keypad_9,#keypad_10,#keypad_11,
+#book,#textbox,#text,#text2,#text3,#door,#block,#texthelp,#page,#text4,#text5,#texthelpyes,#texthelpno,#text6,#text7,#text8,#text9,#text10,#text11,
+#text12,#text13,#text14,#text15,#text16,#text17,#text18,#text19,#text20,#text21,#text22,#readpls,#warning,#loading{
+	display: none;
+}
+
+.arrows{
+	position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 3%;
+}
+
+#start{
+  position: absolute;
+  cursor: pointer;
+  z-index: 100;
+  top: 50%;
+  left: 34%;
+  width: 30%;
+  transition: transform .2s; /* Animation */
+}
+
+#start:hover{
+  z-index: 100;
+  top: 50%;
+  left: 34%;
+  width: 30%;
+  transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#loading{
+  z-index: 200;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+#readpls{
+  z-index: 101;
+  top: 85%;
+  left: 88%;
+}
+
+
+#textbox{
+	z-index: 100;
+	top: 85%;
+	left: 50%;
+	width: 85%;
+}
+
+.callmemaybe{
+  cursor: pointer;
+	position: absolute;
+	z-index: 2;
+	color: white;
+  font-size: 6.3vh;
+  font-family: 'Gruppo', cursive;
+	margin:0px;
+  white-space:nowrap;
+  overflow:hidden;
+  animation:typing 6s steps(220,end) forwards;
+}
+
+.noanime{
+  cursor: pointer;
+	position: absolute;
+	z-index: 3;
+	color: white;
+  font-size: 6.3vh;
+  font-family: 'Gruppo', cursive;
+	margin:0px;
+  white-space:nowrap;
+  overflow:hidden;
+}
+
+#texthelp,#texthelpyes,#texthelpno{
+	position: absolute;
+	text-align: center;
+	color: white;
+	z-index: 100;
+	top: 75%;
+	left: 35%;
+	font-size: 6vh;
+	font-family: 'Jolly Lodger', cursive;
+}
+
+#texthelpyes{
+	cursor: pointer;
+	left: 40%;
+	top: 82%;
+}
+#texthelpno{
+	cursor: pointer;
+	left: 60%;
+	top: 82%;
+}
+
+.texthelpanim{
+	animation: fadeOut 6s  normal ease-out;
+  animation-iteration-count:infinite;
+}
+
+#text,#text3,#text5,#text6,#text7,#text9,#text11,#text13,#text15,#text17,#text19,#text21{
+	z-index: 101;
+	top: 76%;
+	left: 11%;
+}
+
+#text2,#text4,#text8,#text10,#text12,#text14,#text16,#text18,#text20,#text22{
+	z-index: 101;
+	top: 85%;
+	left: 11%;
+}
+
+#door{
+	cursor: none;
+	top: 55%;
+  left: 65.5%;
+  width: 16%;
+}
+
+#block{
+	z-index: 4;
+	cursor: none;
+	top: 22%;
+  left: 65%;
+  width: 23%;
+}
+
+.opendoor{
+	position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+	animation: opening 12s  normal ease-out;
+}
+
+#book{
+	top: 66.5%;
+  left: 56.4%;
+  width: 3.3%;
+}
+
+#page{
+	top: 50%;
+	left: 50%;
+	width: 35%;
+}
+
+#keypad{
+	z-index: 98;
+	top: 51.5%;
+  left: 55.5%;
+  width: 2%;
+}
+
+
+#keypad_0,#keypad2_q{
+	z-index: 102;
+	top: 65.8%;
+  left: 50.2%;
+  width: 4%; 
+}
+
+#keypad_1,#keypad2_p{
+	z-index: 102;
+	top: 35.2%;
+  left: 44.1%;
+  width: 4%; 
+}
+
+#keypad_2,#keypad2_g{
+	z-index: 102;
+	top: 35%;
+  left: 50.2%;
+  width: 4%; 
+}
+
+#keypad_3,#keypad2_n{
+	z-index: 102;
+	top: 35.2%;
+  left: 56.4%;
+  width: 4%; 
+}
+
+#keypad_4,#keypad2_o{
+	z-index: 102;
+	top: 45.4%;
+  left: 44.1%;
+  width: 4%; 
+}
+
+#keypad_5,#keypad2_t{
+	z-index: 102;
+	top: 45.3%;
+  left: 50.2%;
+  width: 4%;
+}
+#keypad_6,#keypad2_r{
+	z-index: 102;
+	top: 45.3%;
+  left: 56.4%;
+  width: 4%;
+}
+
+#keypad_7,#keypad2_c{
+	z-index: 102;
+top: 55.5%;
+  left: 44.1%;
+  width: 4%; 
+}
+#keypad_8,#keypad2_u{
+	z-index: 102;
+	top: 55.4%;
+  left: 50.2%;
+  width: 4%;
+}
+#keypad_9,#keypad2_m{
+	z-index: 102;
+	top: 55.4%;
+  left: 56.3%;
+  width: 4%;
+}
+#keypad_10,#keypad2_10{
+	z-index: 102;
+	top: 65.8%;
+  left: 44.1%;
+  width: 4%;
+}
+#keypad_11,#keypad2_11{
+	z-index: 102;
+	top: 65.8%;
+  left: 56.3%;
+  width: 4%;
+}
+
+#key{
+	z-index: 98;
+	top: 70%;
+  left: 50%;
+  width: 2%;
+}
+
+#flashlight{
+	z-index: 98;
+	top: 66%;
+  left: 44%;
+  width: 4%;
+}
+
+#backpack,#open{
+	z-index: 101;
+	top: 8%;
+  left: 95%;
+  width: 5%;
+}
+
+#inventory{
+	z-index: 100;
+	top: 11%;
+  left: 82%;
+  width: 20%;
+}
+
+#gotobed{
+	  top: 90%;
+  left: 90%;
+  display: none;
+}
+
+#gotopc,#gotohallway{
+	transform: rotate(-90deg);
+	  top: 65%;
+  left: 65%;
+  display: none;
+}
+
+#gotodoor{
+	transform: scaleX(-1);
+	  top: 85%;
+  left: 10%;
+  display: none;
+}
+
+#gotomain,#gotobed2{
+	transform: scaleX(-1);
+	  top: 85%;
+  left: 10%;
+  display: none;
+}
+
+#gotomain2{
+	transform: rotate(90deg);
+	  top: 90%;
+  left: 50%;
+  display: none;
+}
+
+#gotomain3,#gotodoor2{
+	  top: 90%;
+  left: 90%;
+  display: none;
+}
+
+@keyframes opening {
+   0% {
+        top:55%;
+    }
+    100% {
+        top: 0%;
+    }
+}
+
+
+@keyframes typing {
+  0% { width:0% }
+  100% { width:100% }
+}
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+.fade-in-fast {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+.fade-out {
+  animation: fadeOut ease 3s;
+  -webkit-animation: fadeOut ease 3s;
+  -moz-animation: fadeOut ease 3s;
+  -o-animation: fadeOut ease 3s;
+  -ms-animation: fadeOut ease 3s;
+}
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+:root
+		{
+			z-index: 99;
+			cursor: none;
+			--cursorX: 50vw;
+			--cursorY: 50vh;
+			--rad: 80vmax;
+		}
+
+		:root:before
+		{
+			z-index: 99;
+			content: '';
+			display: block;
+			width: 100%;
+			height: 100%;
+			position: fixed;
+			pointer-events: none;
+			background: radial-gradient(circle var(--rad) at var(--cursorX) var(--cursorY),
+			rgba(0,0,0,0.01) 0.1%,
+			rgba(0,0,0,0.3) 4%,
+			rgba(0,0,0,10) 100%
+
+				)
+		}

@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+img{
+  z-index: 1;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+html, body {margin: 0; height: 100%; overflow: hidden;}
+
+h1{
+  position: absolute;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  top: 85%;
+}
+
+#credit{
+  text-align: right;
+  left: 74%;
+font-size: 150%;
+}
+
+#start{
+  position: absolute;
+  width: 30%;
+  left: 35%;
+  top: 70%;
+}
+
+#title{
+  position: absolute;
+  width: 60%;
+  left: 22%;
+  top: 10%;
+}
+
+.zoom{
+  z-index: 1;
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#stars{
+  z-index: 0;
+  position: absolute;
+  width: 150%;
+  left: -50%;
+  top: -100%;
+  animation: spin 100s infinite linear;
+}
+
+@keyframes spin { 0% { transform: rotate(0deg);}
+100% { transform: rotate(360deg);} }
