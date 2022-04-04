@@ -14,7 +14,7 @@ Feel free to alter this code to your liking, but please do not host it, do not s
 </head>
 
 <body onload="titleTransition()">
-		<img src="img/load.gif" id="loadlogo">
+		<img src="img/load.gif" id="loadlogo" draggable="false">
 		<p id="loadtxt">0 / 0 Assets Loaded</p>
 
 	<div id="content">
@@ -39,6 +39,7 @@ Feel free to alter this code to your liking, but please do not host it, do not s
 			
 		
 			<div id="hud">
+
 				<p id="hp">HP: 100</p>
 				<p id="hunger">Hunger: 80 | Thirst: 80</p>
 				<p id="time">Time: 06:00</p>
@@ -132,7 +133,7 @@ Feel free to alter this code to your liking, but please do not host it, do not s
 		<p id="skipscene" onclick="introCutscene(true);">Skip>></p>
 	
 		<div>
-			<img src="" id="badguy" draggable="false" onclick="attack();" class="textanime">
+			<img src="" id="badguy" draggable="false" class="textanime">
 		</div>
 	
 		<div>
@@ -140,7 +141,11 @@ Feel free to alter this code to your liking, but please do not host it, do not s
 		</div>
 	
 		<div id="dodgeme">
-			<span id="circle" class="dodgecircle" onclick="expandClick();"></span>
+			<img src="img/ui/block.png" id="circle" draggable="false" class="dodgecircle" onclick="expandClick();expandInv(false);"></img>
+		</div>
+
+		<div id="attackme">
+			<img src="img/ui/attack.png" id="attackbtn" draggable="false" onclick="attack();"></img>
 		</div>
 	
 		<div id="objects">

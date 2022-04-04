@@ -14,7 +14,8 @@
 			position: absolute;
 			width: 99%;
 			padding: 0%;
-			border-color: black;
+			top: 0%;
+			left: 0%;
 		}
 		iframe{
 			transition: width 1s, height 1s;
@@ -34,8 +35,8 @@
 </body>
 <script type="text/javascript">
 	function checkSize() {
-		var currentHeight = window.innerHeight*0.99;
-		var currentWidth = window.innerWidth*0.98;
+		var currentHeight = window.innerHeight*1;
+		var currentWidth = window.innerWidth*1;
 		if (currentHeight<currentWidth && currentHeight*(16/9)<=window.innerWidth) {
 			document.getElementById("inlineFrame").height = currentHeight;
 			document.getElementById("inlineFrame").width = (currentHeight*(16/9));
