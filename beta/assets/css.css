@@ -1,0 +1,534 @@
+*{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body{
+	background-color: white;
+}
+
+#loadlogo{
+	position: absolute;
+	width: 15%;
+	left: 45%;
+	top: 15%;
+}
+
+#loadtxt{
+	position: absolute;
+	font-family: 'georgia';
+	color: gray;
+	text-shadow: 2px 2px black;
+	font-size:4vw;
+	left: 31%;
+	top: 40%;
+	text-align: center;
+}
+
+#content{
+	display: none;
+}
+
+html,#backgroundcontent,#sky,#overlay {
+ 	width: 100%;
+ 	height: 100%;
+ 	font-family: 'georgia';
+ 	-webkit-user-select: none; /* Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
+	-webkit-transition: background 0.5s linear, 0.5s filter linear;
+	-moz-transition: background 0.5s linear, 0.5s filter linear;
+	-o-transition: background 0.5s linear, 0.5s filter linear;
+	-ms-transition: background 0.5s linear, 0.5s filter linear;
+	transition: background 0.5s linear, 0.5s filter linear;
+}
+
+#backgroundcontent,#sky,#overlay{
+	z-index: 0;
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	background-position: center;
+  background-repeat: no-repeat; 	
+ 	background-size: cover;	
+ 	background-image: url("img/ui/hover.png");
+}
+
+#overlay{
+	z-index: 5;
+	display: none;
+	background-color: black;
+	transition: opacity 0.3s linear, filter 1s linear;
+	opacity: 0;
+}
+
+#sky{
+	z-index: -1;
+	height: 120%;
+}
+
+#skying{
+	transition: opacity 0.6s ease-in-out, 0.5s filter linear;
+}
+
+.tech-slideshow {
+	height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow > div {
+  height: 100%;
+  width: 300%;
+  background-image: url("img/sky.png");
+  position: absolute;
+  height: 90%;
+  transform: translate3d(0, 0, 0);
+}
+.tech-slideshow .mover-1 {
+  animation: moveSlideshow 600s linear infinite;
+}
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-66.6666%); 
+  }
+}
+
+body{
+	overflow: hidden;
+	height: 99%;
+}
+
+#contents{
+	width: 100%;
+	height: 100%;
+}
+
+img{
+	transition: opacity 0.5s linear;
+   -moz-transition: opacity 0.5s linear;
+   -webkit-transition: opacity 0.5s linear;
+}
+
+.background{
+	width: 93%;
+}
+
+#n0Trigger,#n1Trigger,#n2Trigger,#n3Trigger{
+	/*background-color: green;*/
+	position:absolute;
+	cursor:pointer;
+	display: none;
+	transition: 0.2s filter linear;
+	z-index: 1;
+}
+/*#n0Trigger:hover,#n1Trigger:hover,#n2Trigger:hover,#n3Trigger:hover{
+		filter: drop-shadow(0px 0px 0 white);
+}*/
+
+#hud{
+	width: 35%;
+	left: 0%;
+	top: -5%;
+	background-image: url("img/ui/hud.png");
+	position:absolute;
+	line-height: 0.1;
+	text-shadow: 2px 2px black;
+	opacity: 75%;
+	background-position: center;
+  background-repeat: no-repeat; 	
+ 	background-size: cover;
+ 	border-radius: 50px;
+ 	z-index: 5;
+ 	display: none;
+}
+
+#hp{
+	font-size:6vw;
+	color: darkred;
+}
+
+#hunger,#thirst{
+	font-size:3vw;
+	color: darkcyan;
+}
+
+#time{
+	font-size:3vw;
+	color: white;
+	display: none;
+}
+
+#days{
+	font-size:2vw;
+	color: white;
+}
+
+#textbox{
+	z-index: 2;
+	width: 50%;
+	font-size:2.5vw;
+	text-align: center;
+	left: 25%;
+	top: 75%;
+	color: white;
+	position: absolute;
+	text-shadow: 2px 2px black;
+	display: none;
+}
+
+#previewdiv{
+	z-index: 2;
+	width: 50%;
+	font-size:2vw;
+	text-align: center;
+	left: 25%;
+	top: 0%;
+	color: lightblue;
+	position: absolute;
+	text-shadow: 2px 2px black;
+	display: none;
+}
+
+#triggers{
+	width: 100.3%;
+ 	z-index: 3;
+}
+
+#replay{
+	font-size:4vw;
+	width: 45%;
+	left: 27%;
+	position:absolute;
+	color: darkred;
+	text-align: center;
+	display: none;
+}
+
+#reload,#startbutton{
+	font-size:4vw;
+	color: white;
+	top: 93%;
+	width: 28%;
+	left: 35%;
+	position: absolute;
+	cursor: pointer;
+	background-color: black;
+	border-radius: 100px;
+}
+
+#reload{
+	display: none;
+}
+
+#startbutton:hover,#reload:hover{
+	font-size:4.3vw;
+	cursor: pointer;
+}
+
+#titlescreen{
+	color: black;
+	position: absolute;
+	font-size: 3vw;
+	width: 99%;
+	text-align: center;
+	height: 65%;
+	text-shadow: 2px 2px black;
+}
+
+#title{
+	position: absolute;
+	width: 80%;
+	left: 10%;
+	z-index: 100;
+}
+
+#version,#credits{
+	left: 0%;
+	top: 129%;
+	font-size: 2.4vw;
+	position: absolute;
+	color: white;
+}
+
+#credits{
+	left: 37%;
+}
+
+#note{
+	top: 50%;
+	position: absolute;
+	left: 3%;
+	color: white;
+	z-index: 99;
+}
+
+#item0,#item1,#item2,#item3,#inv0,#inv1,#inv2,#backpackico,#item4,#obj0,#obj1,#obj2,#obj3,#obj4{
+	cursor: pointer;
+	width: 4%;
+	position: absolute;
+}
+
+#item0{
+	top: 30%;
+	object-fit: contain;
+}
+
+#item1{
+	top: 40%;
+	object-fit: contain;
+}
+
+#item2{
+	top: 50%;
+	object-fit: contain;
+}
+
+#item3{
+	top: 60%;
+	object-fit: contain;
+}
+#item4{
+	top: 70%;
+	object-fit: contain;
+}
+
+#inv0,#inv1,#inv2,#backpackico{
+	background-image: url("img/ui/inv.png");
+	background-position: center;
+  background-repeat: no-repeat; 	
+ 	background-size: cover;
+	width: 23%;
+	height: 82%;
+	position: relative;
+	object-fit: contain;
+}
+
+#backpackico{
+	display: none;
+}
+
+#inventory{
+ 	position: absolute;
+ 	width: 30%;
+ 	height: 15%;
+ 	left: 70%;
+ 	top: 2%;
+ 	display: none;
+ 	z-index: 4;
+}
+
+#extrainventory{
+	position: absolute;
+	width: 100%;
+	height: 200%;
+	top: 100%;
+	display: none;
+}
+
+#inv3,#inv4,#inv5,#inv6,#inv7,#inv8,#inv9,#inv10,#inv11,#inv12,#inv13,#inv14,#inv15,#inv16,#inv17,#inv18,#inv19,#inv20,#inv21,#inv22,#inv23,#inv24,#inv25,#inv26{
+	display: none;
+	cursor: pointer;
+	background-image: url("img/ui/inv.png");
+	background-position: center;
+  background-repeat: no-repeat; 	
+ 	background-size: contain;
+	width: 22%;
+}
+
+#carryweight{
+	text-align: center;
+	font-size:2vw;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+#newday{
+	z-index: 7;
+	text-align: center;
+	font-size:7vw;
+	color: black;
+	position: absolute;
+	top: 25%;
+	left: 40%;
+	text-shadow: 2px 2px white;
+	display: none;
+}
+
+#bedprompt{
+	z-index: 6;
+	width: 70%;
+	font-size:6vw;
+	left: 15%;
+	top: 1%;
+	color: white;
+	position: absolute;
+	display: none;
+	cursor: pointer;
+	white-space: normal;
+	text-shadow: 1px 1px gray;
+	text-align: center;
+}
+
+#bedyes{
+	position: absolute;
+	left: 20%;
+	top: 170%;
+	font-size:5vw;
+	cursor: pointer;
+}
+
+#bedno{
+	position: absolute;
+	left: 73%;
+	top: 170%;
+	font-size:5vw;
+	cursor: pointer;
+}
+
+#bedno:hover,#bedyes:hover{
+	font-size:5.1vw;
+}
+
+#storage{
+	display: none;
+	position: absolute;
+	width: 75%;
+	height: 200%;
+	top: 270%;
+	left: -110%;
+}
+
+#npc{
+	z-index: 1;
+	position: absolute;
+	width: 35%;
+	top: 10%;
+	left: 32.5%;
+	display: none;
+	transition: left 2s,top 2s, width 0.5s;
+	cursor: pointer;
+}
+
+#npcbox{
+	z-index: 6;
+	width: 50%;
+	font-size:3vw;
+	left: 5%;
+	top: 15%;
+	color: white;
+	position: absolute;
+	display: none;
+	cursor: pointer;
+	white-space: normal;
+	text-shadow: 1px 1px gray;
+}
+
+.textanime{
+		animation: 
+    typing 0.5s steps(400, end);
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { opacity: 0 }
+  to { opacity: 100% }
+}
+
+#npcname{
+	z-index: 6;
+	font-size:2vw;
+	left: 0%;
+	top: -20%;
+	position: absolute;
+}
+
+#cutscene{
+	width: 90%;
+	font-size:3vw;
+	left: 3%;
+	top: 15%;
+	color: white;
+	position: absolute;
+	display: none;
+	white-space: normal;
+	background-image: url("img/ui/hud.png");
+	border-radius: 20px;
+	padding: 2%;
+	animation-direction: normal;
+	text-shadow: 2px 2px black;
+	cursor: pointer;
+}
+
+#skipscene{
+	font-size:3vw;
+	color: white;
+	display: none;
+	left: 88%;
+	top: 80%;
+	cursor: pointer;
+	position: absolute;
+	text-shadow: 2px 2px black;
+}
+
+#debug{
+	background-color: black;
+	color: white;
+	position: absolute;
+	top: 1%;
+	left: 1%;
+	z-index: 999;
+	opacity: 75%;
+}
+
+#badguy{
+	z-index: 1;
+	position: absolute;
+	width: 33%;
+	top: 5%;
+	left: 32.5%;
+	display: none;
+	transition: left 2s,top 2s, width 0.5s;
+	cursor: crosshair;
+}
+
+#fps{
+	z-index: 3;
+	width: 50%;
+	top: 13%;
+	left: 25%;
+	position: absolute;
+	display: none;
+}
+
+.dodgecircle{
+	width: 17%;
+	height: 30%;
+  position: absolute;
+  transition: all 2s, 0.2s filter linear;
+  display: none;
+  left: 50%;
+  top: 50%;
+  z-index: 10;
+  cursor:crosshair;
+}
+
+.dodgecircle:hover {
+  filter: contrast(200%);
+}
+
+#attackbtn{
+	width: 17%;
+	height: 30%;
+  position: absolute;
+  transition: all 2s, 0.2s filter linear;
+  display: none;
+  left: 10%;
+  top: 65%;
+  z-index: 10;
+  cursor:crosshair;
+}
