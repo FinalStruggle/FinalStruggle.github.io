@@ -344,6 +344,7 @@ lootTable[38] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,
 lootTable[39] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
 lootTable[40] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
 
+let audioInfo = new Array();
 audioInfo[0] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
 audioInfo[1] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
 audioInfo[2] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);

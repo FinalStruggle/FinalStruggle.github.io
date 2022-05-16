@@ -192,7 +192,7 @@ function titleTransition() {
 		"img/cutscene2.jpg",
 		"img/stabbing.gif",
 		"img/renders/bg7light.png",
-		"img/renders/bg16light.png");-
+		"img/renders/bg16light.png");
 }
 
 function startGame(){ //starts the game
