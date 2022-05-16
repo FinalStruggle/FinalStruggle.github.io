@@ -277,7 +277,7 @@ objectPosition[16] = new Array("37%","56%","34%","0deg","1");
 let roomObj = new Array();
 //numbers represent objId,
 roomObj[4] = new Array("16","table.png","NA","13","candle1.png","NA","14","candle2.png","NA","15","candle3.png","NA");
-roomObj[5] = new Array("0","door1.png","resonanceAudio('FirstRoomArmarioAbrir')","1","bed.png","resonanceAudio('FirstRoomBed')","2","door2.png","NA","3","candle.png","NA");
+roomObj[5] = new Array("0","door1.png","resonanceAudio('FirstRoomArmarioAbrir')","1","bed.png","resonanceAudio('FirstRoomBed')","2","door2.png","resonanceAudio('FirstRoomArmarioAbrir')","3","candle.png","NA");
 roomObj[6] = new Array("4","generator.png","NA","5","lever.png","leverToggle(5,0)");
 roomObj[8] = new Array("7","door1.png","NA","8","faucet.png","NA");
 roomObj[12] = new Array("9","door1.png","NA","10","door2.png","NA","11","door3.png","NA","12","door4.png","NA");

@@ -1725,7 +1725,10 @@ function loadcheck(){
 }
 
 function resonanceAudio(audioprompt){
-
+	let audioroom = 0;
+	if (typeof roomId === 'undefined'){
+		audioroom = roomId;
+	}
 	// Create an AudioContext
 	let audioContext = new AudioContext();
 
@@ -1739,23 +1742,23 @@ function resonanceAudio(audioprompt){
 	// Define room dimensions.
 	// By default, room dimensions are undefined (0m x 0m x 0m).
 	let roomDimensions = {
-	  width: audioInfo[roomId][0],
-	  height: audioInfo[roomId][1],
-	  depth: audioInfo[roomId][2],
+	  width: audioInfo[audioroom][0],
+	  height: audioInfo[audioroom][1],
+	  depth: audioInfo[audioroom][2],
 	};
 
 	// Define materials for each of the room’s six surfaces.
 	// Room materials have different acoustic reflectivity.
 	let roomMaterials = {
   		// Room wall materials
-  		left: audioInfo[roomId][3],
-  		right: audioInfo[roomId][4],
-  		front: audioInfo[roomId][5],
-  		back: audioInfo[roomId][6],
+  		left: audioInfo[audioroom][3],
+  		right: audioInfo[audioroom][4],
+  		front: audioInfo[audioroom][5],
+  		back: audioInfo[audioroom][6],
   		// Room floor
-  		down: audioInfo[roomId][7],
+  		down: audioInfo[audioroom][7],
   		// Room ceiling
-  		up: audioInfo[roomId][8],
+  		up: audioInfo[audioroom][8],
 	};
 
 	// Add the room definition to the scene.
@@ -1776,7 +1779,7 @@ function resonanceAudio(audioprompt){
 	audioElementSource.connect(source.input);
 
 	// Set the source position relative to the room center (source default position).
-	source.setPosition(audioInfo[roomId][9], audioInfo[roomId][10], audioInfo[roomId][11]);
+	source.setPosition(audioInfo[audioroom][9], audioInfo[audioroom][10], audioInfo[audioroom][11]);
 
 	// Play the audio.
 	audioElement.play();
