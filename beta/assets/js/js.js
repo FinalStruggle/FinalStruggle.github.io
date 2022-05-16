@@ -1784,3 +1784,21 @@ function resonanceAudio(audioprompt){
 	// Play the audio.
 	audioElement.play();
 }
+
+function audioEvent(incId,incConf){
+	switch (incId){
+		case 0:
+		if (incConf=="false") {
+			roomObj[5][2]="resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(0,'true')";
+		}else{
+			roomObj[5][2]="resonanceAudio('FirstRoomArmarioFechar'); audioEvent(0,'false')";
+		}
+		break;
+		case 2:
+		if (incConf=="false") {
+			roomObj[5][8]="resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(0,'true')";
+		}else{
+			roomObj[5][8]="resonanceAudio('FirstRoomArmarioFechar'); audioEvent(0,'false')";
+		}
+	}
+}

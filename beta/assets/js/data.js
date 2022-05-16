@@ -14,7 +14,7 @@ roomInfo[5] = new Array("Old Man's Basement",4,"NA","NA","NA",0,"NA","NA","NA", 
 roomInfo[6] = new Array("Generator",16,"NA","NA","NA",0,"NA","NA","NA", false,false,0,".png","NA",true);
 roomInfo[7] = new Array("Big House",16,8,9,10,0,0,0,0, false,true,0,".png",0,false);
 roomInfo[8] = new Array("Bathroom",7,"NA","NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",false);	
-roomInfo[9] = new Array("Living Room",7,12,"NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",false);	
+roomInfo[9] = new Array("Living Room",7,12,"NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",false);
 roomInfo[10] = new Array("Upper Floor",7,11,"NA","NA",0,0,"NA","NA", false,true,0,".png","NA",false);	
 roomInfo[11] = new Array("Bedroom",10,"NA","NA","NA",0,"NA","NA","NA", false,true,1,".png","NA",false);	
 roomInfo[12] = new Array("Cupboards",9,"NA","NA","NA",0,"NA","NA","NA", false,false,3,".png","NA",false);	
@@ -277,7 +277,7 @@ objectPosition[16] = new Array("37%","56%","34%","0deg","1");
 let roomObj = new Array();
 //numbers represent objId,
 roomObj[4] = new Array("16","table.png","NA","13","candle1.png","NA","14","candle2.png","NA","15","candle3.png","NA");
-roomObj[5] = new Array("0","door1.png","resonanceAudio('FirstRoomArmarioAbrir')","1","bed.png","resonanceAudio('FirstRoomBed')","2","door2.png","resonanceAudio('FirstRoomArmarioAbrir')","3","candle.png","NA");
+roomObj[5] = new Array("0","door1.png","resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(0,'true')","1","bed.png","resonanceAudio('FirstRoomBed')","2","door2.png","resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(0,'true')","3","candle.png","NA");
 roomObj[6] = new Array("4","generator.png","NA","5","lever.png","leverToggle(5,0)");
 roomObj[8] = new Array("7","door1.png","NA","8","faucet.png","NA");
 roomObj[12] = new Array("9","door1.png","NA","10","door2.png","NA","11","door3.png","NA","12","door4.png","NA");
