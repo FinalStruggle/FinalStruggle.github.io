@@ -192,13 +192,11 @@ function titleTransition() {
 		"img/cutscene2.jpg",
 		"img/stabbing.gif",
 		"img/renders/bg7light.png",
-		"img/renders/bg16light.png");
+		"img/renders/bg16light.png");-
 }
 
 function startGame(){ //starts the game
 	console.log("No Secrets Here! :)"); //funni haha for who opens console
-
-	resonanceAudio();
 
 	setTimeout(function(){ //wait 1 second for the animation to play out
 		resetLocal(); //resets elements from previous rooms, like buttons
@@ -1248,6 +1246,7 @@ function introCutscene(skip) {
 		cutsceneSkip.style.display = "none";
 		inventory.style.display ="block";
 		//ticks();
+		resonanceAudio("MouseClick");
 	}else{
 		setTimeout(function(){
 		replayAnime(cutsceneBox);
@@ -1725,7 +1724,7 @@ function loadcheck(){
 	}
 }
 
-function resonanceAudio(){
+function resonanceAudio(audioprompt){
 
 	// Create an AudioContext
 	let audioContext = new AudioContext();
@@ -1740,23 +1739,23 @@ function resonanceAudio(){
 	// Define room dimensions.
 	// By default, room dimensions are undefined (0m x 0m x 0m).
 	let roomDimensions = {
-	  width: 3.1,
-	  height: 2.5,
-	  depth: 3.4,
+	  width: audioInfo[roomId][0],
+	  height: audioInfo[roomId][1],
+	  depth: audioInfo[roomId][2],
 	};
 
 	// Define materials for each of the room’s six surfaces.
 	// Room materials have different acoustic reflectivity.
 	let roomMaterials = {
   		// Room wall materials
-  		left: 'brick-bare',
-  		right: 'curtain-heavy',
-  		front: 'marble',
-  		back: 'glass-thin',
+  		left: audioInfo[roomId][3],
+  		right: audioInfo[roomId][4],
+  		front: audioInfo[roomId][5],
+  		back: audioInfo[roomId][6],
   		// Room floor
-  		down: 'grass',
+  		down: audioInfo[roomId][7],
   		// Room ceiling
-  		up: 'transparent',
+  		up: audioInfo[roomId][8],
 	};
 
 	// Add the room definition to the scene.
@@ -1767,7 +1766,7 @@ function resonanceAudio(){
 	//audioElement.crossOrigin = "anonymous";
 
 	// Load an audio file into the AudioElement.
-	audioElement.src = 'sound/FirstRoomArmarioAbrir.wav';
+	audioElement.src = 'sound/' + audioprompt + '.wav';
 
 	// Generate a MediaElementSource from the AudioElement.
 	let audioElementSource = audioContext.createMediaElementSource(audioElement);
@@ -1777,7 +1776,7 @@ function resonanceAudio(){
 	audioElementSource.connect(source.input);
 
 	// Set the source position relative to the room center (source default position).
-	source.setPosition(-0.707, -0.707, 0);
+	source.setPosition(audioInfo[roomId][9], audioInfo[roomId][10], audioInfo[roomId][11]);
 
 	// Play the audio.
 	audioElement.play();
