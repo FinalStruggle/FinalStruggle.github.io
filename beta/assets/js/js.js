@@ -1769,7 +1769,7 @@ function resonanceAudio(audioprompt){
 	//audioElement.crossOrigin = "anonymous";
 
 	// Load an audio file into the AudioElement.
-	audioElement.src = 'sound/' + audioprompt + '.wav';
+	audioElement.src = 'sound/Ambi_Battlefield_M2 M240 GMG.wav';
 
 	// Generate a MediaElementSource from the AudioElement.
 	let audioElementSource = audioContext.createMediaElementSource(audioElement);
@@ -1786,6 +1786,7 @@ function resonanceAudio(audioprompt){
 }
 
 function audioEvent(incId,incConf){
+	console.log("There will be bloodshed")
 	switch (incId){
 		case 0:
 		if (incConf=="false") {
