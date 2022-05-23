@@ -231,6 +231,15 @@ function changeLocal(submittedRoomId,subTriggerId) {
 		timeTick(subTriggerId);
 		document.getElementById("hud").style.display = "block";
 		}
+		
+		if (roomId!=-1) {
+			console.log(roomInfo[roomId]);
+			if (roomInfo[roomId][subTriggerId+15]!="NA" && subTriggerId!="NA") {
+				console.log(roomInfo[roomId][subTriggerId+15]);
+				resonanceAudio(roomInfo[roomId][subTriggerId+15]);
+			}
+		}
+		
 
 		roomId = submittedRoomId; //conversion to public variable
 		
@@ -1767,9 +1776,9 @@ function resonanceAudio(audioprompt){
 	// Create an AudioElement.
 	let audioElement = document.createElement('audio');
 	//audioElement.crossOrigin = "anonymous";
-
+	console.log(audioprompt);
 	// Load an audio file into the AudioElement.
-	audioElement.src = 'sound/Ambi_Battlefield_M2 M240 GMG.wav';
+	audioElement.src = 'sound/' + audioprompt + '.wav';
 
 	// Generate a MediaElementSource from the AudioElement.
 	let audioElementSource = audioContext.createMediaElementSource(audioElement);
@@ -1786,7 +1795,7 @@ function resonanceAudio(audioprompt){
 }
 
 function audioEvent(incId,incConf){
-	console.log("There will be bloodshed")
+	console.log("There will be");
 	switch (incId){
 		case 0:
 		if (incConf=="false") {

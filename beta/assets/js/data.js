@@ -5,49 +5,49 @@
 let roomInfo = new Array();
 
 //tutorial
-roomInfo[0] = new Array("Road",1,14,1,13,0,0,0,0, true,true,0,".png","NA",true);
-roomInfo[1] = new Array("Road",17,2,16,18,0,0,0,0, true,true,0,".png","NA",true);
-roomInfo[2] = new Array("Road",3,15,19,"NA",0,0,0,"NA", true,true,0,".png","NA",true);
-roomInfo[3] = new Array("Road",2,17,16,18,0,0,0,0, true,true,0,".png","NA",true);
-roomInfo[4] = new Array("Old Man's House",14,5,"NA","NA",0,0,"NA","NA", false,true,0,".png","NA",false);
-roomInfo[5] = new Array("Old Man's Basement",4,"NA","NA","NA",0,"NA","NA","NA", false,false,0,".png","NA",false);
-roomInfo[6] = new Array("Generator",16,"NA","NA","NA",0,"NA","NA","NA", false,false,0,".png","NA",true);
-roomInfo[7] = new Array("Big House",16,8,9,10,0,0,0,0, false,true,0,".png",0,false);
-roomInfo[8] = new Array("Bathroom",7,"NA","NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",false);	
-roomInfo[9] = new Array("Living Room",7,12,"NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",false);
-roomInfo[10] = new Array("Upper Floor",7,11,"NA","NA",0,0,"NA","NA", false,true,0,".png","NA",false);	
-roomInfo[11] = new Array("Bedroom",10,"NA","NA","NA",0,"NA","NA","NA", false,true,1,".png","NA",false);	
-roomInfo[12] = new Array("Cupboards",9,"NA","NA","NA",0,"NA","NA","NA", false,false,3,".png","NA",false);	
-roomInfo[13] = new Array("Car",0,"NA","NA","NA",0,"NA","NA","NA", false,true,1,".png","NA",true);	
-roomInfo[14] = new Array("Old Man's House Entrance",0,4,"NA","NA",0,0,"NA","NA", false,true,0,".png","NA",true);	
-roomInfo[15] = new Array("Eric's House Entrance",2,"NA","NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",true);	
-roomInfo[16] = new Array("Big House Entrance",1,7,6,"NA",0,0,0,"NA", false,true,0,".png",0,true);	
-roomInfo[17] = new Array("Road",1,14,13,"NA",0,0,0,"NA", true,true,0,".png","NA",true);	
-roomInfo[18] = new Array("Ruined House",1,"NA","NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",true);	
-roomInfo[19] = new Array("Ruined House",2,"NA","NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",true);
+roomInfo[0] = new Array("Road",1,14,1,13,0,0,0,0, true,true,0,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[1] = new Array("Road",17,2,16,18,0,0,0,0, true,true,0,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[2] = new Array("Road",3,15,19,"NA",0,0,0,"NA", true,true,0,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[3] = new Array("Road",2,17,16,18,0,0,0,0, true,true,0,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[4] = new Array("Old Man's House",14,5,"NA","NA",0,0,"NA","NA", false,true,0,".png","NA",false,"MetalAbrir","FirstRoomTransitioningLadder","NA","NA");
+roomInfo[5] = new Array("Old Man's Basement",4,"NA","NA","NA",0,"NA","NA","NA", false,false,0,".png","NA",false,"FirstRoomTransitioningLadder","NA","NA","NA");
+roomInfo[6] = new Array("Generator",16,"NA","NA","NA",0,"NA","NA","NA", false,false,0,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[7] = new Array("Big House",16,8,9,10,0,0,0,0, false,true,0,".png",0,false,"NA","NA","NA","NA");
+roomInfo[8] = new Array("Bathroom",7,"NA","NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",false,"NA","NA","NA","NA");	
+roomInfo[9] = new Array("Living Room",7,12,"NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",false,"NA","NA","NA","NA");
+roomInfo[10] = new Array("Upper Floor",7,11,"NA","NA",0,0,"NA","NA", false,true,0,".png","NA",false,"NA","NA","NA","NA");	
+roomInfo[11] = new Array("Bedroom",10,"NA","NA","NA",0,"NA","NA","NA", false,true,1,".png","NA",false,"NA","NA","NA","NA");	
+roomInfo[12] = new Array("Cupboards",9,"NA","NA","NA",0,"NA","NA","NA", false,false,3,".png","NA",false,"NA","NA","NA","NA");	
+roomInfo[13] = new Array("Car",0,"NA","NA","NA",0,"NA","NA","NA", false,true,1,".png","NA",true,"NA","NA","NA","NA");	
+roomInfo[14] = new Array("Old Man's House Entrance",0,4,"NA","NA",0,0,"NA","NA", false,true,0,".png","NA",true,"NA","NA","NA","NA");	
+roomInfo[15] = new Array("Eric's House Entrance",2,"NA","NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",true,"NA","NA","NA","NA");	
+roomInfo[16] = new Array("Big House Entrance",1,7,6,"NA",0,0,0,"NA", false,true,0,".png",0,true,"NA","DoorOpening","NA","NA");	
+roomInfo[17] = new Array("Road",1,14,13,"NA",0,0,0,"NA", true,true,0,".png","NA",true,"NA","NA","NA","NA");	
+roomInfo[18] = new Array("Ruined House",1,"NA","NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",true,"NA","NA","NA","NA");	
+roomInfo[19] = new Array("Ruined House",2,"NA","NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",true,"NA","NA","NA","NA");
 
 //city
-roomInfo[20] = new Array("River",21,"NA","NA","NA",5,"NA","NA","NA", false,true,0,".png","NA",true);
-roomInfo[21] = new Array("Darby Street",22,20,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true);
-roomInfo[22] = new Array("Darby Street",21,23,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true);
+roomInfo[20] = new Array("River",21,"NA","NA","NA",5,"NA","NA","NA", false,true,0,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[21] = new Array("Darby Street",22,20,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[22] = new Array("Darby Street",21,23,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
 roomInfo[23] = new Array("Lyroy Avenue",22,32,24,34,5,5,5,5, false,true,4,".png","NA",true);
-roomInfo[24] = new Array("Dougan Street",23,28,25,"NA",5,5,5,"NA", false,true,4,".png","NA",true);
-roomInfo[25] = new Array("Construction Site",24,26,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true);
-roomInfo[26] = new Array("Construction Site",24,25,27,"NA",5,5,10,"NA", true,true,4,".png","NA",true);
-roomInfo[27] = new Array("Crane",26,"NA","NA","NA",10,"NA","NA","NA", false,true,4,".png","NA",true);
-roomInfo[28] = new Array("Laguna Avenue",24,29,31,"NA",5,5,5,"NA", false,true,4,".png","NA",true);
-roomInfo[29] = new Array("Clio Street",28,30,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true);
-roomInfo[30] = new Array("Clio Street",29,"NA","NA","NA",5,"NA","NA","NA", false,true,4,".png","NA",true);
-roomInfo[31] = new Array("Clover Street",28,32,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true);
-roomInfo[32] = new Array("Hospital",31,33,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true);
-roomInfo[33] = new Array("Lyroy Avenue",32,22,34,24,5,5,5,5, false,true,4,".png","NA",true);
-roomInfo[34] = new Array("Crost Lane",23,0,35,"NA",5,5,5,"NA", false,true,4,".png","NA",true);
-roomInfo[35] = new Array("Amber Avenue",34,38,36,39,5,5,5,5, false,true,4,".png","NA",true);
-roomInfo[36] = new Array("Bower Street",35,37,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true);
-roomInfo[37] = new Array("Market",36,"NA","NA","NA",5,"NA","NA","NA", false,true,4,".png","NA",true);
-roomInfo[38] = new Array("Parking Lot",35,39,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true);
-roomInfo[39] = new Array("Parking Lot Exit",38,35,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true);
-roomInfo[40] = new Array("","NA","NA","NA","NA","NA","NA","NA","NA", false,false,0,".png","NA",false);
+roomInfo[24] = new Array("Dougan Street",23,28,25,"NA",5,5,5,"NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[25] = new Array("Construction Site",24,26,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[26] = new Array("Construction Site",24,25,27,"NA",5,5,10,"NA", true,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[27] = new Array("Crane",26,"NA","NA","NA",10,"NA","NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[28] = new Array("Laguna Avenue",24,29,31,"NA",5,5,5,"NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[29] = new Array("Clio Street",28,30,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[30] = new Array("Clio Street",29,"NA","NA","NA",5,"NA","NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[31] = new Array("Clover Street",28,32,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[32] = new Array("Hospital",31,33,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[33] = new Array("Lyroy Avenue",32,22,34,24,5,5,5,5, false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[34] = new Array("Crost Lane",23,0,35,"NA",5,5,5,"NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[35] = new Array("Amber Avenue",34,38,36,39,5,5,5,5, false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[36] = new Array("Bower Street",35,37,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[37] = new Array("Market",36,"NA","NA","NA",5,"NA","NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[38] = new Array("Parking Lot",35,39,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[39] = new Array("Parking Lot Exit",38,35,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[40] = new Array("","NA","NA","NA","NA","NA","NA","NA","NA", false,false,0,".png","NA",false,"NA","NA","NA","NA");
 
 
 //list of the items in each given room	
@@ -276,9 +276,9 @@ objectPosition[16] = new Array("37%","56%","34%","0deg","1");
 //list of the objects in each given room
 let roomObj = new Array();
 //numbers represent objId,
-roomObj[4] = new Array("16","table.png","NA","13","candle1.png","NA","14","candle2.png","NA","15","candle3.png","NA");
-roomObj[5] = new Array("0","door1.png","resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(0,'true')","1","bed.png","resonanceAudio('FirstRoomBed')","2","door2.png","resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(0,'true')","3","candle.png","NA");
-roomObj[6] = new Array("4","generator.png","NA","5","lever.png","leverToggle(5,0)");
+roomObj[4] = new Array("16","table.png","NA","13","candle1.png","resonanceAudio('CandleFire')","14","candle2.png","resonanceAudio('CandleFire')","15","candle3.png","resonanceAudio('CandleFire')");
+roomObj[5] = new Array("0","door1.png","resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(0,'true')","1","bed.png","resonanceAudio('FirstRoomBed')","2","door2.png","resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(0,'true')","3","candle.png","resonanceAudio('CandleFire')");
+roomObj[6] = new Array("4","generator.png","NA","5","lever.png","resonanceAudio('MotorSwitch'); leverToggle(5,0)");
 roomObj[8] = new Array("7","door1.png","NA","8","faucet.png","NA");
 roomObj[12] = new Array("9","door1.png","NA","10","door2.png","NA","11","door3.png","NA","12","door4.png","NA");
 roomObj[16] = new Array("6","planks.png","plankRemove()");
