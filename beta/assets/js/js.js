@@ -235,8 +235,9 @@ function changeLocal(submittedRoomId,subTriggerId) {
 		if (roomId!=-1) {
 			console.log(roomInfo[roomId]);
 			if (roomInfo[roomId][subTriggerId+15]!="NA" && subTriggerId!="NA") {
-				console.log(roomInfo[roomId][subTriggerId+15]);
 				resonanceAudio(roomInfo[roomId][subTriggerId+15]);
+			}else{
+				resonanceAudio("DirtFootSteps");
 			}
 		}
 		
@@ -1564,6 +1565,7 @@ function leverToggle(leverId,generatorId){
 			triggerPosition[16][17]="generatoron.png";
 			triggerPosition[1][17]="house2light.png";
 		triggerPosition[3][17]="house2mirrorlight.png";
+		resonanceAudio("Gerador");
 		}else{
 			genFuel[generatorId][1]=false;
 			interactObj[leverId][1]="lever.png";
