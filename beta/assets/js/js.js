@@ -103,6 +103,8 @@ let obj4 = document.getElementById("obj4");
 
 let bedtxt = document.getElementById("bedprompt");
 
+let audioElement = document.createElement('audio');
+
 document.addEventListener('contextmenu', event => event.preventDefault()); //disable right click
 
 function titleTransition() {
@@ -1736,6 +1738,7 @@ function loadcheck(){
 }
 
 function resonanceAudio(audioprompt){
+	audioElement.pause();
 	let audioroom = 0;
 	if (typeof roomId === 'undefined'){
 		audioroom = roomId;
@@ -1776,7 +1779,7 @@ function resonanceAudio(audioprompt){
 	resonanceAudioScene.setRoomProperties(roomDimensions, roomMaterials);
 
 	// Create an AudioElement.
-	let audioElement = document.createElement('audio');
+	audioElement = document.createElement('audio');
 	//audioElement.crossOrigin = "anonymous";
 	console.log(audioprompt);
 	// Load an audio file into the AudioElement.
@@ -1797,7 +1800,6 @@ function resonanceAudio(audioprompt){
 }
 
 function audioEvent(incId,incConf){
-	console.log("There will be");
 	switch (incId){
 		case 0:
 		if (incConf=="false") {
