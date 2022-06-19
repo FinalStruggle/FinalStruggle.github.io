@@ -5,26 +5,26 @@
 let roomInfo = new Array();
 
 //tutorial
-roomInfo[0] = new Array("Road",1,14,1,13,0,0,0,0, true,true,0,".png","NA",true,"NA","NA","NA","NA");
-roomInfo[1] = new Array("Road",17,2,16,18,0,0,0,0, true,true,0,".png","NA",true,"NA","NA","NA","NA");
-roomInfo[2] = new Array("Road",3,15,19,"NA",0,0,0,"NA", true,true,0,".png","NA",true,"NA","NA","NA","NA");
-roomInfo[3] = new Array("Road",2,17,16,18,0,0,0,0, true,true,0,".png","NA",true,"NA","NA","NA","NA");
-roomInfo[4] = new Array("Old Man's House",14,5,"NA","NA",0,0,"NA","NA", false,true,0,".png","NA",false,"MetalAbrir","FirstRoomTransitioningLadder","NA","NA");
-roomInfo[5] = new Array("Old Man's Basement",4,"NA","NA","NA",0,"NA","NA","NA", false,false,0,".png","NA",false,"FirstRoomTransitioningLadder","NA","NA","NA");
-roomInfo[6] = new Array("Generator",16,"NA","NA","NA",0,"NA","NA","NA", false,false,0,".png","NA",true,"NA","NA","NA","NA");
-roomInfo[7] = new Array("Big House",16,8,9,10,0,0,0,0, false,true,0,".png",0,false,"DoorOpening","MoradiaFootSteps","MoradiaFootSteps","MoradiaFootSteps");
-roomInfo[8] = new Array("Bathroom",7,"NA","NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",false,"MoradiaFootSteps","NA","NA","NA");	
-roomInfo[9] = new Array("Living Room",7,12,"NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",false,"MoradiaFootSteps","MoradiaFootSteps","NA","NA");
-roomInfo[10] = new Array("Upper Floor",7,11,"NA","NA",0,0,"NA","NA", false,true,0,".png","NA",false,"MoradiaFootSteps","MoradiaFootSteps","NA","NA");	
-roomInfo[11] = new Array("Bedroom",10,"NA","NA","NA",0,"NA","NA","NA", false,true,1,".png","NA",false,"MoradiaFootSteps","NA","NA","NA");	
-roomInfo[12] = new Array("Cupboards",9,"NA","NA","NA",0,"NA","NA","NA", false,false,3,".png","NA",false,"MoradiaFootSteps","NA","NA","NA");	
-roomInfo[13] = new Array("Car",0,"NA","NA","NA",0,"NA","NA","NA", false,true,1,".png","NA",true,"NA","NA","NA","NA");	
-roomInfo[14] = new Array("Old Man's House Entrance",0,4,"NA","NA",0,0,"NA","NA", false,true,0,".png","NA",true,"NA","NA","NA","NA");	
-roomInfo[15] = new Array("Eric's House Entrance",2,"NA","NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",true,"NA","NA","NA","NA");	
-roomInfo[16] = new Array("Big House Entrance",1,7,6,"NA",0,0,0,"NA", false,true,0,".png",0,true,"NA","DoorOpening","NA","NA");	
-roomInfo[17] = new Array("Road",1,14,13,"NA",0,0,0,"NA", true,true,0,".png","NA",true,"NA","NA","NA","NA");	
-roomInfo[18] = new Array("Ruined House",1,"NA","NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",true,"NA","NA","NA","NA");	
-roomInfo[19] = new Array("Ruined House",2,"NA","NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[0] = new Array("Road",1,14,1,13,0,0,0,0, true,true,0,".png","NA",true,"NA","NA","NA","NA","Vento");
+roomInfo[1] = new Array("Road",17,2,16,18,0,0,0,0, true,true,0,".png","NA",true,"NA","NA","NA","NA","Vento");
+roomInfo[2] = new Array("Road",3,15,19,"NA",0,0,0,"NA", true,true,0,".png","NA",true,"NA","NA","NA","NA","Vento");
+roomInfo[3] = new Array("Road",2,17,16,18,0,0,0,0, true,true,0,".png","NA",true,"NA","NA","NA","NA","Vento");
+roomInfo[4] = new Array("Old Man's House",14,5,"NA","NA",0,0,"NA","NA", false,true,0,".png","NA",false,"MetalAbrir","FirstRoomTransitioningLadder","NA","NA","Vento2");
+roomInfo[5] = new Array("Old Man's Basement",4,"NA","NA","NA",0,"NA","NA","NA", false,false,0,".png","NA",false,"FirstRoomTransitioningLadder","NA","NA","NA","BuzzLamp");
+roomInfo[6] = new Array("Generator",16,"NA","NA","NA",0,"NA","NA","NA", false,false,0,".png","NA",true,"NA","NA","NA","NA","Vento2");
+roomInfo[7] = new Array("Big House",16,8,9,10,0,0,0,0, false,true,0,".png",0,false,"DoorOpening","MoradiaFootSteps","MoradiaFootSteps","MoradiaFootSteps","Dust");
+roomInfo[8] = new Array("Bathroom",7,"NA","NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",false,"MoradiaFootSteps","NA","NA","NA","TorneiraPingar");	
+roomInfo[9] = new Array("Living Room",7,12,"NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",false,"MoradiaFootSteps","MoradiaFootSteps","NA","NA","Dust");
+roomInfo[10] = new Array("Upper Floor",7,11,"NA","NA",0,0,"NA","NA", false,true,0,".png","NA",false,"MoradiaFootSteps","MoradiaFootSteps","NA","NA","Dust");	
+roomInfo[11] = new Array("Bedroom",10,"NA","NA","NA",0,"NA","NA","NA", false,true,1,".png","NA",false,"MoradiaFootSteps","NA","NA","NA","Dust");	
+roomInfo[12] = new Array("Cupboards",9,"NA","NA","NA",0,"NA","NA","NA", false,false,3,".png","NA",false,"MoradiaFootSteps","NA","NA","NA","Dust");	
+roomInfo[13] = new Array("Car",0,"NA","NA","NA",0,"NA","NA","NA", false,true,1,".png","NA",true,"NA","NA","NA","NA","Vento2");	
+roomInfo[14] = new Array("Old Man's House Entrance",0,4,"NA","NA",0,0,"NA","NA", false,true,0,".png","NA",true,"NA","NA","NA","NA","Vento");	
+roomInfo[15] = new Array("Eric's House Entrance",2,"NA","NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",true,"NA","NA","NA","NA","Vento");	
+roomInfo[16] = new Array("Big House Entrance",1,7,6,"NA",0,0,0,"NA", false,true,0,".png",0,true,"NA","DoorOpening","NA","NA","Vento");	
+roomInfo[17] = new Array("Road",1,14,13,"NA",0,0,0,"NA", true,true,0,".png","NA",true,"NA","NA","NA","NA","Vento");	
+roomInfo[18] = new Array("Ruined House",1,"NA","NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",true,"NA","NA","NA","NA","Vento");	
+roomInfo[19] = new Array("Ruined House",2,"NA","NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",true,"NA","NA","NA","NA","Vento");
 
 //city
 roomInfo[20] = new Array("River",21,"NA","NA","NA",5,"NA","NA","NA", false,true,0,".png","NA",true,"NA","NA","NA","NA");

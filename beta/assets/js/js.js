@@ -104,6 +104,7 @@ let obj4 = document.getElementById("obj4");
 let bedtxt = document.getElementById("bedprompt");
 
 let audioElement = document.createElement('audio');
+let ambienceAudio = document.createElement('audio');
 
 document.addEventListener('contextmenu', event => event.preventDefault()); //disable right click
 
@@ -240,6 +241,11 @@ function changeLocal(submittedRoomId,subTriggerId) {
 				resonanceAudio(roomInfo[roomId][subTriggerId+15]);
 			}else{
 				resonanceAudio("DirtFootSteps");
+			}
+			if (roomInfo[roomId][19]!="NA") {
+				setTimeout(function(){
+					resonanceAudio(roomInfo[roomId][19],true);
+				}, 300);
 			}
 		}
 		
@@ -1694,8 +1700,26 @@ function sleep(prompt){
 }
 
 var images = [];
+var sounds = [];
 var loadtotal = 0;
 var currentload = 0;
+let audiopre = new Array();
+audiopre = ["sound/AbrirTorneira.wav",
+		"sound/BuzzLamp.wav",
+		"sound/CandleFire.wav",
+		"sound/DirtFootSteps.wav",
+		"sound/DoorOpening.wav",
+		"sound/FirstRoomArmarioAbrir.wav",
+		"sound/FirstRoomArmarioFechar.wav",
+		"sound/FirstRoomBed.wav",
+		"sound/FirstRoomTransitioningLadder.wav",
+		"sound/Gerador.wav",
+		"sound/MetalAbrir.wav",
+		"sound/MetalFechar.wav",
+		"sound/MoradiaFootSteps.wav",
+		"sound/MotorSwitch.wav",
+		"sound/MouseClick.wav",
+		"sound/WoodFootSteps.wav"];
 function preload() {
 	for (var i = 0; i < arguments.length; i++) {
 		loadtotal=loadtotal+1;
@@ -1723,6 +1747,11 @@ function preload() {
         	images[i].setAttribute("onload", "loadcheck()");
     	}
     }
+    for (var j = 1; j < audiopre.length; j++){
+        sounds[j] = new Audio();
+        sounds[j].src = audiopre[j];
+        sounds[j].setAttribute("onload", "loadcheck()");
+    }
 }
 
 function loadcheck(){
@@ -1737,8 +1766,11 @@ function loadcheck(){
 	}
 }
 
-function resonanceAudio(audioprompt){
+function resonanceAudio(audioprompt,ambience){
 	audioElement.pause();
+	if (ambience==true) {
+		ambienceAudio.pause();
+	}
 	let audioroom = 0;
 	if (typeof roomId === 'undefined'){
 		audioroom = roomId;
@@ -1779,24 +1811,46 @@ function resonanceAudio(audioprompt){
 	resonanceAudioScene.setRoomProperties(roomDimensions, roomMaterials);
 
 	// Create an AudioElement.
-	audioElement = document.createElement('audio');
-	//audioElement.crossOrigin = "anonymous";
-	console.log(audioprompt);
-	// Load an audio file into the AudioElement.
-	audioElement.src = 'sound/' + audioprompt + '.wav';
-
-	// Generate a MediaElementSource from the AudioElement.
-	let audioElementSource = audioContext.createMediaElementSource(audioElement);
-
-	// Add the MediaElementSource to the scene as an audio input source.
-	let source = resonanceAudioScene.createSource();
-	audioElementSource.connect(source.input);
-
-	// Set the source position relative to the room center (source default position).
-	source.setPosition(audioInfo[audioroom][9], audioInfo[audioroom][10], audioInfo[audioroom][11]);
-
-	// Play the audio.
-	audioElement.play();
+	if (ambience==true) {
+		ambienceAudio = document.createElement('audio');
+		//audioElement.crossOrigin = "anonymous";
+		console.log(audioprompt);
+		// Load an audio file into the AudioElement.
+		ambienceAudio.src = 'sound/' + audioprompt + '.wav';
+	
+		// Generate a MediaElementSource from the AudioElement.
+		let ambienceAudioSource = audioContext.createMediaElementSource(ambienceAudio);
+	
+		// Add the MediaElementSource to the scene as an audio input source.
+		let source = resonanceAudioScene.createSource();
+		ambienceAudioSource.connect(source.input);
+	
+		// Set the source position relative to the room center (source default position).
+		source.setPosition(audioInfo[audioroom][9], audioInfo[audioroom][10], audioInfo[audioroom][11]);
+	
+		// Play the audio.
+		ambienceAudio.play();
+	}else{
+		audioElement = document.createElement('audio');
+		//audioElement.crossOrigin = "anonymous";
+		console.log(audioprompt);
+		// Load an audio file into the AudioElement.
+		audioElement.src = 'sound/' + audioprompt + '.wav';
+	
+		// Generate a MediaElementSource from the AudioElement.
+		let audioElementSource = audioContext.createMediaElementSource(audioElement);
+	
+		// Add the MediaElementSource to the scene as an audio input source.
+		let source = resonanceAudioScene.createSource();
+		audioElementSource.connect(source.input);
+	
+		// Set the source position relative to the room center (source default position).
+		source.setPosition(audioInfo[audioroom][9], audioInfo[audioroom][10], audioInfo[audioroom][11]);
+	
+		// Play the audio.
+		audioElement.play();
+	}
+	
 }
 
 function audioEvent(incId,incConf){
