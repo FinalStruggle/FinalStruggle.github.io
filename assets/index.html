@@ -39,7 +39,6 @@ Feel free to alter this code to your liking, but please do not host it, do not s
 			
 		
 			<div id="hud">
-
 				<p id="hp">HP: 100</p>
 				<p id="hunger">Hunger: 80 | Thirst: 80</p>
 				<p id="time">Time: 06:00</p>
@@ -80,6 +79,15 @@ Feel free to alter this code to your liking, but please do not host it, do not s
 				<p id="bedyes" onclick="sleep('yes');">Yes</p>
 				<p id="bedno" onclick="sleep('no');">No</p>
 			</div>
+
+			<div id="huds" style="display: none;">
+					<div id="arc" class="arctemp"></div>
+					<div id="arc2" class="arctemp"></div>
+					<div id="arc3" class="arctemp"></div>
+				
+			</div>
+
+			
 	
 		<div id="inventory">
 			<img src="img/items/item0.png" id="inv0" draggable="false" onclick="askItem(0)">
@@ -159,7 +167,32 @@ Feel free to alter this code to your liking, but please do not host it, do not s
 		</div>
 		
 	
-		
+		<div id="debug" style="display: none;">
+			<p id="roomiddebug">roomId = </p>
+			<p id="npcchapterdebug">npcChapter[npcid] = </p>
+			<p id="scriptdebug">script = </p>
+			<p id="badguyiddebug">badGuyId = </p>
+			<p id="badguyhpdebug">badGuyHp = </p>
+			<p id="healthdebug">health = </p>
+			<p id="hungerdebug">hunger = </p>
+			<p id="thirstdebug">thirst = </p>
+			<p id="timeleftdebug">timeLeft = </p>
+			<p id="weightdebug">0.0 / 20 KG</p>
+			<p id="fueldebug">genFuel[1][0] = </p>
+			<input type="number" id="inputroomid"></input>
+			<input type="submit" value="roomId" onclick="debugChangeLocal();"></input>
+			<br>
+			<input type="number" id="inputinventory"></input>
+			<input type="submit" value="addInventory" onclick="debugAddInventory();"></input>
+			<br>
+			<input type="number" id="inputhealth"></input>
+			<input type="submit" value="health" onclick="debugHealth();"></input>
+			<br>
+			<input type="number" id="inputtimeleft"></input>
+			<input type="submit" value="timeLeft" onclick="debugTimeLeft();"></input>
+			<br>
+			<input type="submit" value="Hide" onclick="debugDisplay();"></input>
+		</div>
 
 	</div>
 	
@@ -167,4 +200,6 @@ Feel free to alter this code to your liking, but please do not host it, do not s
 </html>
 
 <script src="js/js.js"></script> 
-<script src="js/data.js"></script><!--No Secrets Here either! ;)-->
+<script src="js/data.js"></script>
+<script src="js/debug.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/resonance-audio/build/resonance-audio.min.js"></script><!--No Secrets Here either! ;)-->

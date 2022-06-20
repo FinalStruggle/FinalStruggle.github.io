@@ -1342,6 +1342,9 @@ function attack(){
 				badGuy.src = "img/badguy"+ badGuyId +"damage.png";
 				fps.src= "img/stabbing.gif";
 				fps.style.display="block";
+				setTimeout(function(){
+					fps.style.display="none";
+				},1000);
 				break;
 			}
 		}
