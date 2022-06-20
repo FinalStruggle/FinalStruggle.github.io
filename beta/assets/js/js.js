@@ -711,6 +711,8 @@ function death(){
 //this function is meant to add items from the world into the inventory
 function addInventory(itmPosition) {
 
+	resonanceAudio("MouseClick");
+
 	unselectItem();
 
 	switch (roomItems[roomId][itmPosition]){
@@ -1570,6 +1572,9 @@ function leverToggle(leverId,generatorId){
 			genFuel[generatorId][1]=true;
 			interactObj[leverId][1]="leveron.png";
 			interactObj[leverId][0]="I turned it on.";
+			roomInfo[1][19]="GeradorEsq";
+			roomInfo[3][19]="GeradorDir";
+			roomInfo[16][19]="Gerador";
 			triggerPosition[16][17]="generatoron.png";
 			triggerPosition[1][17]="house2light.png";
 		triggerPosition[3][17]="house2mirrorlight.png";
@@ -1578,6 +1583,9 @@ function leverToggle(leverId,generatorId){
 			genFuel[generatorId][1]=false;
 			interactObj[leverId][1]="lever.png";
 			interactObj[leverId][0]="I turned it off.";
+			roomInfo[1][19]="Vento";
+			roomInfo[3][19]="Vento";
+			roomInfo[16][19]="Vento";
 			triggerPosition[16][17]="generator.png";
 			triggerPosition[1][17]="house2.png";
 			triggerPosition[3][17]="house2mirror.png";
@@ -1767,9 +1775,10 @@ function loadcheck(){
 }
 
 function resonanceAudio(audioprompt,ambience){
-	audioElement.pause();
 	if (ambience==true) {
 		ambienceAudio.pause();
+	}else{
+		audioElement.pause();
 	}
 	let audioroom = 0;
 	if (typeof roomId === 'undefined'){
