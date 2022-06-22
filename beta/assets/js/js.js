@@ -1580,9 +1580,18 @@ function leverToggle(leverId,generatorId){
 			genFuel[generatorId][1]=true;
 			interactObj[leverId][1]="leveron.png";
 			interactObj[leverId][0]="I turned it on.";
+			roomInfo[0][19]="GeradorEsq";
 			roomInfo[1][19]="GeradorEsq";
+			roomInfo[2][19]="GeradorEsq";
 			roomInfo[3][19]="GeradorDir";
+			roomInfo[7][19]="GeradorEsq";
+			roomInfo[9][19]="Gerador";
+			roomInfo[14][19]="GeradorDir";
+			roomInfo[15][19]="GeradorDir";
 			roomInfo[16][19]="Gerador";
+			roomInfo[17][19]="GeradorDir";
+			roomInfo[18][19]="Gerador";
+			roomInfo[19][19]="GeradorEsq";
 			triggerPosition[16][17]="generatoron.png";
 			triggerPosition[1][17]="house2light.png";
 		triggerPosition[3][17]="house2mirrorlight.png";
@@ -1606,6 +1615,7 @@ function plankRemove(){
 	for (var j = 0; j<=inventoryRoom.length-1; j++){
 		if (inventoryRoom[j]==0) {
 			inventoryRoom[j]=108;
+			resonanceAudio("MouseClick");
 			document.getElementById("inv"+j).src = "img/items/item"+inventoryRoom[j]+".png";
 			triggerPosition[1][17]="house2.png";
 			triggerPosition[3][17]="house2mirror.png";
@@ -1865,12 +1875,14 @@ function resonanceAudio(audioprompt,ambience){
 		source.setPosition(audioInfo[audioroom][9], audioInfo[audioroom][10], audioInfo[audioroom][11]);
 	
 		// Play the audio.
+		audioElement.loop = true;
 		audioElement.play();
 	}
 	
 }
 
 function audioEvent(incId,incConf){
+	console.log("incId " + incId);
 	switch (incId){
 		case 0:
 		if (incConf=="false") {
@@ -1881,9 +1893,45 @@ function audioEvent(incId,incConf){
 		break;
 		case 2:
 		if (incConf=="false") {
-			roomObj[5][8]="resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(0,'true')";
+			roomObj[5][8]="resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(2,'true')";
 		}else{
-			roomObj[5][8]="resonanceAudio('FirstRoomArmarioFechar'); audioEvent(0,'false')";
+			roomObj[5][8]="resonanceAudio('FirstRoomArmarioFechar'); audioEvent(2,'false')";
 		}
+		break;
+		case 7:
+		if (incConf=="false") {
+			roomObj[8][2]="resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(7,'true')";
+		}else{
+			roomObj[8][2]="resonanceAudio('FirstRoomArmarioFechar'); audioEvent(7,'false')";
+		}
+		break;
+		case 9:
+		if (incConf=="false") {
+			roomObj[12][2]="resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(9,'true')";
+		}else{
+			roomObj[12][2]="resonanceAudio('FirstRoomArmarioFechar'); audioEvent(9,'false')";
+		}
+		break;
+		case 10:
+		if (incConf=="false") {
+			roomObj[12][5]="resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(10,'true')";
+		}else{
+			roomObj[12][5]="resonanceAudio('FirstRoomArmarioFechar'); audioEvent(10,'false')";
+		}
+		break;
+		case 11:
+		if (incConf=="false") {
+			roomObj[12][8]="resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(11,'true')";
+		}else{
+			roomObj[12][8]="resonanceAudio('FirstRoomArmarioFechar'); audioEvent(11,'false')";
+		}
+		break;
+		case 12:
+		if (incConf=="false") {
+			roomObj[12][11]="resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(12,'true')";
+		}else{
+			roomObj[12][11]="resonanceAudio('FirstRoomArmarioFechar'); audioEvent(12,'false')";
+		}
+		break;
 	}
 }
