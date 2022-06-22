@@ -201,7 +201,7 @@ function titleTransition() {
 function startGame(){ //starts the game
 	console.log("No Secrets Here! :)"); //funni haha for who opens console
 
-	ambienceAudio("MusicIntro",true);
+	resonanceAudio("MusicIntro",true);
 
 	setTimeout(function(){ //wait 1 second for the animation to play out
 		resetLocal(); //resets elements from previous rooms, like buttons
