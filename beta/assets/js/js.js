@@ -1856,6 +1856,7 @@ function resonanceAudio(audioprompt,ambience){
 		source.setPosition(audioInfo[audioroom][9], audioInfo[audioroom][10], audioInfo[audioroom][11]);
 	
 		// Play the audio.
+		ambienceAudio.loop = true;
 		ambienceAudio.play();
 	}else{
 		audioElement = document.createElement('audio');
@@ -1875,7 +1876,6 @@ function resonanceAudio(audioprompt,ambience){
 		source.setPosition(audioInfo[audioroom][9], audioInfo[audioroom][10], audioInfo[audioroom][11]);
 	
 		// Play the audio.
-		audioElement.loop = true;
 		audioElement.play();
 	}
 	
