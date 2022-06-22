@@ -782,6 +782,8 @@ function addInventory(itmPosition) {
 //this function is meant to interact with items present in the inventory
 function askItem(selected){
 
+	resonanceAudio("Mochila");
+
 	textBox.style.display = "none";
 
 	prevItemSelected = itemSelected; //determine the last selected item
@@ -1052,6 +1054,7 @@ function talkNPC(npcidsub,chapter) {
 
 	if (storyline==0) {
 		//kickstart the animation
+		resonanceAudio(npcTalk[npcid][3]);
 		npc.style.width = npcTalk[npcid][0];
 		npc.style.left = npcTalk[npcid][1];
 		npc.style.top = npcTalk[npcid][2];
@@ -1266,7 +1269,7 @@ function introCutscene(skip) {
 		cutsceneSkip.style.display = "none";
 		inventory.style.display ="block";
 		//ticks();
-		resonanceAudio("MouseClick");
+		resonanceAudio("BuzzLamp",true);
 	}else{
 		setTimeout(function(){
 		replayAnime(cutsceneBox);
@@ -1340,6 +1343,7 @@ function attack(){
 				badGuyHp=badGuyHp-weaponInfo[tempitem][0];
 				badGuyLocal[badGuyId][2] = badGuyHp;
 				badGuy.src = "img/badguy"+ badGuyId +"damage.png";
+				resonanceAudio("Attack");
 				fps.src= "img/stabbing.gif";
 				fps.style.display="block";
 				setTimeout(function(){
@@ -1480,6 +1484,7 @@ function expandClick(){
 	clearTimeout(badGuyHit);
 	clearTimeout(circleTimeout);
 	clearTimeout(circleTimeout2);
+	resonanceAudio("Block");
 	badGuy.src = "img/badguy"+ badGuyId +".png";
 	badGuyAttackCooldown = false;
 	setTimeout(function(){ //repeat
