@@ -1,1 +1,389 @@
-const _0x2549e5=_0x24d3;(function(_0x44f932,_0x29399a){const _0x2b9209=_0x24d3,_0x2af61e=_0x44f932();while(!![]){try{const _0xbc330b=-parseInt(_0x2b9209(0x158))/0x1*(parseInt(_0x2b9209(0x1d4))/0x2)+parseInt(_0x2b9209(0x19a))/0x3*(-parseInt(_0x2b9209(0x1fa))/0x4)+-parseInt(_0x2b9209(0x17a))/0x5*(-parseInt(_0x2b9209(0x14e))/0x6)+-parseInt(_0x2b9209(0x17c))/0x7*(parseInt(_0x2b9209(0x1ce))/0x8)+parseInt(_0x2b9209(0x12c))/0x9+-parseInt(_0x2b9209(0x189))/0xa*(parseInt(_0x2b9209(0x1a5))/0xb)+parseInt(_0x2b9209(0x11f))/0xc;if(_0xbc330b===_0x29399a)break;else _0x2af61e['push'](_0x2af61e['shift']());}catch(_0x2e7626){_0x2af61e['push'](_0x2af61e['shift']());}}}(_0x8bdb,0x94af6));let roomInfo=new Array();roomInfo[0x0]=new Array(_0x2549e5(0x13c),0x1,0xe,0x1,0xd,0x0,0x0,0x0,0x0,!![],!![],0x0,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA',_0x2549e5(0x18e)),roomInfo[0x1]=new Array(_0x2549e5(0x13c),0x11,0x2,0x10,0x12,0x0,0x0,0x0,0x0,!![],!![],0x0,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA',_0x2549e5(0x18e)),roomInfo[0x2]=new Array('Road',0x3,0xf,0x13,'NA',0x0,0x0,0x0,'NA',!![],!![],0x0,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA',_0x2549e5(0x18e)),roomInfo[0x3]=new Array(_0x2549e5(0x13c),0x2,0x11,0x10,0x12,0x0,0x0,0x0,0x0,!![],!![],0x0,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA',_0x2549e5(0x18e)),roomInfo[0x4]=new Array(_0x2549e5(0x14b),0xe,0x5,'NA','NA',0x0,0x0,'NA','NA',![],!![],0x0,'.png','NA',![],'MetalAbrir','FirstRoomTransitioningLadder','NA','NA',_0x2549e5(0x173)),roomInfo[0x5]=new Array(_0x2549e5(0x1bd),0x4,'NA','NA','NA',0x0,'NA','NA','NA',![],![],0x0,'.png','NA',![],_0x2549e5(0x1c2),'NA','NA','NA',_0x2549e5(0x145)),roomInfo[0x6]=new Array(_0x2549e5(0x179),0x10,'NA','NA','NA',0x0,'NA','NA','NA',![],![],0x0,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA','Vento2'),roomInfo[0x7]=new Array('Big\x20House',0x10,0x8,0x9,0xa,0x0,0x0,0x0,0x0,![],!![],0x0,'.png',0x0,![],_0x2549e5(0x20f),_0x2549e5(0x124),'MoradiaFootSteps','MoradiaFootSteps',_0x2549e5(0x1e9)),roomInfo[0x8]=new Array(_0x2549e5(0x1a4),0x7,'NA','NA','NA',0x0,'NA','NA','NA',![],!![],0x0,_0x2549e5(0x210),'NA',![],_0x2549e5(0x124),'NA','NA','NA','TorneiraPingar'),roomInfo[0x9]=new Array(_0x2549e5(0x202),0x7,0xc,'NA','NA',0x0,'NA','NA','NA',![],!![],0x0,_0x2549e5(0x210),'NA',![],_0x2549e5(0x124),_0x2549e5(0x124),'NA','NA',_0x2549e5(0x1e9)),roomInfo[0xa]=new Array(_0x2549e5(0x1f7),0x7,0xb,'NA','NA',0x0,0x0,'NA','NA',![],!![],0x0,_0x2549e5(0x210),'NA',![],_0x2549e5(0x124),_0x2549e5(0x124),'NA','NA',_0x2549e5(0x1e9)),roomInfo[0xb]=new Array(_0x2549e5(0x14a),0xa,'NA','NA','NA',0x0,'NA','NA','NA',![],!![],0x1,_0x2549e5(0x210),'NA',![],_0x2549e5(0x124),'NA','NA','NA','Dust'),roomInfo[0xc]=new Array(_0x2549e5(0x166),0x9,'NA','NA','NA',0x0,'NA','NA','NA',![],![],0x3,_0x2549e5(0x210),'NA',![],_0x2549e5(0x124),'NA','NA','NA',_0x2549e5(0x1e9)),roomInfo[0xd]=new Array(_0x2549e5(0x1f1),0x0,'NA','NA','NA',0x0,'NA','NA','NA',![],!![],0x1,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA','Vento2'),roomInfo[0xe]=new Array(_0x2549e5(0x208),0x0,0x4,'NA','NA',0x0,0x0,'NA','NA',![],!![],0x0,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA',_0x2549e5(0x18e)),roomInfo[0xf]=new Array(_0x2549e5(0x1e5),0x2,'NA','NA','NA',0x0,'NA','NA','NA',![],!![],0x0,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA',_0x2549e5(0x18e)),roomInfo[0x10]=new Array(_0x2549e5(0x125),0x1,0x7,0x6,'NA',0x0,0x0,0x0,'NA',![],!![],0x0,_0x2549e5(0x210),0x0,!![],'NA','DoorOpening','NA','NA','Vento'),roomInfo[0x11]=new Array(_0x2549e5(0x13c),0x1,0xe,0xd,'NA',0x0,0x0,0x0,'NA',!![],!![],0x0,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA',_0x2549e5(0x18e)),roomInfo[0x12]=new Array(_0x2549e5(0x1f3),0x1,'NA','NA','NA',0x0,'NA','NA','NA',![],!![],0x0,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA',_0x2549e5(0x18e)),roomInfo[0x13]=new Array(_0x2549e5(0x1f3),0x2,'NA','NA','NA',0x0,'NA','NA','NA',![],!![],0x0,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA','Vento'),roomInfo[0x14]=new Array(_0x2549e5(0x1bc),0x15,'NA','NA','NA',0x5,'NA','NA','NA',![],!![],0x0,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA'),roomInfo[0x15]=new Array(_0x2549e5(0x1b8),0x16,0x14,'NA','NA',0x5,0x5,'NA','NA',![],!![],0x4,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA'),roomInfo[0x16]=new Array('Darby\x20Street',0x15,0x17,'NA','NA',0x5,0x5,'NA','NA',![],!![],0x4,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA'),roomInfo[0x17]=new Array(_0x2549e5(0x177),0x16,0x20,0x18,0x22,0x5,0x5,0x5,0x5,![],!![],0x4,_0x2549e5(0x210),'NA',!![]),roomInfo[0x18]=new Array('Dougan\x20Street',0x17,0x1c,0x19,'NA',0x5,0x5,0x5,'NA',![],!![],0x4,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA'),roomInfo[0x19]=new Array(_0x2549e5(0x165),0x18,0x1a,'NA','NA',0x5,0x5,'NA','NA',![],!![],0x4,'.png','NA',!![],'NA','NA','NA','NA'),roomInfo[0x1a]=new Array(_0x2549e5(0x165),0x18,0x19,0x1b,'NA',0x5,0x5,0xa,'NA',!![],!![],0x4,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA'),roomInfo[0x1b]=new Array('Crane',0x1a,'NA','NA','NA',0xa,'NA','NA','NA',![],!![],0x4,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA'),roomInfo[0x1c]=new Array('Laguna\x20Avenue',0x18,0x1d,0x1f,'NA',0x5,0x5,0x5,'NA',![],!![],0x4,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA'),roomInfo[0x1d]=new Array('Clio\x20Street',0x1c,0x1e,'NA','NA',0x5,0x5,'NA','NA',![],!![],0x4,'.png','NA',!![],'NA','NA','NA','NA'),roomInfo[0x1e]=new Array(_0x2549e5(0x1ad),0x1d,'NA','NA','NA',0x5,'NA','NA','NA',![],!![],0x4,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA'),roomInfo[0x1f]=new Array('Clover\x20Street',0x1c,0x20,'NA','NA',0x5,0x5,'NA','NA',![],!![],0x4,'.png','NA',!![],'NA','NA','NA','NA'),roomInfo[0x20]=new Array(_0x2549e5(0x1a6),0x1f,0x21,'NA','NA',0x5,0x5,'NA','NA',![],!![],0x4,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA'),roomInfo[0x21]=new Array(_0x2549e5(0x177),0x20,0x16,0x22,0x18,0x5,0x5,0x5,0x5,![],!![],0x4,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA'),roomInfo[0x22]=new Array('Crost\x20Lane',0x17,0x0,0x23,'NA',0x5,0x5,0x5,'NA',![],!![],0x4,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA'),roomInfo[0x23]=new Array(_0x2549e5(0x11e),0x22,0x26,0x24,0x27,0x5,0x5,0x5,0x5,![],!![],0x4,'.png','NA',!![],'NA','NA','NA','NA'),roomInfo[0x24]=new Array(_0x2549e5(0x16b),0x23,0x25,'NA','NA',0x5,0x5,'NA','NA',![],!![],0x4,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA'),roomInfo[0x25]=new Array(_0x2549e5(0x1db),0x24,'NA','NA','NA',0x5,'NA','NA','NA',![],!![],0x4,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA'),roomInfo[0x26]=new Array(_0x2549e5(0x18c),0x23,0x27,'NA','NA',0x5,0x5,'NA','NA',![],!![],0x4,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA'),roomInfo[0x27]=new Array(_0x2549e5(0x18d),0x26,0x23,'NA','NA',0x5,0x5,'NA','NA',![],!![],0x4,_0x2549e5(0x210),'NA',!![],'NA','NA','NA','NA'),roomInfo[0x28]=new Array('','NA','NA','NA','NA','NA','NA','NA','NA',![],![],0x0,_0x2549e5(0x210),'NA',![],'NA','NA','NA','NA');let roomItems=new Array(),itemPosition=new Array();itemPosition[0x4]=new Array('NA','NA','NA','NA','NA','NA','NA','NA','NA','NA','NA','NA','NA','NA','NA','NA','NA','NA','NA','NA','6%',_0x2549e5(0x183),'63%',_0x2549e5(0x1b2),'1'),itemPosition[0x8]=new Array('4%','45%',_0x2549e5(0x138),_0x2549e5(0x1b2),'0'),itemPosition[0xb]=new Array('5%','59%',_0x2549e5(0x16c),_0x2549e5(0x1b2),'0'),itemPosition[0xc]=new Array('4%',_0x2549e5(0x1d9),'69%',_0x2549e5(0x1b2),'0','4%',_0x2549e5(0x132),_0x2549e5(0x12a),_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x1f5),'55%',_0x2549e5(0x1b2),'0','5%','27.7%',_0x2549e5(0x1d5),_0x2549e5(0x1b2),'0'),itemPosition[0xd]=new Array('7%',_0x2549e5(0x149),'47%',_0x2549e5(0x1b2),'0','9%',_0x2549e5(0x200),_0x2549e5(0x212),_0x2549e5(0x1b2),'0'),itemPosition[0x14]=new Array('5%',_0x2549e5(0x11c),'0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x178),'0%','0deg','0','5%',_0x2549e5(0x119),'0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x19b),'0%',_0x2549e5(0x1b2),'0'),itemPosition[0x15]=new Array('5%','50%','0%','0deg','0','5%','60%','0%','0deg','0','5%',_0x2549e5(0x119),'0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x19b),'0%',_0x2549e5(0x1b2),'0'),itemPosition[0x16]=new Array('5%','50%','0%','0deg','0','5%',_0x2549e5(0x178),'0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x119),'0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x19b),'0%',_0x2549e5(0x1b2),'0'),itemPosition[0x17]=new Array('5%',_0x2549e5(0x11c),'0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x178),'0%',_0x2549e5(0x1b2),'0','5%','70%','0%',_0x2549e5(0x1b2),'0','5%','80%','0%',_0x2549e5(0x1b2),'0'),itemPosition[0x18]=new Array('5%',_0x2549e5(0x11c),'0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x178),'0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x119),'0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x19b),'0%',_0x2549e5(0x1b2),'0'),itemPosition[0x19]=new Array('5%',_0x2549e5(0x11c),'0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x178),'0%','0deg','0','5%',_0x2549e5(0x119),'0%',_0x2549e5(0x1b2),'0','5%','80%','0%','0deg','0'),itemPosition[0x1a]=new Array('5%','50%','0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x178),'0%',_0x2549e5(0x1b2),'0','5%','70%','0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x19b),'0%',_0x2549e5(0x1b2),'0'),itemPosition[0x1b]=new Array('5%',_0x2549e5(0x11c),'0%','0deg','0','5%',_0x2549e5(0x178),'0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x119),'0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x19b),'0%','0deg','0'),itemPosition[0x1c]=new Array('5%',_0x2549e5(0x11c),'0%',_0x2549e5(0x1b2),'0','5%','60%','0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x119),'0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x19b),'0%',_0x2549e5(0x1b2),'0'),itemPosition[0x1d]=new Array('5%',_0x2549e5(0x11c),'0%','0deg','0','5%',_0x2549e5(0x178),'0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x119),'0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x19b),'0%',_0x2549e5(0x1b2),'0'),itemPosition[0x1e]=new Array('5%',_0x2549e5(0x11c),'0%',_0x2549e5(0x1b2),'0','5%','60%','0%','0deg','0','5%',_0x2549e5(0x119),'0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x19b),'0%',_0x2549e5(0x1b2),'0'),itemPosition[0x1f]=new Array('5%',_0x2549e5(0x11c),'0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x178),'0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x119),'0%',_0x2549e5(0x1b2),'0','5%','80%','0%','0deg','0'),itemPosition[0x20]=new Array('5%',_0x2549e5(0x11c),'0%','0deg','0','5%','60%','0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x119),'0%','0deg','0','5%',_0x2549e5(0x19b),'0%',_0x2549e5(0x1b2),'0'),itemPosition[0x21]=new Array('5%','50%','0%',_0x2549e5(0x1b2),'0','5%','60%','0%',_0x2549e5(0x1b2),'0','5%','70%','0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x19b),'0%',_0x2549e5(0x1b2),'0'),itemPosition[0x22]=new Array('5%','50%','0%','0deg','0','5%',_0x2549e5(0x178),'0%',_0x2549e5(0x1b2),'0','5%','70%','0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x19b),'0%','0deg','0'),itemPosition[0x23]=new Array('5%','50%','0%',_0x2549e5(0x1b2),'0','5%','60%','0%','0deg','0','5%',_0x2549e5(0x119),'0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x19b),'0%',_0x2549e5(0x1b2),'0'),itemPosition[0x24]=new Array('5%',_0x2549e5(0x11c),'0%',_0x2549e5(0x1b2),'0','5%','60%','0%',_0x2549e5(0x1b2),'0','5%','70%','0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x19b),'0%',_0x2549e5(0x1b2),'0'),itemPosition[0x25]=new Array('5%',_0x2549e5(0x11c),'0%',_0x2549e5(0x1b2),'0','5%','60%','0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x119),'0%',_0x2549e5(0x1b2),'0','5%','80%','0%',_0x2549e5(0x1b2),'0'),itemPosition[0x26]=new Array('5%','50%','0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x178),'0%','0deg','0','5%',_0x2549e5(0x119),'0%','0deg','0','5%',_0x2549e5(0x19b),'0%',_0x2549e5(0x1b2),'0'),itemPosition[0x27]=new Array('5%','50%','0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x178),'0%',_0x2549e5(0x1b2),'0','5%',_0x2549e5(0x119),'0%',_0x2549e5(0x1b2),'0','5%','80%','0%',_0x2549e5(0x1b2),'0');let triggerPosition=new Array();triggerPosition[0x0]=new Array('54.4%',_0x2549e5(0x1f5),_0x2549e5(0x13b),_0x2549e5(0x203),_0x2549e5(0x1b2),'bg0house.png',_0x2549e5(0x1e2),_0x2549e5(0x164),_0x2549e5(0x130),_0x2549e5(0x18f),_0x2549e5(0x1b2),_0x2549e5(0x1f4),_0x2549e5(0x1a7),_0x2549e5(0x1a7),'40%',_0x2549e5(0x11a),_0x2549e5(0x1b2),_0x2549e5(0x17e),'32%',_0x2549e5(0x12a),_0x2549e5(0x1a8),_0x2549e5(0x1f5),_0x2549e5(0x1b2),_0x2549e5(0x142)),triggerPosition[0x1]=new Array('57%',_0x2549e5(0x1ec),_0x2549e5(0x1ac),_0x2549e5(0x149),'0deg',_0x2549e5(0x193),'14%',_0x2549e5(0x213),'51%',_0x2549e5(0x12a),_0x2549e5(0x1b2),_0x2549e5(0x135),_0x2549e5(0x12d),_0x2549e5(0x1e0),'0%','0%',_0x2549e5(0x1b2),'house2planks.png',_0x2549e5(0x12a),_0x2549e5(0x126),_0x2549e5(0x12d),_0x2549e5(0x13d),_0x2549e5(0x1b2),_0x2549e5(0x187)),triggerPosition[0x2]=new Array(_0x2549e5(0x1d8),_0x2549e5(0x213),_0x2549e5(0x1d0),_0x2549e5(0x15e),'0deg','arrow.png',_0x2549e5(0x1e2),_0x2549e5(0x1de),'9%',_0x2549e5(0x183),_0x2549e5(0x1b2),_0x2549e5(0x153),_0x2549e5(0x1e2),_0x2549e5(0x1f5),_0x2549e5(0x138),'0%',_0x2549e5(0x1b2),_0x2549e5(0x155)),triggerPosition[0x3]=new Array('54%',_0x2549e5(0x19d),'85%','26%',_0x2549e5(0x1b2),_0x2549e5(0x135),_0x2549e5(0x167),_0x2549e5(0x213),_0x2549e5(0x20b),_0x2549e5(0x200),_0x2549e5(0x1b2),'arrow.png',_0x2549e5(0x19c),'96%','0%',_0x2549e5(0x18a),_0x2549e5(0x1b2),_0x2549e5(0x20a),_0x2549e5(0x12a),'54%',_0x2549e5(0x1be),'0%',_0x2549e5(0x1b2),_0x2549e5(0x1d1)),triggerPosition[0x4]=new Array(_0x2549e5(0x1aa),_0x2549e5(0x1e0),'0%','0%',_0x2549e5(0x1b2),_0x2549e5(0x186),'10%','8%',_0x2549e5(0x183),_0x2549e5(0x171),_0x2549e5(0x1b2),'trapdoor.png'),triggerPosition[0x5]=new Array('13%',_0x2549e5(0x1e0),'0%',_0x2549e5(0x11b),_0x2549e5(0x1b2),'ladder.png'),triggerPosition[0x6]=new Array('5%',_0x2549e5(0x213),_0x2549e5(0x19b),_0x2549e5(0x207),_0x2549e5(0x1b2),_0x2549e5(0x135)),triggerPosition[0x7]=new Array('5%',_0x2549e5(0x213),_0x2549e5(0x19b),'45%','0deg',_0x2549e5(0x135),'10%',_0x2549e5(0x17d),_0x2549e5(0x12a),_0x2549e5(0x1a9),'0deg','door3.png',_0x2549e5(0x1e7),_0x2549e5(0x198),_0x2549e5(0x149),'5%',_0x2549e5(0x1b2),_0x2549e5(0x205),_0x2549e5(0x128),'91%','10%',_0x2549e5(0x15f),_0x2549e5(0x1b2),'stairs.png'),triggerPosition[0x8]=new Array('5%','10%',_0x2549e5(0x185),'0%',_0x2549e5(0x1b2),'arrow.png'),triggerPosition[0x9]=new Array(_0x2549e5(0x149),_0x2549e5(0x181),'-4%',_0x2549e5(0x1cd),_0x2549e5(0x1b2),'door4.png','28%','38%',_0x2549e5(0x1e1),_0x2549e5(0x204),_0x2549e5(0x1b2),_0x2549e5(0x172)),triggerPosition[0xa]=new Array(_0x2549e5(0x138),_0x2549e5(0x12a),_0x2549e5(0x13d),_0x2549e5(0x1e7),_0x2549e5(0x1b2),'stairs2.png',_0x2549e5(0x149),'75%','9%',_0x2549e5(0x198),_0x2549e5(0x1b2),_0x2549e5(0x1f2),'5%',_0x2549e5(0x213),_0x2549e5(0x199),_0x2549e5(0x119),'134deg',_0x2549e5(0x135)),triggerPosition[0xb]=new Array('5%','10%',_0x2549e5(0x185),'0%',_0x2549e5(0x1b2),_0x2549e5(0x135)),triggerPosition[0xc]=new Array('5%','10%','65%','0%','0deg','arrow.png'),triggerPosition[0xd]=new Array('5%','10%',_0x2549e5(0x185),'0%',_0x2549e5(0x1b2),'arrow.png','5%',_0x2549e5(0x213),_0x2549e5(0x185),'55%','0deg',_0x2549e5(0x135)),triggerPosition[0xe]=new Array('14%',_0x2549e5(0x1c7),_0x2549e5(0x171),_0x2549e5(0x123),_0x2549e5(0x1b2),_0x2549e5(0x1ab),_0x2549e5(0x16d),_0x2549e5(0x1c3),_0x2549e5(0x152),_0x2549e5(0x1d2),_0x2549e5(0x1b2),'door7.png'),triggerPosition[0xf]=new Array('5%',_0x2549e5(0x213),'65%','0%',_0x2549e5(0x1b2),'arrow.png'),triggerPosition[0x10]=new Array('5%',_0x2549e5(0x213),'65%','0%','0deg',_0x2549e5(0x135),'26%',_0x2549e5(0x1d5),_0x2549e5(0x138),_0x2549e5(0x1f5),_0x2549e5(0x1b2),_0x2549e5(0x176),_0x2549e5(0x1f8),_0x2549e5(0x16d),_0x2549e5(0x19b),'49%','0deg',_0x2549e5(0x157)),triggerPosition[0x11]=new Array(_0x2549e5(0x171),_0x2549e5(0x19d),_0x2549e5(0x16f),_0x2549e5(0x19f),_0x2549e5(0x1b2),_0x2549e5(0x135),'35%',_0x2549e5(0x183),_0x2549e5(0x12b),_0x2549e5(0x1f0),'0deg',_0x2549e5(0x144),'31%','46%',_0x2549e5(0x1c6),'0%',_0x2549e5(0x1b2),_0x2549e5(0x15c)),triggerPosition[0x12]=new Array('5%','10%',_0x2549e5(0x185),'0%','0deg',_0x2549e5(0x135)),triggerPosition[0x13]=new Array('5%','10%',_0x2549e5(0x185),'0%',_0x2549e5(0x1b2),_0x2549e5(0x135)),triggerPosition[0x14]=new Array('5%',_0x2549e5(0x213),'40%','6%',_0x2549e5(0x1b2),_0x2549e5(0x135)),triggerPosition[0x15]=new Array('5%','10%','88%',_0x2549e5(0x149),_0x2549e5(0x1b2),'arrow.png','5%','10%',_0x2549e5(0x1d5),'77%',_0x2549e5(0x1b2),'arrow.png'),triggerPosition[0x16]=new Array('5%',_0x2549e5(0x213),_0x2549e5(0x1f6),_0x2549e5(0x126),'0deg',_0x2549e5(0x135),'5%',_0x2549e5(0x213),_0x2549e5(0x14f),_0x2549e5(0x126),_0x2549e5(0x1b2),_0x2549e5(0x135)),triggerPosition[0x17]=new Array('5%',_0x2549e5(0x213),_0x2549e5(0x1f6),_0x2549e5(0x126),_0x2549e5(0x1b2),_0x2549e5(0x135),'5%',_0x2549e5(0x213),_0x2549e5(0x14f),_0x2549e5(0x126),'0deg',_0x2549e5(0x135),'5%',_0x2549e5(0x213),_0x2549e5(0x178),_0x2549e5(0x19d),_0x2549e5(0x1b2),_0x2549e5(0x135),'5%','10%',_0x2549e5(0x178),_0x2549e5(0x19b),_0x2549e5(0x1b2),_0x2549e5(0x135)),triggerPosition[0x18]=new Array('5%','10%',_0x2549e5(0x1f6),_0x2549e5(0x126),_0x2549e5(0x1b2),_0x2549e5(0x135),'5%',_0x2549e5(0x213),_0x2549e5(0x14f),'47%',_0x2549e5(0x1b2),_0x2549e5(0x135),'5%',_0x2549e5(0x213),_0x2549e5(0x1ed),_0x2549e5(0x19d),'0deg','arrow.png'),triggerPosition[0x19]=new Array('5%',_0x2549e5(0x213),_0x2549e5(0x163),_0x2549e5(0x138),'0deg',_0x2549e5(0x135),'5%',_0x2549e5(0x213),_0x2549e5(0x18a),_0x2549e5(0x1ef),'0deg','arrow.png'),triggerPosition[0x1a]=new Array('5%',_0x2549e5(0x213),'37%','9%',_0x2549e5(0x1b2),_0x2549e5(0x135),'5%',_0x2549e5(0x213),_0x2549e5(0x18a),'2%',_0x2549e5(0x1b2),_0x2549e5(0x135),'5%',_0x2549e5(0x213),_0x2549e5(0x12a),_0x2549e5(0x126),'0deg','arrow.png'),triggerPosition[0x1b]=new Array('5%',_0x2549e5(0x213),'87%',_0x2549e5(0x126),_0x2549e5(0x1b2),_0x2549e5(0x135),'5%',_0x2549e5(0x213),_0x2549e5(0x14f),_0x2549e5(0x126),'0deg','arrow.png'),triggerPosition[0x1c]=new Array('5%',_0x2549e5(0x213),_0x2549e5(0x1f6),'47%','0deg',_0x2549e5(0x135),'5%',_0x2549e5(0x213),'60%',_0x2549e5(0x19d),_0x2549e5(0x1b2),_0x2549e5(0x135),'5%','10%',_0x2549e5(0x178),_0x2549e5(0x19b),_0x2549e5(0x1b2),_0x2549e5(0x135)),triggerPosition[0x1d]=new Array('5%','10%',_0x2549e5(0x1f6),'47%','0deg',_0x2549e5(0x135),'5%','10%',_0x2549e5(0x14f),_0x2549e5(0x126),_0x2549e5(0x1b2),'arrow.png'),triggerPosition[0x1e]=new Array('5%','10%',_0x2549e5(0x15f),_0x2549e5(0x1e4),'0deg','arrow.png'),triggerPosition[0x1f]=new Array('5%','10%','87%',_0x2549e5(0x126),_0x2549e5(0x1b2),'arrow.png','5%',_0x2549e5(0x213),'55%',_0x2549e5(0x126),'0deg',_0x2549e5(0x135)),triggerPosition[0x20]=new Array('5%',_0x2549e5(0x213),_0x2549e5(0x1f6),_0x2549e5(0x126),_0x2549e5(0x1b2),_0x2549e5(0x135),'5%',_0x2549e5(0x213),'55%','9%',_0x2549e5(0x1b2),'arrow.png'),triggerPosition[0x21]=new Array('5%','10%',_0x2549e5(0x1f6),'47%',_0x2549e5(0x1b2),_0x2549e5(0x135),'5%',_0x2549e5(0x213),_0x2549e5(0x14f),_0x2549e5(0x126),_0x2549e5(0x1b2),_0x2549e5(0x135),'5%','10%',_0x2549e5(0x178),'15%',_0x2549e5(0x1b2),'arrow.png','5%',_0x2549e5(0x213),_0x2549e5(0x178),_0x2549e5(0x19b),_0x2549e5(0x1b2),_0x2549e5(0x135)),triggerPosition[0x22]=new Array('5%',_0x2549e5(0x213),_0x2549e5(0x1f6),_0x2549e5(0x126),_0x2549e5(0x1b2),'arrow.png','5%',_0x2549e5(0x213),_0x2549e5(0x1d2),'4%',_0x2549e5(0x1b2),_0x2549e5(0x135),'5%',_0x2549e5(0x213),'55%',_0x2549e5(0x126),_0x2549e5(0x1b2),_0x2549e5(0x135)),triggerPosition[0x23]=new Array('5%',_0x2549e5(0x213),_0x2549e5(0x1f6),_0x2549e5(0x126),_0x2549e5(0x1b2),_0x2549e5(0x135),'5%',_0x2549e5(0x213),_0x2549e5(0x14f),_0x2549e5(0x126),_0x2549e5(0x1b2),_0x2549e5(0x135),'5%',_0x2549e5(0x213),_0x2549e5(0x178),'15%',_0x2549e5(0x1b2),_0x2549e5(0x135),'5%','10%',_0x2549e5(0x178),_0x2549e5(0x19b),'0deg',_0x2549e5(0x135)),triggerPosition[0x24]=new Array('5%',_0x2549e5(0x213),'80%',_0x2549e5(0x126),_0x2549e5(0x1b2),_0x2549e5(0x135),'5%','10%',_0x2549e5(0x14f),_0x2549e5(0x1d5),_0x2549e5(0x1b2),_0x2549e5(0x135)),triggerPosition[0x25]=new Array('5%',_0x2549e5(0x213),_0x2549e5(0x1f5),'4%',_0x2549e5(0x1b2),_0x2549e5(0x135)),triggerPosition[0x26]=new Array('5%',_0x2549e5(0x213),'64%','4%',_0x2549e5(0x1b2),_0x2549e5(0x135),'5%',_0x2549e5(0x213),_0x2549e5(0x14f),_0x2549e5(0x1ef),_0x2549e5(0x1b2),'arrow.png'),triggerPosition[0x27]=new Array('5%',_0x2549e5(0x213),_0x2549e5(0x161),'4%',_0x2549e5(0x1b2),_0x2549e5(0x135),'5%',_0x2549e5(0x213),'68%',_0x2549e5(0x1ef),'0deg','arrow.png');const inventoryRoom=[0x0,0x0,0x0,'NA','NA','NA','NA','NA','NA','NA','NA','NA','NA','NA','NA'];let itemInfo=new Array();itemInfo[0x0]=new Array('NA','NA',0x0,![]),itemInfo[0x1]=new Array(_0x2549e5(0x1d6),_0x2549e5(0x140),0.87,![]),itemInfo[0x2]=new Array('Baked\x20Beans',_0x2549e5(0x140),0.3,![]),itemInfo[0x3]=new Array(_0x2549e5(0x20d),_0x2549e5(0x190),0.35,![]),itemInfo[0x4]=new Array(_0x2549e5(0x16e),_0x2549e5(0x188),0.03,![]),itemInfo[0x5]=new Array(_0x2549e5(0x1bb),_0x2549e5(0x143),0x5,![]),itemInfo[0x6]=new Array('Blue\x20Key',_0x2549e5(0x188),0.03,![]),itemInfo[0x7]=new Array(_0x2549e5(0x131),_0x2549e5(0x188),0.03,![]),itemInfo[0x8]=new Array(_0x2549e5(0x131),_0x2549e5(0x188),0.03,![]),itemInfo[0x9]=new Array(_0x2549e5(0x1cc),_0x2549e5(0x188),0.08,![]),itemInfo[0xa]=new Array('Green\x20Key','throw\x20away\x20the\x20',0.03,![]),itemInfo[0xb]=new Array(_0x2549e5(0x134),'throw\x20away\x20the\x20',0.03,![]),itemInfo[0xc]=new Array(_0x2549e5(0x1d7),'throw\x20away\x20the\x20',0.03,![]),itemInfo[0xd]=new Array('Lighter',_0x2549e5(0x188),0.05,![]),itemInfo[0xe]=new Array(_0x2549e5(0x1cf),_0x2549e5(0x188),0.06,![]),itemInfo[0xf]=new Array(_0x2549e5(0x20d),_0x2549e5(0x190),0.35,![]),itemInfo[0x10]=new Array(_0x2549e5(0x1bf),_0x2549e5(0x188),0.27,![]),itemInfo[0x11]=new Array(_0x2549e5(0x150),_0x2549e5(0x188),0.45,!![]),itemInfo[0x12]=new Array(_0x2549e5(0x14d),'get\x20rid\x20of\x20these\x20',0x1,![]),itemInfo[0x13]=new Array(_0x2549e5(0x15d),'drink\x20this\x20',0.32,![]),itemInfo[0x14]=new Array(_0x2549e5(0x1dc),_0x2549e5(0x190),0.7,![]),itemInfo[0x15]=new Array(_0x2549e5(0x206),_0x2549e5(0x190),0.3,![]),itemInfo[0x16]=new Array(_0x2549e5(0x127),_0x2549e5(0x190),0.2,![]),itemInfo[0x64]=new Array(_0x2549e5(0x182),'use\x20these\x20',0.3,![]),itemInfo[0x65]=new Array(_0x2549e5(0x16a),_0x2549e5(0x190),0.3,![]),itemInfo[0x67]=new Array(_0x2549e5(0x122),_0x2549e5(0x143),0.1,![]),itemInfo[0x68]=new Array('Backpack','get\x20rid\x20of\x20this\x20',0x1,![]),itemInfo[0x69]=new Array(_0x2549e5(0x18b),_0x2549e5(0x190),0x5,![]),itemInfo[0x6a]=new Array(_0x2549e5(0x1da),_0x2549e5(0x143),0.1,![]),itemInfo[0x6b]=new Array(_0x2549e5(0x1cf),_0x2549e5(0x143),0.06,!![]),itemInfo[0x6c]=new Array(_0x2549e5(0x1a1),_0x2549e5(0x1a0),0x2,![]);function _0x24d3(_0x6c193d,_0x39ad8c){const _0x8bdbf4=_0x8bdb();return _0x24d3=function(_0x24d355,_0x4f0c65){_0x24d355=_0x24d355-0x119;let _0xf73c7d=_0x8bdbf4[_0x24d355];return _0xf73c7d;},_0x24d3(_0x6c193d,_0x39ad8c);}const bunkerLocal=[0x21,0x22,0x23,0x24],storageLocal=[0x6];let storageRoom=new Array();storageRoom[0x6]=new Array(0x0,'NA','NA','NA','NA','NA','NA','NA','NA','NA','NA','NA');const npcLocal=[0x4,-0x1,0xf,-0x1,0x4,0x6],npcChapter=[0x0,0x0,0x0];let npcPos=new Array();npcPos[0x0]=['1',_0x2549e5(0x149),_0x2549e5(0x1f5),'28%','NA'],npcPos[0x1]=['1',_0x2549e5(0x13e),'54%',_0x2549e5(0x212),'NA'],npcPos[0x2]=['1',_0x2549e5(0x1aa),_0x2549e5(0x19c),'18%','NA'];let npcTalk=new Array();npcTalk[0x0]=['36%','56%','11%'],npcTalk[0x1]=[_0x2549e5(0x11c),_0x2549e5(0x11a),'6%'],npcTalk[0x2]=[_0x2549e5(0x1b6),_0x2549e5(0x146),'6%'];let npcChange=new Array();npcChange[0x0]=new Array(),npcChange[0x0][0x0]=['0',_0x2549e5(0x17f)],npcChange[0x0][0x1]=['0',_0x2549e5(0x17f)],npcChange[0x0][0x2]=['99',_0x2549e5(0x17f)],npcChange[0x0][0x3]=['99',_0x2549e5(0x17f)],npcChange[0x2]=new Array(),npcChange[0x2][0x0]=['1',_0x2549e5(0x1ba)],npcChange[0x2][0x1]=['0',_0x2549e5(0x1ba)],npcChange[0x2][0x2]=['0','npc2talk.gif'];let story=new Array();story[0x0]=new Array(),story[0x0][0x0]=new Array(_0x2549e5(0x1e6),_0x2549e5(0x1cb),_0x2549e5(0x1fe),'To\x20craft\x20them\x20you\x20have\x20to\x20select\x20alcohol\x20and\x20cloth.',_0x2549e5(0x1d3),_0x2549e5(0x1ae),_0x2549e5(0x20e)),story[0x0][0x1]=new Array(_0x2549e5(0x1e6),'Maybe\x20we\x27re\x20asking\x20too\x20much\x20of\x20you\x20but…\x20We\x20can\x27t\x20survive\x20without\x20you,\x20sorry\x20if\x20we\x20can\x27t\x20help\x20you\x20more…'),story[0x0][0x2]=new Array(_0x2549e5(0x1e6),_0x2549e5(0x14c),_0x2549e5(0x156)),story[0x0][0x3]=new Array(_0x2549e5(0x1e6),_0x2549e5(0x201)),story[0x1]=new Array(),story[0x1][0x0]=new Array('Voice\x20Behind\x20Door\x20(Eric)','What\x20are\x20you\x20doing\x20here?',_0x2549e5(0x159),'Disappear\x20if\x20you\x20still\x20want\x20to\x20keep\x20the\x20business\x20going.'),story[0x1][0x1]=new Array(_0x2549e5(0x191),_0x2549e5(0x121)),story[0x1][0x2]=new Array(_0x2549e5(0x191),_0x2549e5(0x192),_0x2549e5(0x1af),'AAAAAAAAAAAAAAAAH!'),story[0x2]=new Array(),story[0x2][0x0]=new Array(_0x2549e5(0x1eb),'HaHaHa,\x20did\x20this\x20old\x20man\x20really\x20think\x20he\x20could\x20escape\x20us\x20for\x20all\x20this\x20time?',_0x2549e5(0x196),'Let\x20me\x20take\x20care\x20of\x20you!'),story[0x2][0x1]=new Array(_0x2549e5(0x1eb),'…',_0x2549e5(0x1dd)),story[0x2][0x2]=new Array(_0x2549e5(0x1eb),'…');let craftlist=new Array();craftlist[0x0]=new Array(0x65,0x8,0x64);let cutscene=new Array();cutscene[0x0]=new Array(_0x2549e5(0x1fd)),cutscene[0x1]=new Array(_0x2549e5(0x1b0)),cutscene[0x2]=new Array(_0x2549e5(0x1e3));let badGuyLocal=new Array();function _0x8bdb(){const _0x5596a0=['-4%','Road','58%','37%','An\x20old\x20generator.','eat\x20these\x20','11.2%','car.png','get\x20rid\x20of\x20this\x20','house1mirror.png','BuzzLamp','59%','grass','The\x20generator\x20has\x20no\x20fuel...','21%','Bedroom','Old\x20Man\x27s\x20House','I\x20knew\x20this\x20moment\x20would\x20come,\x20you\x20have\x20to\x20save\x20yourself.','Nails','1073022PvXppp','55%','Hammer','brick-bare','36%','house3.png','69.4%','house5.png','You\x20have\x20a\x20chance\x20to\x20survive,\x20please\x20get\x20out\x20of\x20here\x20while\x20you\x20can…','generator.png','709JtHOGN','Don\x27t\x20show\x20up\x20until\x20you\x20have\x20everything\x20ready\x20for\x20the\x20exchange.','13%','curtain-heavy','carmirror.png','Soda','22%','62%','67%','77%','A\x20tiny\x20candle.','35%','94%','Construction\x20Site','Cupboards','14%','fueler','A\x20small\x20candle.','Alcohol','Bower\x20Street','28%','18%','Yellow\x20Key','85%','resonanceAudio(\x27FirstRoomBed\x27)','54%','cupboards.png','Vento2','candle3.png','bed.png','door1.png','Lyroy\x20Avenue','60%','Generator','5oNxASx','-53%','5761ISqBxO','31%','bg0ruinedhouse.png','npc0talk.png','178%','104%','Bandages','68%','door1open.png','65%','door6.png','house4.png','throw\x20away\x20the\x20','1541570mpxIth','61%','Water\x20Bucket','Parking\x20Lot','Parking\x20Lot\x20Exit','Vento','-0.4%','drink\x20this\x20','Voice\x20Behind\x20Door\x20(Eric)','As\x20promised,\x20the\x20knife\x20is\x20by\x20the\x20door.','bg1bottom.png','32.7%','table.png','But\x20who\x27s\x20this?\x20Your\x20\x27white\x20knight\x27\x20has\x20arrived\x20old\x20man!\x20You\x27re\x20lucky,\x20you\x27ll\x20get\x20to\x20live\x20a\x20couple\x20seconds\x20longer.','77.8%','79%','48%','2920497QJjnev','80%','39%','15%','1.7%','26%','get\x20rid\x20of\x20these\x20','Planks','plankRemove()','door2open.png','Bathroom','11EwLXok','Hospital','25%','42.2%','41%','23%','bg14side.png','88%','Clio\x20Street','I\x20think\x20I\x20saw\x20some\x20supplies\x20in\x20that\x20big\x20house,\x20but\x20things\x20have\x20been\x20dangerous.','I\x20hope--','You\x20are\x20just\x20another\x20person\x20stuck\x20in\x20this\x20wasteland\x20with\x20the\x20hope\x20of\x20returning\x20to\x20normalcy.<br><br>You\x20dream\x20of\x20a\x20paradise\x20to\x20escape\x20from\x20this\x20world.','76%','0deg','65.4%','door4open.png','resonanceAudio(\x27AbrirTorneira\x27);','34%','marble','Darby\x20Street','Just\x20a\x20candle.','npc2talk.gif','Jerry\x20Can','River','Old\x20Man\x27s\x20Basement','29%','Flashlight','78.3%','lever.png','FirstRoomTransitioningLadder','64%','95%','candle.png','44%','46%','faucetopen.png','78%','planks.png','Hey,\x20you\x27re\x20finally\x20awake','Old\x20Key','91%','2384ZPcJsb','Knife','90%','house4mirror.png','63%','We\x20used\x20the\x20last\x20ones\x20so\x20we\x20don\x27t\x20have\x20any\x20and\x20you\x27ll\x20have\x20to\x20go\x20get\x20more.','1838VbykWw','69%','Large\x20Baked\x20Beans','Key','53%','86.4%','Watch','Market','Large\x20Sauce','Do\x20you\x20think\x20you\x20won?\x20We\x20have\x20dozens\x20of\x20people\x20surrounding\x20the\x20village,\x20you\x27re\x20not\x20going\x20anywhere…','82%','candle2.png','100%','31.65%','32%','Can\x20you\x20survive?','93%','Eric\x27s\x20House\x20Entrance','Old\x20Mitchell','19%','52.5%','Dust','faucet.png','Invader','12%','49%','resonanceAudio(\x27MotorSwitch\x27);\x20leverToggle(5,0)','92%','66%','Car','door5.png','Ruined\x20House','house1.png','71%','87%','Upper\x20Floor','11.7%','73%','4HayuEd','13.2%','65.5%','The\x20year\x20is\x2020XX,\x20a\x20nuclear\x20war\x20shook\x20the\x20planet.<br><br>Society\x20collapsed\x20but\x20humans\x20still\x20walk\x20the\x20face\x20of\x20the\x20planet.<br><br>Several\x20factions\x20were\x20created,\x20factions\x20whose\x20sole\x20purpose\x20is\x20to\x20conquer\x20the\x20remaining\x20territories\x20and\x20bring\x20destruction\x20to\x20all\x20the\x20opposing\x20humans\x20that\x20remain.','Don\x27t\x20forget\x20that\x20today\x20we’re\x20trading\x20with\x20Eric,\x20he\x27ll\x20give\x20you\x20a\x20knife\x20in\x20exchange\x20for\x20bandages.','26.3%','43%','Thanks\x20for\x20everything…','Living\x20Room','-9.8%','22.5%','door2.png','Sauce','45%','Old\x20Man\x27s\x20House\x20Entrance','22.3%','house2mirrorplanks.png','51%','2.3%','Beer','It\x27s\x20risky\x20to\x20leave\x20the\x20house!\x20You\x27ll\x20have\x20to\x20go\x20there\x20yourself...','DoorOpening','.png','transparent','33%','10%','70%','52%','0.4%','50%','6.7%','Amber\x20Avenue','18111120KkKNsP','108%','Disappear\x20if\x20you\x20still\x20want\x20to\x20keep\x20the\x20business\x20going.','Plastic\x20Bag','86%','MoradiaFootSteps','Big\x20House\x20Entrance','47%','Soup','38%','candle1.png','42%','16%','8508582VXusie','40%','15.2%','resonanceAudio(\x27FirstRoomArmarioAbrir\x27);\x20audioEvent(0,\x27true\x27)','4.4%','Rusty\x20Key','13.45%','door4.png','Red\x20Key','arrow.png','Hey\x20the\x20faucet\x20still\x20works!','resonanceAudio(\x27CandleFire\x27)','20%','A\x20candle.','glass-thin'];_0x8bdb=function(){return _0x5596a0;};return _0x8bdb();}badGuyLocal[0x0]=new Array(0x4,0xb,0x1b,0x5,0x65,0x7d0);let weaponInfo=new Array();weaponInfo[0x6b]=new Array(0x3,0x1388);let restrictionList=new Array();restrictionList[0x2]=new Array('15'),restrictionList[0x3]=new Array('16'),restrictionList[0x6]=new Array('5','13','15','16','18','19'),restrictionList[0x7]=new Array('2','3','5','13','15','16','18','19'),restrictionList[0x8]=new Array('1','2','3','5','13','15','16','18','19'),restrictionList[0x9]=new Array('0','1','2','3','5','13','15','16','18','19'),restrictionList[0xa]=new Array('0','1','2','3','5','13','14','15','16','18','19');let objectPosition=new Array();objectPosition[0x4]=new Array('29%',_0x2549e5(0x20b),'59%','0deg','0',_0x2549e5(0x20c),_0x2549e5(0x194),_0x2549e5(0x209),'0deg','0','2%',_0x2549e5(0x185),'52%',_0x2549e5(0x1b2),'0',_0x2549e5(0x11d),_0x2549e5(0x154),'70%',_0x2549e5(0x1b2),'1'),objectPosition[0x5]=new Array('6%',_0x2549e5(0x185),_0x2549e5(0x1de),_0x2549e5(0x1b2),'0','25.3%',_0x2549e5(0x1b3),_0x2549e5(0x1ff),'0deg','0','8%',_0x2549e5(0x1d5),'87%',_0x2549e5(0x1b2),'0',_0x2549e5(0x19e),'54.4%',_0x2549e5(0x197),'0deg','0'),objectPosition[0x6]=new Array('68%','11%','17%',_0x2549e5(0x1b2),'0',_0x2549e5(0x213),_0x2549e5(0x1be),'39%',_0x2549e5(0x1b2),'0'),objectPosition[0x8]=new Array(_0x2549e5(0x1fb),'10%','18%',_0x2549e5(0x1b2),'0','8%','73%',_0x2549e5(0x12b),_0x2549e5(0x1b2),'0'),objectPosition[0xc]=new Array(_0x2549e5(0x167),'5%',_0x2549e5(0x19c),_0x2549e5(0x1b2),'0',_0x2549e5(0x167),'5%',_0x2549e5(0x183),_0x2549e5(0x1b2),'0',_0x2549e5(0x167),_0x2549e5(0x183),'53%','0deg','0',_0x2549e5(0x15a),_0x2549e5(0x1d5),_0x2549e5(0x160),'0deg','0'),objectPosition[0x10]=new Array('37%','56%',_0x2549e5(0x1b6),_0x2549e5(0x1b2),'1');let roomObj=new Array();roomObj[0x4]=new Array('16',_0x2549e5(0x195),'NA','13',_0x2549e5(0x129),_0x2549e5(0x137),'14',_0x2549e5(0x1df),_0x2549e5(0x137),'15',_0x2549e5(0x174),_0x2549e5(0x137)),roomObj[0x5]=new Array('0',_0x2549e5(0x176),_0x2549e5(0x12f),'1',_0x2549e5(0x175),_0x2549e5(0x170),'2',_0x2549e5(0x205),'resonanceAudio(\x27FirstRoomArmarioAbrir\x27);\x20audioEvent(0,\x27true\x27)','3',_0x2549e5(0x1c5),_0x2549e5(0x137)),roomObj[0x6]=new Array('4',_0x2549e5(0x157),'NA','5',_0x2549e5(0x1c1),_0x2549e5(0x1ee)),roomObj[0x8]=new Array('7',_0x2549e5(0x176),'NA','8',_0x2549e5(0x1ea),_0x2549e5(0x1b5)),roomObj[0xc]=new Array('9',_0x2549e5(0x176),'NA','10',_0x2549e5(0x205),'NA','11','door3.png','NA','12',_0x2549e5(0x133),'NA'),roomObj[0x10]=new Array('6',_0x2549e5(0x1ca),_0x2549e5(0x1a2));let interactObj=new Array();interactObj[0x0]=new Array('',_0x2549e5(0x184),'7%',_0x2549e5(0x1fc),_0x2549e5(0x1b1),_0x2549e5(0x1b2)),interactObj[0x1]=new Array('An\x20unconfortable\x20bed.'),interactObj[0x2]=new Array('',_0x2549e5(0x1a3),'9%','74%',_0x2549e5(0x123),_0x2549e5(0x1b2)),interactObj[0x3]=new Array(_0x2549e5(0x169)),interactObj[0x4]=new Array(_0x2549e5(0x13f)),interactObj[0x5]=new Array(_0x2549e5(0x148)),interactObj[0x6]=new Array('I\x20picked\x20up\x20the\x20planks.',_0x2549e5(0x1ca),'0%','0%','0%','0deg'),interactObj[0x7]=new Array('','door1open.png','14.5%',_0x2549e5(0x12e),_0x2549e5(0x19f),_0x2549e5(0x1b2)),interactObj[0x8]=new Array(_0x2549e5(0x136),_0x2549e5(0x1c8),'8%',_0x2549e5(0x1f9),_0x2549e5(0x12b),'0deg'),interactObj[0x9]=new Array('',_0x2549e5(0x184),'2%','-2%','51.5%',_0x2549e5(0x1b2)),interactObj[0xa]=new Array('',_0x2549e5(0x1a3),_0x2549e5(0x141),_0x2549e5(0x13b),_0x2549e5(0x1c9),'0deg'),interactObj[0xb]=new Array('','door3open.png','16%',_0x2549e5(0x1c4),_0x2549e5(0x1e8),'0deg'),interactObj[0xc]=new Array('',_0x2549e5(0x1b4),_0x2549e5(0x15a),_0x2549e5(0x183),_0x2549e5(0x1c0),_0x2549e5(0x1b2)),interactObj[0xd]=new Array(_0x2549e5(0x1b9)),interactObj[0xe]=new Array(_0x2549e5(0x162)),interactObj[0xf]=new Array(_0x2549e5(0x139)),interactObj[0x10]=new Array('');let genFuel=new Array();genFuel[0x0]=new Array(0x0,![]),genFuel[0x1]=new Array(0x0,![]);let storagePosition=new Array();storagePosition[0x6]=new Array(_0x2549e5(0x120),_0x2549e5(0x180),_0x2549e5(0x17b),_0x2549e5(0x168));let lootTable=new Array();lootTable[0xb]=new Array(0x0,0xd),lootTable[0xc]=new Array(0x0,0x0,0x1,0x2,0x3),lootTable[0xd]=new Array(0x0,0x3,0xf,0x13),lootTable[0x15]=new Array(0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x64,0x65,0x67,0x69,0x6a,0x6b,0x6c),lootTable[0x16]=new Array(0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x64,0x65,0x67,0x69,0x6a,0x6b,0x6c),lootTable[0x17]=new Array(0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x64,0x65,0x67,0x69,0x6a,0x6b,0x6c),lootTable[0x18]=new Array(0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x64,0x65,0x67,0x69,0x6a,0x6b,0x6c),lootTable[0x19]=new Array(0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x64,0x65,0x67,0x69,0x6a,0x6b,0x6c),lootTable[0x1a]=new Array(0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x64,0x65,0x67,0x69,0x6a,0x6b,0x6c),lootTable[0x1b]=new Array(0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x64,0x65,0x67,0x69,0x6a,0x6b,0x6c),lootTable[0x1c]=new Array(0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x64,0x65,0x67,0x69,0x6a,0x6b,0x6c),lootTable[0x1d]=new Array(0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x64,0x65,0x67,0x69,0x6a,0x6b,0x6c),lootTable[0x1e]=new Array(0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x64,0x65,0x67,0x69,0x6a,0x6b,0x6c),lootTable[0x1f]=new Array(0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x64,0x65,0x67,0x69,0x6a,0x6b,0x6c),lootTable[0x20]=new Array(0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x64,0x65,0x67,0x69,0x6a,0x6b,0x6c),lootTable[0x21]=new Array(0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x64,0x65,0x67,0x69,0x6a,0x6b,0x6c),lootTable[0x22]=new Array(0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x64,0x65,0x67,0x69,0x6a,0x6b,0x6c),lootTable[0x23]=new Array(0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x64,0x65,0x67,0x69,0x6a,0x6b,0x6c),lootTable[0x24]=new Array(0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x64,0x65,0x67,0x69,0x6a,0x6b,0x6c),lootTable[0x25]=new Array(0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x64,0x65,0x67,0x69,0x6a,0x6b,0x6c),lootTable[0x26]=new Array(0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x64,0x65,0x67,0x69,0x6a,0x6b,0x6c),lootTable[0x27]=new Array(0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x64,0x65,0x67,0x69,0x6a,0x6b,0x6c),lootTable[0x28]=new Array(0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x1,0x2,0x3,0x4,0x5,0x6,0x7,0x8,0x64,0x65,0x67,0x69,0x6a,0x6b,0x6c);let audioInfo=new Array();audioInfo[0x0]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),'marble','glass-thin','grass','transparent',-0.707,-0.707,0x0),audioInfo[0x1]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),'curtain-heavy',_0x2549e5(0x1b7),'glass-thin',_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x2]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),_0x2549e5(0x1b7),_0x2549e5(0x13a),_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x3]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),'marble','glass-thin',_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x4]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),'curtain-heavy','marble',_0x2549e5(0x13a),_0x2549e5(0x147),'transparent',-0.707,-0.707,0x0),audioInfo[0x5]=new Array(3.1,2.5,3.4,'brick-bare',_0x2549e5(0x15b),_0x2549e5(0x1b7),_0x2549e5(0x13a),_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x6]=new Array(3.1,2.5,3.4,'brick-bare',_0x2549e5(0x15b),_0x2549e5(0x1b7),_0x2549e5(0x13a),_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x7]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),_0x2549e5(0x1b7),'glass-thin',_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x8]=new Array(3.1,2.5,3.4,'brick-bare',_0x2549e5(0x15b),_0x2549e5(0x1b7),'glass-thin',_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x9]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),'curtain-heavy',_0x2549e5(0x1b7),_0x2549e5(0x13a),_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0xa]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),'curtain-heavy',_0x2549e5(0x1b7),_0x2549e5(0x13a),'grass','transparent',-0.707,-0.707,0x0),audioInfo[0xb]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),_0x2549e5(0x1b7),_0x2549e5(0x13a),'grass',_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0xc]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),'curtain-heavy',_0x2549e5(0x1b7),'glass-thin','grass','transparent',-0.707,-0.707,0x0),audioInfo[0xd]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),'curtain-heavy','marble',_0x2549e5(0x13a),'grass',_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0xe]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),_0x2549e5(0x1b7),_0x2549e5(0x13a),_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0xf]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),'curtain-heavy',_0x2549e5(0x1b7),_0x2549e5(0x13a),_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x10]=new Array(3.1,2.5,3.4,'brick-bare',_0x2549e5(0x15b),'marble',_0x2549e5(0x13a),_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x11]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),_0x2549e5(0x1b7),'glass-thin',_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x12]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),'curtain-heavy',_0x2549e5(0x1b7),_0x2549e5(0x13a),_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x13]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),'curtain-heavy',_0x2549e5(0x1b7),_0x2549e5(0x13a),_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x14]=new Array(3.1,2.5,3.4,'brick-bare','curtain-heavy',_0x2549e5(0x1b7),_0x2549e5(0x13a),_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x15]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),_0x2549e5(0x1b7),'glass-thin',_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x16]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),'marble',_0x2549e5(0x13a),_0x2549e5(0x147),'transparent',-0.707,-0.707,0x0),audioInfo[0x17]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),_0x2549e5(0x1b7),_0x2549e5(0x13a),'grass',_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x18]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),_0x2549e5(0x1b7),_0x2549e5(0x13a),_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x19]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),_0x2549e5(0x1b7),_0x2549e5(0x13a),_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x1a]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),'marble',_0x2549e5(0x13a),_0x2549e5(0x147),'transparent',-0.707,-0.707,0x0),audioInfo[0x1b]=new Array(3.1,2.5,3.4,'brick-bare','curtain-heavy','marble',_0x2549e5(0x13a),_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x1c]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),_0x2549e5(0x1b7),_0x2549e5(0x13a),_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x1d]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),_0x2549e5(0x1b7),_0x2549e5(0x13a),_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x1e]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),'marble',_0x2549e5(0x13a),_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x1f]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),_0x2549e5(0x1b7),_0x2549e5(0x13a),_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x20]=new Array(3.1,2.5,3.4,'brick-bare',_0x2549e5(0x15b),_0x2549e5(0x1b7),_0x2549e5(0x13a),_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x21]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),'curtain-heavy',_0x2549e5(0x1b7),'glass-thin','grass','transparent',-0.707,-0.707,0x0),audioInfo[0x22]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),'curtain-heavy',_0x2549e5(0x1b7),'glass-thin',_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x23]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),_0x2549e5(0x1b7),'glass-thin',_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x24]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),'marble',_0x2549e5(0x13a),'grass','transparent',-0.707,-0.707,0x0),audioInfo[0x25]=new Array(3.1,2.5,3.4,'brick-bare',_0x2549e5(0x15b),_0x2549e5(0x1b7),'glass-thin','grass',_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x26]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),_0x2549e5(0x1b7),_0x2549e5(0x13a),_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x27]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),'marble',_0x2549e5(0x13a),_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0),audioInfo[0x28]=new Array(3.1,2.5,3.4,_0x2549e5(0x151),_0x2549e5(0x15b),_0x2549e5(0x1b7),'glass-thin',_0x2549e5(0x147),_0x2549e5(0x211),-0.707,-0.707,0x0);
+//this file is used for storing large amounts of data
+
+//list of each room's contents based on their ID. example: ["First Room",1,11,"NA","NA",60,60,"NA","NA", false,true,true,.png, "NA",true] = 
+//[Room Name , Id of where to for button1, where button2, No Button3 so NA, Button 4 NA, time wasted on the trip, time waste, NA time, NA, beentolocation false, is there a sky? true, can it spawn items? true, file extension, NA generatorid, is it outdoors? true]
+let roomInfo = new Array();
+
+//tutorial
+roomInfo[0] = new Array("Road",1,14,1,13,0,0,0,0, true,true,0,".png","NA",true,"NA","NA","NA","NA","Vento");
+roomInfo[1] = new Array("Road",17,2,16,18,0,0,0,0, true,true,0,".png","NA",true,"NA","NA","NA","NA","Vento");
+roomInfo[2] = new Array("Road",3,15,19,"NA",0,0,0,"NA", true,true,0,".png","NA",true,"NA","NA","NA","NA","Vento");
+roomInfo[3] = new Array("Road",2,17,16,18,0,0,0,0, true,true,0,".png","NA",true,"NA","NA","NA","NA","Vento");
+roomInfo[4] = new Array("Old Man's House",14,5,"NA","NA",0,0,"NA","NA", false,true,0,".png","NA",false,"MetalAbrir","FirstRoomTransitioningLadder","NA","NA","Vento2");
+roomInfo[5] = new Array("Old Man's Basement",4,"NA","NA","NA",0,"NA","NA","NA", false,false,0,".png","NA",false,"FirstRoomTransitioningLadder","NA","NA","NA","BuzzLamp");
+roomInfo[6] = new Array("Generator",16,"NA","NA","NA",0,"NA","NA","NA", false,false,0,".png","NA",true,"NA","NA","NA","NA","Vento2");
+roomInfo[7] = new Array("Big House",16,8,9,10,0,0,0,0, false,true,0,".png",0,false,"DoorOpening","MoradiaFootSteps","MoradiaFootSteps","WalkingStairs","GeradorEsq");
+roomInfo[8] = new Array("Bathroom",7,"NA","NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",false,"MoradiaFootSteps","NA","NA","NA","TorneiraPingar");	
+roomInfo[9] = new Array("Living Room",7,12,"NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",false,"MoradiaFootSteps","MoradiaFootSteps","NA","NA","GeradorDir");
+roomInfo[10] = new Array("Upper Floor",7,11,"NA","NA",0,0,"NA","NA", false,true,0,".png","NA",false,"WalkingStairs","MoradiaFootSteps","NA","NA","Dust");	
+roomInfo[11] = new Array("Bedroom",10,"NA","NA","NA",0,"NA","NA","NA", false,true,1,".png","NA",false,"MoradiaFootSteps","NA","NA","NA","Dust");	
+roomInfo[12] = new Array("Cupboards",9,"NA","NA","NA",0,"NA","NA","NA", false,false,3,".png","NA",false,"MoradiaFootSteps","NA","NA","NA","Dust");	
+roomInfo[13] = new Array("Car",0,"NA","NA","NA",0,"NA","NA","NA", false,true,1,".png","NA",true,"NA","NA","NA","NA","Vento2");	
+roomInfo[14] = new Array("Old Man's House Entrance",0,4,0,"NA",0,0,0,"NA", false,true,0,".png","NA",true,"NA","MetalAbrir","NA","NA","Vento");	
+roomInfo[15] = new Array("Eric's House Entrance",2,"NA","NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",true,"NA","NA","NA","NA","Vento");	
+roomInfo[16] = new Array("Big House Entrance",1,7,6,"NA",0,0,0,"NA", false,true,0,".png",0,true,"NA","DoorOpening","NA","NA","Vento");	
+roomInfo[17] = new Array("Road",1,14,13,"NA",0,0,0,"NA", true,true,0,".png","NA",true,"NA","NA","NA","NA","Vento");	
+roomInfo[18] = new Array("Ruined House",1,"NA","NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",true,"NA","NA","NA","NA","Vento");	
+roomInfo[19] = new Array("Ruined House",2,"NA","NA","NA",0,"NA","NA","NA", false,true,0,".png","NA",true,"NA","NA","NA","NA","Vento");
+
+//city
+roomInfo[20] = new Array("River",21,"NA","NA","NA",5,"NA","NA","NA", false,true,0,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[21] = new Array("Darby Street",22,20,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[22] = new Array("Darby Street",21,23,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[23] = new Array("Lyroy Avenue",22,32,24,34,5,5,5,5, false,true,4,".png","NA",true);
+roomInfo[24] = new Array("Dougan Street",23,28,25,"NA",5,5,5,"NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[25] = new Array("Construction Site",24,26,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[26] = new Array("Construction Site",24,25,27,"NA",5,5,10,"NA", true,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[27] = new Array("Crane",26,"NA","NA","NA",10,"NA","NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[28] = new Array("Laguna Avenue",24,29,31,"NA",5,5,5,"NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[29] = new Array("Clio Street",28,30,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[30] = new Array("Clio Street",29,"NA","NA","NA",5,"NA","NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[31] = new Array("Clover Street",28,32,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[32] = new Array("Hospital",31,33,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[33] = new Array("Lyroy Avenue",32,22,34,24,5,5,5,5, false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[34] = new Array("Crost Lane",23,0,35,"NA",5,5,5,"NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[35] = new Array("Amber Avenue",34,38,36,39,5,5,5,5, false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[36] = new Array("Bower Street",35,37,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[37] = new Array("Market",36,"NA","NA","NA",5,"NA","NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[38] = new Array("Parking Lot",35,39,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[39] = new Array("Parking Lot Exit",38,35,"NA","NA",5,5,"NA","NA", false,true,4,".png","NA",true,"NA","NA","NA","NA");
+roomInfo[40] = new Array("","NA","NA","NA","NA","NA","NA","NA","NA", false,false,0,".png","NA",false,"NA","NA","NA","NA");
+
+
+//list of the items in each given room	
+let roomItems = new Array();	
+
+//list of the item's position in each given room	
+let itemPosition = new Array();	
+
+//control width, top and left respectively for all 4 possible items in a room	
+itemPosition[4] = new Array("NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","6%","68%","63%","0deg","1");	
+itemPosition[8] = new Array("4%","45%","20%","0deg","0");		
+itemPosition[11] = new Array("5%","59%","28%","0deg","0");	
+itemPosition[12] = new Array("4%","86.4%","69%","0deg","0","4%","13.45%","42%","0deg","0","5%","71%","55%","0deg","0","5%","27.7%","69%","0deg","0");	
+itemPosition[13] = new Array("7%","21%","47%","0deg","0","9%","43%","33%","0deg","0");
+
+itemPosition[20] = new Array("5%","50%","0%","0deg","0","5%","60%","0%","0deg","0","5%","70%","0%","0deg","0","5%","80%","0%","0deg","0");
+itemPosition[21] = new Array("5%","50%","0%","0deg","0","5%","60%","0%","0deg","0","5%","70%","0%","0deg","0","5%","80%","0%","0deg","0");
+itemPosition[22] = new Array("5%","50%","0%","0deg","0","5%","60%","0%","0deg","0","5%","70%","0%","0deg","0","5%","80%","0%","0deg","0");
+itemPosition[23] = new Array("5%","50%","0%","0deg","0","5%","60%","0%","0deg","0","5%","70%","0%","0deg","0","5%","80%","0%","0deg","0");
+itemPosition[24] = new Array("5%","50%","0%","0deg","0","5%","60%","0%","0deg","0","5%","70%","0%","0deg","0","5%","80%","0%","0deg","0");
+itemPosition[25] = new Array("5%","50%","0%","0deg","0","5%","60%","0%","0deg","0","5%","70%","0%","0deg","0","5%","80%","0%","0deg","0");
+itemPosition[26] = new Array("5%","50%","0%","0deg","0","5%","60%","0%","0deg","0","5%","70%","0%","0deg","0","5%","80%","0%","0deg","0");
+itemPosition[27] = new Array("5%","50%","0%","0deg","0","5%","60%","0%","0deg","0","5%","70%","0%","0deg","0","5%","80%","0%","0deg","0");
+itemPosition[28] = new Array("5%","50%","0%","0deg","0","5%","60%","0%","0deg","0","5%","70%","0%","0deg","0","5%","80%","0%","0deg","0");
+itemPosition[29] = new Array("5%","50%","0%","0deg","0","5%","60%","0%","0deg","0","5%","70%","0%","0deg","0","5%","80%","0%","0deg","0");
+itemPosition[30] = new Array("5%","50%","0%","0deg","0","5%","60%","0%","0deg","0","5%","70%","0%","0deg","0","5%","80%","0%","0deg","0");
+itemPosition[31] = new Array("5%","50%","0%","0deg","0","5%","60%","0%","0deg","0","5%","70%","0%","0deg","0","5%","80%","0%","0deg","0");
+itemPosition[32] = new Array("5%","50%","0%","0deg","0","5%","60%","0%","0deg","0","5%","70%","0%","0deg","0","5%","80%","0%","0deg","0");
+itemPosition[33] = new Array("5%","50%","0%","0deg","0","5%","60%","0%","0deg","0","5%","70%","0%","0deg","0","5%","80%","0%","0deg","0");
+itemPosition[34] = new Array("5%","50%","0%","0deg","0","5%","60%","0%","0deg","0","5%","70%","0%","0deg","0","5%","80%","0%","0deg","0");
+itemPosition[35] = new Array("5%","50%","0%","0deg","0","5%","60%","0%","0deg","0","5%","70%","0%","0deg","0","5%","80%","0%","0deg","0");
+itemPosition[36] = new Array("5%","50%","0%","0deg","0","5%","60%","0%","0deg","0","5%","70%","0%","0deg","0","5%","80%","0%","0deg","0");
+itemPosition[37] = new Array("5%","50%","0%","0deg","0","5%","60%","0%","0deg","0","5%","70%","0%","0deg","0","5%","80%","0%","0deg","0");
+itemPosition[38] = new Array("5%","50%","0%","0deg","0","5%","60%","0%","0deg","0","5%","70%","0%","0deg","0","5%","80%","0%","0deg","0");
+itemPosition[39] = new Array("5%","50%","0%","0deg","0","5%","60%","0%","0deg","0","5%","70%","0%","0deg","0","5%","80%","0%","0deg","0");
+
+
+//list of the trigger's position in each given room
+let triggerPosition = new Array();
+//control width, top and left respectively for all 4 possible triggers in a room
+
+//tutorial
+triggerPosition[0] = new Array("54.4%","71%","-4%","-9.8%","0deg","bg0house.png","32%","94%","4.4%","-0.4%","0deg","house1.png","25%","25%","40%","52%","0deg","bg0ruinedhouse.png","32%","42%","42.2%","71%","0deg","car.png");
+triggerPosition[1] = new Array("100%","13%","87%","0%","0deg","bg1bottom.png","18%","15%","49%","40%","0deg","arrow.png","40%","100%","0%","0%","0deg","house2planks.png","42%","47%","40%","58%","0deg","house4.png");
+triggerPosition[2] = new Array("100%","10%","90%","0%","0deg","arrow.png","32%","82%","9%","68%","0deg","house3.png","32%","71%","20%","0%","0deg","house5.png");
+triggerPosition[3] = new Array("100%","15%","85%","0%","0deg","arrow.png","19%","15%","47%","42%","0deg","arrow.png","39%","96%","0%","61%","0deg","house2mirrorplanks.png","42%","54%","29%","0%","0deg","house4mirror.png");
+triggerPosition[4] = new Array("23%","100%","0%","0%","0deg","door6.png","10%","8%","68%","54%","0deg","trapdoor.png");
+triggerPosition[5] = new Array("13%","100%","0%","0.4%","0deg","ladder.png");
+triggerPosition[6] = new Array("100%","15%","85%","0%","0deg","arrow.png");
+triggerPosition[7] = new Array("100%","15%","85%","0%","0deg","arrow.png","10%","31%","42%","41%","0deg","door3.png","19%","79%","21%","5%","0deg","door2.png","38%","91%","10%","62%","0deg","stairs.png");
+triggerPosition[8] = new Array("100%","15%","85%","0%","0deg","arrow.png");
+triggerPosition[9] = new Array("21%","104%","-4%","91%","0deg","door4.png","28%","38%","31.65%","22.5%","0deg","cupboards.png");
+triggerPosition[10] = new Array("20%","42%","58%","19%","0deg","stairs2.png","21%","75%","9%","79%","0deg","door5.png","5%","10%","48%","70%","134deg","arrow.png");
+triggerPosition[11] = new Array("100%","15%","85%","0%","0deg","arrow.png");
+triggerPosition[12] = new Array("52%","15%","85%","0%","0deg","arrow.png");
+triggerPosition[13] = new Array("100%","35%","65%","0%","0deg","arrow.png","5%","10%","65%","55%","0deg","arrow.png");
+triggerPosition[14] = new Array("14%","46%","54%","86%","0deg","bg14side.png","18%","64%","36%","63%","0deg","door7.png","63%","46%","54%","0%","0deg","arrow.png");
+triggerPosition[15] = new Array("100%","15%","85%","0%","0deg","arrow.png");
+triggerPosition[16] = new Array("100%","15%","85%","0%","0deg","arrow.png","26%","69%","20%","71%","0deg","door1.png","11.7%","18%","80%","49%","0deg","generator.png");
+triggerPosition[17] = new Array("100%","15%","85%","0%","0deg","arrow.png","35%","68%","16%","66%","0deg","house1mirror.png","31%","46%","44%","0%","0deg","carmirror.png");
+triggerPosition[18] = new Array("100%","15%","85%","0%","0deg","arrow.png");
+triggerPosition[19] = new Array("100%","15%","85%","0%","0deg","arrow.png");
+
+//city
+triggerPosition[20] = new Array("5%","10%","40%","6%","0deg","arrow.png");
+triggerPosition[21] = new Array("5%","10%","88%","21%","0deg","arrow.png","5%","10%","69%","77%","0deg","arrow.png");
+triggerPosition[22] = new Array("5%","10%","87%","47%","0deg","arrow.png","5%","10%","55%","47%","0deg","arrow.png");
+triggerPosition[23] = new Array("5%","10%","87%","47%","0deg","arrow.png","5%","10%","55%","47%","0deg","arrow.png","5%","10%","60%","15%","0deg","arrow.png","5%","10%","60%","80%","0deg","arrow.png");
+triggerPosition[24] = new Array("5%","10%","87%","47%","0deg","arrow.png","5%","10%","55%","47%","0deg","arrow.png","5%","10%","49%","15%","0deg","arrow.png");
+triggerPosition[25] = new Array("5%","10%","35%","20%","0deg","arrow.png","5%","10%","61%","92%","0deg","arrow.png");
+triggerPosition[26] = new Array("5%","10%","37%","9%","0deg","arrow.png","5%","10%","61%","2%","0deg","arrow.png","5%","10%","42%","47%","0deg","arrow.png");
+triggerPosition[27] = new Array("5%","10%","87%","47%","0deg","arrow.png","5%","10%","55%","47%","0deg","arrow.png");
+triggerPosition[28] = new Array("5%","10%","87%","47%","0deg","arrow.png","5%","10%","60%","15%","0deg","arrow.png","5%","10%","60%","80%","0deg","arrow.png");
+triggerPosition[29] = new Array("5%","10%","87%","47%","0deg","arrow.png","5%","10%","55%","47%","0deg","arrow.png");
+triggerPosition[30] = new Array("5%","10%","62%","93%","0deg","arrow.png");
+triggerPosition[31] = new Array("5%","10%","87%","47%","0deg","arrow.png","5%","10%","55%","47%","0deg","arrow.png");
+triggerPosition[32] = new Array("5%","10%","87%","47%","0deg","arrow.png","5%","10%","55%","9%","0deg","arrow.png");
+triggerPosition[33] = new Array("5%","10%","87%","47%","0deg","arrow.png","5%","10%","55%","47%","0deg","arrow.png","5%","10%","60%","15%","0deg","arrow.png","5%","10%","60%","80%","0deg","arrow.png");
+triggerPosition[34] = new Array("5%","10%","87%","47%","0deg","arrow.png","5%","10%","63%","4%","0deg","arrow.png","5%","10%","55%","47%","0deg","arrow.png");
+triggerPosition[35] = new Array("5%","10%","87%","47%","0deg","arrow.png","5%","10%","55%","47%","0deg","arrow.png","5%","10%","60%","15%","0deg","arrow.png","5%","10%","60%","80%","0deg","arrow.png");
+triggerPosition[36] = new Array("5%","10%","80%","47%","0deg","arrow.png","5%","10%","55%","69%","0deg","arrow.png");
+triggerPosition[37] = new Array("5%","10%","71%","4%","0deg","arrow.png");
+triggerPosition[38] = new Array("5%","10%","64%","4%","0deg","arrow.png","5%","10%","55%","92%","0deg","arrow.png");
+triggerPosition[39] = new Array("5%","10%","77%","4%","0deg","arrow.png","5%","10%","68%","92%","0deg","arrow.png");
+
+//list of items in the inventory, 0 means there's nothing there
+const inventoryRoom = [0,0,0,"NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"];
+
+//list of item names, their uses, weight and if they're a weapon
+let itemInfo = new Array();
+itemInfo[0] = new Array("NA", "NA", 0,false);
+itemInfo[1] = new Array("Large Baked Beans", "eat these ", 0.87,false);
+itemInfo[2] = new Array("Baked Beans", "eat these ", 0.3,false);
+itemInfo[3] = new Array("Beer", "drink this ", 0.35,false);
+itemInfo[4] = new Array("Yellow Key", "throw away the ", 0.03,false);
+itemInfo[5] = new Array("Jerry Can", "get rid of this ", 5,false);
+itemInfo[6] = new Array("Blue Key", "throw away the ", 0.03,false);
+itemInfo[7] = new Array("Rusty Key", "throw away the ", 0.03,false);
+itemInfo[8] = new Array("Rusty Key", "throw away the ", 0.03,false);
+itemInfo[9] = new Array("Old Key", "throw away the ", 0.08,false);
+itemInfo[10] = new Array("Green Key", "throw away the ", 0.03,false);
+itemInfo[11] = new Array("Red Key", "throw away the ", 0.03,false);
+itemInfo[12] = new Array("Key", "throw away the ", 0.03,false);
+itemInfo[13] = new Array("Lighter", "throw away the ", 0.05,false);
+itemInfo[14] = new Array("Knife", "throw away the ", 0.06,false);
+itemInfo[15] = new Array("Beer", "drink this ", 0.35,false);
+itemInfo[16] = new Array("Flashlight", "throw away the ", 0.27,false);
+itemInfo[17] = new Array("Hammer", "throw away the ", 0.45,true);
+itemInfo[18] = new Array("Nails", "get rid of these ", 1,false);
+itemInfo[19] = new Array("Soda", "drink this ", 0.32,false);
+itemInfo[20] = new Array("Large Sauce", "drink this ", 0.7,false);
+itemInfo[21] = new Array("Sauce", "drink this ", 0.3,false);
+itemInfo[22] = new Array("Soup", "drink this ", 0.2,false);
+
+itemInfo[100] = new Array("Bandages", "use these ", 0.3,false);
+itemInfo[101] = new Array("Alcohol", "drink this ", 0.3,false);
+
+itemInfo[103] = new Array("Plastic Bag", "get rid of this ", 0.1,false);
+itemInfo[104] = new Array("Backpack", "get rid of this ", 1,false);
+itemInfo[105] = new Array("Water Bucket", "drink this ", 5,false);
+itemInfo[106] = new Array("Watch", "get rid of this ", 0.1,false);
+itemInfo[107] = new Array("Knife", "get rid of this ", 0.06,true);
+itemInfo[108] = new Array("Planks", "get rid of these ", 2,false);
+
+//list all the bunker locations
+const bunkerLocal = [33,34,35,36];
+
+//list all the storage locations
+const storageLocal = [6];
+
+//list of items in storage, 0 means there's nothing there
+let storageRoom = new Array();
+storageRoom[6] = new Array(0,"NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA");
+//storageRoom[36] = new Array(0,"NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA");
+
+//list all the npc locations and their script appearance
+const npcLocal = [4,-1,15,-1,4,6];
+
+//keep track of all the npc chapters
+const npcChapter = [0,0,0];
+
+//list all the npc positions
+let npcPos = new Array();
+npcPos[0] = ["1","21%","71%","28%","NA"];
+npcPos[1] = ["1","37%","54%","33%","NA"];
+npcPos[2] = ["1","23%","39%","18%","NA"];
+
+//list all the npc talking positions
+let npcTalk = new Array();
+npcTalk[0] = ["36%","56%","11%","Buff"];
+npcTalk[1] = ["50%","52%","6%","Eric"];
+npcTalk[2] = ["34%","59%","6%","Girl"];
+
+let npcChange = new Array();
+npcChange[0] = new Array();
+npcChange[0][0] = ["0","npc0talk.png"];
+npcChange[0][1] = ["0","npc0talk.png"];
+npcChange[0][2] = ["99","npc0talk.png"];
+npcChange[0][3] = ["99","npc0talk.png"];
+npcChange[2] = new Array();
+npcChange[2][0] = ["1","npc2talk.gif"];
+npcChange[2][1] = ["0","npc2talk.gif"];
+npcChange[2][2] = ["0","npc2talk.gif"];
+
+//npc dialogue
+let story = new Array();
+story[0] = new Array();
+story[0][0] = new Array("Old Mitchell","Hey, you're finally awake","Don't forget that today we’re trading with Eric, he'll give you a knife in exchange for bandages.",
+	"To craft them you have to select alcohol and cloth.","We used the last ones so we don't have any and you'll have to go get more.","I think I saw some supplies in that big house, but things have been dangerous.",
+	"It's risky to leave the house! You'll have to go there yourself...");
+story[0][1] = new Array("Old Mitchell","Maybe we're asking too much of you but… We can't survive without you, sorry if we can't help you more…");
+story[0][2] = new Array("Old Mitchell","I knew this moment would come, you have to save yourself.", "You have a chance to survive, please get out of here while you can…");
+story[0][3] = new Array("Old Mitchell","Thanks for everything…");
+story[1] = new Array();
+story[1][0] = new Array("Voice Behind Door (Eric)","What are you doing here?","Don't show up until you have everything ready for the exchange.","Disappear if you still want to keep the business going.");
+story[1][1] = new Array("Voice Behind Door (Eric)","Disappear if you still want to keep the business going.");
+story[1][2] = new Array("Voice Behind Door (Eric)","As promised, the knife is by the door.","I hope--","AAAAAAAAAAAAAAAAH!");
+story[2] = new Array();
+story[2][0] = new Array("Invader","HaHaHa, did this old man really think he could escape us for all this time?","But who's this? Your 'white knight' has arrived old man! You're lucky, you'll get to live a couple seconds longer.","Let me take care of you!");
+story[2][1] = new Array("Invader","…","Do you think you won? We have dozens of people surrounding the village, you're not going anywhere…");
+story[2][2] = new Array("Invader","…");
+
+//crafting recipie
+let craftlist = new Array();
+craftlist[0]= new Array(101,8,100);
+
+//cutscene text
+let cutscene = new Array();
+cutscene[0] = new Array("The year is 20XX, a nuclear war shook the planet.<br><br>Society collapsed but humans still walk the face of the planet.<br><br>Several factions were created, factions whose sole purpose is to conquer the remaining territories and bring destruction to all the opposing humans that remain.");
+cutscene[1] = new Array("You are just another person stuck in this wasteland with the hope of returning to normalcy.<br><br>You dream of a paradise to escape from this world.");
+cutscene[2] = new Array("Can you survive?");
+
+//list all the enemy locations
+let badGuyLocal = new Array();
+//numbers represent the roomid, script number, hp, damage, item drop id, attack cooldown
+badGuyLocal[0] = new Array(4,11,27,5,101,2000);
+
+//information about weapons
+let weaponInfo = new Array();
+//numbers represent attack damage and cooldown speed in ms
+weaponInfo[107] = new Array(3,5000);
+
+//restrict areas based on the script
+let restrictionList = new Array();
+//each number is the script number, and the following are the restrcited areas
+restrictionList[2] = new Array("15");
+restrictionList[3] = new Array("16");
+restrictionList[6] = new Array("5","13","15","16","18","19");
+restrictionList[7] = new Array("2","3","5","13","15","16","18","19");
+restrictionList[8] = new Array("1","2","3","5","13","15","16","18","19");
+restrictionList[9] = new Array("0","1","2","3","5","13","15","16","18","19");
+restrictionList[10] = new Array("0","1","2","3","5","13","14","15","16","18","19");
+
+//list of the object's position in each given room
+let objectPosition = new Array();
+//control width, top and left respectively for all objects in a room
+objectPosition[4] = new Array("29%","51%","59%","0deg","0","2.3%","32.7%","22.3%","0deg","0","2%","65%","52%","0deg","0","6.7%","69.4%","70%","0deg","1");
+objectPosition[5] = new Array("6%","65%","82%","0deg","0","25.3%","65.4%","26.3%","0deg","0","8%","69%","87%","0deg","0","1.7%","54.4%","77.8%","0deg","0");
+objectPosition[6] = new Array("68%","11%","17%","0deg","0","10%","29%","39%","0deg","0");
+objectPosition[8] = new Array("13.2%","10%","18%","0deg","0","8%","73%","16%","0deg","0");
+objectPosition[12] = new Array("14%","5%","39%","0deg","0","14%","5%","68%","0deg","0","14%","68%","53%","0deg","0","13%","69%","67%","0deg","0");
+objectPosition[16] = new Array("37%","56%","34%","0deg","1");
+//objectPosition[35] = new Array("25.3%","72.4%","50.3%","7deg","0");
+//objectPosition[36] = new Array("68%","11%","17%","0deg","0","10%","29%","39%","0deg","0");
+
+//list of the objects in each given room
+let roomObj = new Array();
+//numbers represent objId,
+roomObj[4] = new Array("16","table.png","NA","13","candle1.png","resonanceAudio('CandleFire')","14","candle2.png","resonanceAudio('CandleFire')","15","candle3.png","resonanceAudio('CandleFire')");
+roomObj[5] = new Array("0","door1.png","resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(0,'true')","1","bed.png","resonanceAudio('FirstRoomBed')","2","door2.png","resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(2,'true')","3","candle.png","resonanceAudio('CandleFire')");
+roomObj[6] = new Array("4","generator.png","NA","5","lever.png","resonanceAudio('MotorSwitch'); leverToggle(5,0)");
+roomObj[8] = new Array("7","door1.png","resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(7,'true')","8","faucet.png","resonanceAudio('AbrirTorneira');");
+roomObj[12] = new Array("9","door1.png","resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(9,'true')","10","door2.png","resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(10,'true')","11","door3.png","resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(11,'true')","12","door4.png","resonanceAudio('FirstRoomArmarioAbrir'); audioEvent(12,'true')");
+roomObj[16] = new Array("6","planks.png","plankRemove()");
+//roomObj[35] = new Array("1","bed.png","sleep('bed')");
+//roomObj[36] = new Array("4","generator.png","NA","5","lever.png","leverGenerator(5,1,1)");
+
+//list of object interactions
+
+let interactObj = new Array();
+
+interactObj[0] = new Array("","door1open.png","7%","65.5%","76%","0deg");
+interactObj[1] = new Array("An unconfortable bed.");
+interactObj[2] = new Array("","door2open.png","9%","74%","86%","0deg");
+interactObj[3] = new Array("A small candle.");
+interactObj[4] = new Array("An old generator.");
+interactObj[5] = new Array("The generator has no fuel...");
+interactObj[6] = new Array("I picked up the planks.","planks.png","0%","0%","0%","0deg");
+interactObj[7] = new Array("","door1open.png","14.5%","15.2%","26%","0deg");
+interactObj[8] = new Array("Hey the faucet still works!","faucetopen.png","8%","73%","16%","0deg");
+interactObj[9] = new Array("","door1open.png","2%","-2%","51.5%","0deg");
+interactObj[10] = new Array("","door2open.png","11.2%","-4%","78%","0deg");
+interactObj[11] = new Array("","door3open.png","16%","95%","52.5%","0deg");
+interactObj[12] = new Array("","door4open.png","13%","68%","78.3%","0deg");
+interactObj[13] = new Array("Just a candle.");
+interactObj[14] = new Array("A tiny candle.");
+interactObj[15] = new Array("A candle.");
+interactObj[16] = new Array("");
+
+//list of generator fuel
+let genFuel = new Array();
+genFuel[0] = new Array(0,false);
+genFuel[1] = new Array(0,false);
+
+//list of the objects in each given room
+let storagePosition = new Array();
+storagePosition[6] = new Array("108%","178%","-53%","fueler");
+//storagePosition[36] = new Array("108%","178%","-53%","fueler");
+
+
+//loottables used to decide which items randomly spawn in each room
+let lootTable = new Array();
+lootTable[11] = new Array(0,13);
+lootTable[12] = new Array(0,0,1,2,3);
+lootTable[13] = new Array(0,3,15,19);
+lootTable[21] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
+lootTable[22] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
+lootTable[23] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
+lootTable[24] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
+lootTable[25] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
+lootTable[26] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
+lootTable[27] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
+lootTable[28] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
+lootTable[29] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
+lootTable[30] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
+lootTable[31] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
+lootTable[32] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
+lootTable[33] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
+lootTable[34] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
+lootTable[35] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
+lootTable[36] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
+lootTable[37] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
+lootTable[38] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
+lootTable[39] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
+lootTable[40] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,100,101,103,105,106,107,108);
+
+let audioInfo = new Array();
+audioInfo[0] = new Array(6.0,100.0,100.0,"wood-panel","metal","uniform","uniform","grass","uniform",0,0,0);
+audioInfo[1] = new Array(6.0,100.0,100.0,"wood-panel","brick-painted","uniform","uniform","grass","uniform",0,0,0);
+audioInfo[2] = new Array(6.0,100.0,100.0,"brick-painted","wood-panel","uniform","uniform","grass","uniform",0,0,0);
+audioInfo[3] = new Array(6.0,100.0,100.0,"brick-painted","wood-panel","uniform","uniform","grass","uniform",0,0,0);
+audioInfo[4] = new Array(4.0,3.15,4.0,"wood-panel","wood-panel","wood-panel","wood-panel","parquet-on-concrete","metal",0,0,0);
+audioInfo[5] = new Array(5.0,3.0,5.0,"concrete-block-coarse","concrete-block-coarse","concrete-block-coarse","concrete-block-coarse","concrete-block-coarse","concrete-block-coarse",0,0,0);
+audioInfo[6] = new Array(100.0,100.0,1.5,"uniform","uniform","wood-panel","uniform","metal","uniform",0,0,0);
+audioInfo[7] = new Array(4.0,3.0,5.3,"linoleum-on-concrete","wood-panel","linoleum-on-concrete","wood-panel","parquet-on-concrete","parquet-on-concrete",0,0,0);
+audioInfo[8] = new Array(4.0,3.0,2.0,"polished-concrete-or-tile","polished-concrete-or-tile","polished-concrete-or-tile","polished-concrete-or-tile","polished-concrete-or-tile","polished-concrete-or-tile",0,0,0);
+audioInfo[9] = new Array(4.0,3.0,8.0,"wood-panel","linoleum-on-concrete","wood-panel","wood-panel","parquet-on-concrete","parquet-on-concrete",0,0,0);
+audioInfo[10] = new Array(4.0,3.0,8.0,"wood-panel","linoleum-on-concrete","wood-panel","wood-panel","parquet-on-concrete","wood-ceiling",0,0,0);
+audioInfo[11] = new Array(4.0,3.0,4.0,"linoleum-on-concrete","wood-panel","wood-panel","linoleum-on-concrete","parquet-on-concrete","wood-ceiling",0,0,0);
+audioInfo[12] = new Array(4.0,3.0,8.0,"wood-panel","linoleum-on-concrete","wood-panel","wood-panel","parquet-on-concrete","parquet-on-concrete",0,0,0);
+audioInfo[13] = new Array(3.5,2.0,100.0,"metal","metal","uniform","uniform","metal","metal",0,0,0);
+audioInfo[14] = new Array(100.0,100.0,6.0,"uniform","uniform","wood-panel","metal","grass","uniform",0,0,0);
+audioInfo[15] = new Array(100.0,100.0,6.0,"uniform","uniform","wood-panel","brick-painted","grass","uniform",0,0,0);
+audioInfo[16] = new Array(100.0,100.0,6.0,"uniform","uniform","wood-panel","brick-painted","grass","uniform",0,0,0);
+audioInfo[17] = new Array(6.0,100.0,100.0,"metal","wood-panel","uniform","uniform","grass","uniform",0,0,0);
+audioInfo[18] = new Array(100.0,100.0,6.0,"uniform","uniform","brick-painted","wood-panel","grass","uniform",0,0,0);
+audioInfo[19] = new Array(100.0,100.0,6.0,"uniform","uniform","brick-painted","wood-panel","grass","uniform",0,0,0);
+//city
+audioInfo[20] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
+audioInfo[21] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
+audioInfo[22] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
+audioInfo[23] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
+audioInfo[24] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
+audioInfo[25] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
+audioInfo[26] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
+audioInfo[27] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
+audioInfo[28] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
+audioInfo[29] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
+audioInfo[30] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
+audioInfo[31] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
+audioInfo[32] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
+audioInfo[33] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
+audioInfo[34] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
+audioInfo[35] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
+audioInfo[36] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
+audioInfo[37] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
+audioInfo[38] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
+audioInfo[39] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
+audioInfo[40] = new Array(3.1,2.5,3.4,"brick-bare","curtain-heavy","marble","glass-thin","grass","transparent",-0.707,-0.707,0);
