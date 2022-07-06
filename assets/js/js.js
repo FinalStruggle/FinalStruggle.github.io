@@ -107,6 +107,7 @@ let audioElement = document.createElement('audio');
 let ambienceAudio = document.createElement('audio');
 
 document.addEventListener('contextmenu', event => event.preventDefault()); //disable right click
+document.getElementById('myVideo').addEventListener('ended',myHandler,false);
 
 function titleTransition() {
 	bgchange.style.backgroundImage = "url(img/renders/bg17.png)";
@@ -223,7 +224,7 @@ function changeLocal(submittedRoomId,subTriggerId) {
 		npcbox.removeAttribute("onclick");
 	}, 5);
 
-	if (submittedRoomId==20 && timeLeft==361) {
+	if (submittedRoomId>=20 && timeLeft==361) {
 		timeLeft=700;
 		ticks();
 	}
@@ -234,7 +235,7 @@ function changeLocal(submittedRoomId,subTriggerId) {
 		if (submittedRoomId>=20) {
 			//update time based on the road
 		timeTick(subTriggerId);
-		document.getElementById("hud").style.display = "block";
+		//document.getElementById("hud").style.display = "block";
 		}
 		
 		if (roomId!=-1) {
@@ -264,10 +265,12 @@ function changeLocal(submittedRoomId,subTriggerId) {
 	
 		roomInfo[roomId][9] = true; //mark location as found
 
-		if (roomInfo[roomId][10]== true) { //location has a sky
-			skychange.style.display = "block";
-		}else{
+		if (roomInfo[roomId][10]== 0) { //location has a sky
 			skychange.style.display = "none";
+		}else{
+			skychange.style.display = "block";
+			console.log("sky"+roomInfo[roomId][10]+".png")
+			skychange.style.backgroundImage = "url(img/sky"+roomInfo[roomId][10]+".png)";
 		}
 	
 		if (dayscene==false) {
@@ -1410,8 +1413,8 @@ function attack(){
 
 		script=12;
 
-		roomInfo[4][1]=20; //change database to lead to city, this should be changed into a cutscene later
-		n0Trigger.setAttribute("onclick", "changeLocal("+ roomInfo[4][1] +",0)");
+		roomInfo[4][1]=103; //change database to lead to city, this should be changed into a cutscene later
+		n0Trigger.setAttribute("onclick", "videocut()");
 		n1Trigger.setAttribute("onclick", "changeLocal("+ roomInfo[4][2] +",0)");
 		//get rid of enemy and qte
 		badGuy.style.display="none";
@@ -1936,4 +1939,21 @@ function audioEvent(incId,incConf){
 		}
 		break;
 	}
+}
+
+function videocut(){
+	overlay.style.display="block";
+	setTimeout(function(){
+		overlay.style.opacity = "100";
+		npc.removeAttribute("onclick");
+		npcbox.removeAttribute("onclick");
+	}, 5);
+	document.getElementById('vdsource').style.display = "block";
+	document.getElementById('myVideo').play();
+}
+
+function myHandler(e) {
+    document.getElementById('vdsource').style.display = "none";
+    changeLocal(roomInfo[4][1],0);
+
 }
