@@ -28,7 +28,7 @@ body{
 	display: none;
 }
 
-html,#backgroundcontent,#sky,#overlay {
+html,#backgroundcontent,#sky,#overlay,#vdsource {
  	width: 100%;
  	height: 100%;
  	font-family: 'georgia';
@@ -43,7 +43,7 @@ html,#backgroundcontent,#sky,#overlay {
 	transition: background 0.5s linear, 0.5s filter linear;
 }
 
-#backgroundcontent,#sky,#overlay{
+#backgroundcontent,#sky,#overlay,#vdsource{
 	z-index: 0;
 	position: absolute;
 	left: 0%;
@@ -83,7 +83,7 @@ html,#backgroundcontent,#sky,#overlay {
 .tech-slideshow > div {
   height: 100%;
   width: 300%;
-  background-image: url("img/sky.png");
+  background-image: url("img/sky1.png");
   position: absolute;
   height: 90%;
   transform: translate3d(0, 0, 0);
@@ -603,4 +603,14 @@ img{
      from -180deg (0% fill) to 0deg (100% fill) */
   /* if you have a better solution to make thing like this 
      work, please let me know! :) */
+}
+
+#vdsource{
+	display: none;
+	z-index: 100;
+}
+
+#myVideo{
+	position: absolute;
+	width: 100%;
 }

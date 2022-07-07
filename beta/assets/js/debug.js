@@ -77,3 +77,19 @@ function debugFilter() {
 function debugTimeLeft() {
 	timeLeft = parseInt(timeLeft) + document.getElementById("inputtimeleft").value;
 }
+
+function debugHitbox(a){
+	if (a==true) {
+		n0Trigger.style.backgroundColor = "red";
+		n1Trigger.style.backgroundColor = "green";
+		n2Trigger.style.backgroundColor = "blue";
+		n3Trigger.style.backgroundColor = "yellow";
+		document.getElementById("inputhitbox").onclick = function() {debugHitbox(false)};
+	}else{
+		n0Trigger.style.backgroundColor = "transparent";
+		n1Trigger.style.backgroundColor = "transparent";
+		n2Trigger.style.backgroundColor = "transparent";
+		n3Trigger.style.backgroundColor = "transparent";
+		document.getElementById("inputhitbox").onclick = function() {debugHitbox(true)};
+	}
+}

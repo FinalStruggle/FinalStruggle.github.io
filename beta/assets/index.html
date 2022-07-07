@@ -47,12 +47,16 @@ Feel free to alter this code to your liking, but please do not host it, do not s
 		
 			<div id="titlescreen">
 				<img src="img/logo.png" id="title" draggable="false">
-				<p id="version">DEMO</p>
-				<p id="note">Please note that this is a DEMO and everything is <br>subject to changes</p>
+				<!--<p id="version">DEMO</p>
+				<p id="note">Please note that this is a DEMO and everything is <br>subject to changes</p>-->
 				<p id="startbutton" onclick="startGame()">Start Game!</p>
 				<p id="credits">Francisco Lamelas - Francisco Silva - Ricardo Fernandes</p>
 			</div>
-		
+			<div id="vdsource">
+				<video id="myVideo" preload="auto"> 
+				  <source src="img/cutscene.mp4" type="video/mp4">
+				</video>
+			</div>
 			<div id="previewdiv">
 				<p id="previewtxt"></p>
 			</div>
@@ -166,8 +170,9 @@ Feel free to alter this code to your liking, but please do not host it, do not s
 			</div>
 		</div>
 		
+		
 	
-		<div id="debug" style="display: none;">
+		<div id="debug" >
 			<p id="roomiddebug">roomId = </p>
 			<p id="npcchapterdebug">npcChapter[npcid] = </p>
 			<p id="scriptdebug">script = </p>
@@ -192,6 +197,7 @@ Feel free to alter this code to your liking, but please do not host it, do not s
 			<input type="submit" value="timeLeft" onclick="debugTimeLeft();"></input>
 			<br>
 			<input type="submit" value="Hide" onclick="debugDisplay();"></input>
+			<input type="submit" id="inputhitbox" value="TriggerHitbox" onclick="debugHitbox(true);"></input>
 		</div>
 
 	</div>
