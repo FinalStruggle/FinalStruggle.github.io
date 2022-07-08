@@ -1731,6 +1731,7 @@ function sleep(prompt){
 }
 
 var images = [];
+var images2 = [];
 var sounds = [];
 var loadtotal = 0;
 var currentload = 0;
@@ -1794,6 +1795,10 @@ function loadcheck(){
 		document.getElementById("loadtxt").style.display="none";
 		document.body.style.backgroundColor = "black";
 		document.getElementById("content").style.display="block";
+		for (var i = 20; i < roomInfo.length; i++) {
+        	images2[i] = new Image();
+        	images2[i].src = "img/renders/bg"+ i + roomInfo[i][12];
+    	}
 	}
 }
 
